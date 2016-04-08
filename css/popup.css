@@ -283,6 +283,54 @@ textarea::-webkit-scrollbar-thumb {
   margin-bottom:25px;
 }
 
+
+
+.popup5 {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  background-color:white;
+  border-radius: 5px;
+  width: 80%;
+  height:60%;
+  
+  position: relative;
+  transition: all 1s ease-in-out;
+   
+}
+
+.popup5 h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup5 .close {
+  position: absolute;
+  top: 7px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-weight:100;    
+}
+.popup5 .close:hover {
+  color: #CFB53B;
+}
+.popup5 .content {
+ 
+  overflow: auto;
+  color:#333;
+  text-align:left;
+  margin-left:15%;
+  margin-right:15%;
+  font-size:10pt;
+  letter-spacing:2px;
+  margin-bottom:25px;
+}
+
+
+
 @media screen and (max-width: 700px){
   .box{
     width: 70%;
