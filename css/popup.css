@@ -98,7 +98,7 @@ a.buttonPop:active{
 }
 .popup .close {
   position: absolute;
-  top: 20px;
+  top: 2px;
   right: 30px;
   transition: all 200ms;
   font-size: 30px;
@@ -190,7 +190,7 @@ textarea::-webkit-scrollbar-thumb {
 
 .popup2 .close {
   position: absolute;
-  top: 20px;
+  top: 5px;
   right: 30px;
   transition: all 200ms;
   font-size: 30px;
