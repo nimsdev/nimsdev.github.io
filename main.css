@@ -243,6 +243,8 @@ white-space:nowrap;
 
 }
 
+
+
 p.firstpara{
     color:#333;
     padding-left:20px;
@@ -614,7 +616,51 @@ text-align:center;
 
 
 
+a.portcard:hover{
+    color:#CFB53B;
+    border-color:#CFB53B;
+    text-decoration:none;
+    
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -o-transition:all .3s ease;  
+}
 
+
+a.portcard{
+    display:inline-block;
+    width:100%;
+    height:45px;
+    line-height:40px;
+    margin-top:25px;
+    text-align:center;
+    cursor:pointer;
+    border:2px solid #333;
+    background-color:transparent;
+    border-radius:5px;
+    color:#333;
+    font-size:13pt;
+    font-weight:800;
+    letter-spacing:5px;
+    
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    
+    
+}
+
+a.portcard:active{
+    position:relative;
+    top:8px;
+    outline:none;
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -o-transition:all .3s ease;  
+}
 
 
 

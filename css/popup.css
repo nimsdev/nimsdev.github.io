@@ -283,7 +283,13 @@ textarea::-webkit-scrollbar-thumb {
   margin-bottom:25px;
 }
 
+a.port{
+    color:#444;letter-spacing:2px;
+}
 
+a.port:hover{
+     color: #CFB53B;
+}
 
 .popup5 {
   margin: 70px auto;
