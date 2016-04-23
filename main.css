@@ -584,8 +584,8 @@ a.portcard:active {
 }
 
 
-
-
+.remmob{display:inline;}
+.keepmob{display:none;}
 
  @media only screen 
   and (min-width: 320px) 
@@ -593,7 +593,7 @@ a.portcard:active {
  { 
     
      .mcbox{
-         background:url(images/bicycle.jpg) no-repeat;
+         background:url(images/photo-1441484295955-db07de1fdbad.jpeg) no-repeat;
          background-size:100% 100%;; 
      } 
      
@@ -602,14 +602,13 @@ a.portcard:active {
      
      #showMenu{
          padding:10px;
-         margin-top:144px;
-         width:95%;
+         margin-top:54px;
+         width:75%;
      }
      
      
      a.howitworks{
-         top:25px;
-         background-color:#406dff;border-color:transparent;
+        display:none;
      }
      
      a.buttonPop{
@@ -629,5 +628,35 @@ a.portcard:active {
     -o-transition:all .3s ease;
 }
      
+     a.howitworks2{
+    display:inline-block;
+    width:90%;
+         margin-top:25px;
+    color:white;
+    letter-spacing:3px;
+    font-weight:;
+    background-color: rgba(5,5,5,0.2);
+    border-radius:2px;
+    padding:10px 15px;
+    border:1px solid rgba(5,5,5,0.2);
+/*    text-shadow:2px 2px rgba(5,5,5,0.2);*/
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+     a.buttonPop:nth-child(3){display:none;}
+     
      .remmob{display:none;}
+     
+     .keepmob{display:block;}
+     
+     
+     h2.name{font-size:22pt;}
+     
+     .overlay0 h3{font-size:15pt;text-shadow:none;margin-top:15px;}
+     
+     #pButton{display:none;}
 }
