@@ -603,6 +603,7 @@ a.portcard:active {
      #showMenu{
          padding:10px;
          margin-top:144px;
+         width:95%;
      }
      
      
@@ -620,8 +621,8 @@ a.portcard:active {
     width:50px;
     height:50px;
     line-height:45px;
-    margin-left:25px;
-    margin-right:25px;
+    margin-left:10px;
+    margin-right:10px;
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
