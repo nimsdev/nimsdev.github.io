@@ -229,3 +229,38 @@ a.mainlink:hover{
          font-size:27pt;
      }
 }
+
+
+
+ @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 640px) 
+ { 
+      
+      .heading img{
+          width:70%;
+          height:400px;
+      }        
+      
+     
+     .headingText{
+         padding-top:50px;
+     }
+     
+     .topbar{
+         display:none;
+     }
+     
+     
+     html, body{
+         overflow-x:none;
+     }
+     
+     .content p{
+         width:300px;
+     }
+     
+     .content h1{
+         font-size:27pt;
+     }
+}
