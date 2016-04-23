@@ -630,12 +630,12 @@ a.portcard:active {
      
      a.howitworks2{
     display:inline-block;
-    width:90%;
+    width:100%;
          margin-top:25px;
-    color:white;
-    letter-spacing:3px;
-    font-weight:;
-    background-color: rgba(5,5,5,0.2);
+    color:#555;
+    letter-spacing:6px;
+    font-weight:bold;
+    background-color: rgba(255,255,255,0.9);
     border-radius:2px;
     padding:10px 15px;
     border:1px solid rgba(5,5,5,0.2);
@@ -654,9 +654,9 @@ a.portcard:active {
      .keepmob{display:block;}
      
      
-     h2.name{font-size:22pt;}
+     h2.name{font-size:22pt;text-shadow:2px 2px #ff406d;}
      
-     .overlay0 h3{font-size:15pt;text-shadow:none;margin-top:15px;}
+     .overlay0 h3{font-size:15pt;text-shadow:none;margin-top:15px;display:none;}
      
      #pButton{display:none;}
 }

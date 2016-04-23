@@ -677,13 +677,13 @@ html, body, .perspective {
 	.outer-nav.horizontal,
 	.outer-nav.vertical {
 		font-size: 10pt;
-		width: 40%;
+		width: 70%;
         
 	}
 
 	.outer-nav.right {
 		right: auto;
-		left: 50%;
+		left: 30%;
 	}
 }
 
