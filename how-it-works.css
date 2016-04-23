@@ -194,3 +194,38 @@ a.mainlink:hover{
     margin:0 auto;
     margin-top:0;
 }
+
+
+
+ @media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+ { 
+      
+      .heading img{
+          width:70%;
+          height:400px;
+      }        
+      
+     
+     .headingText{
+         padding-top:50px;
+     }
+     
+     .topbar{
+         display:none;
+     }
+     
+     
+     html, body{
+         overflow-x:none;
+     }
+     
+     .content p{
+         width:300px;
+     }
+     
+     .content h1{
+         font-size:27pt;
+     }
+}
