@@ -244,7 +244,7 @@ a.mainlink:hover{
       
      
      .headingText{
-         padding-top:50px;
+         padding-top:50px;font-size:12pt;
      }
      
      .topbar{
@@ -257,10 +257,11 @@ a.mainlink:hover{
      }
      
      .content p{
-         width:300px;
+         width:300px;color:#333;
      }
      
      .content h1{
          font-size:27pt;
+         color:#333;
      }
 }
