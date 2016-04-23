@@ -709,6 +709,7 @@ a.portcard:active {
     margin-bottom:0;
         
 } 
-     
+ 
+     a.portcard{width:90%;}
      
 }
