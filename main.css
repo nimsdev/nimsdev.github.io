@@ -603,7 +603,7 @@ a.portcard:active {
      #showMenu{
          padding:10px;
          margin-top:54px;
-         width:75%;display:none;
+         width:75%;display:none !important;
      }
      
      
@@ -636,7 +636,7 @@ a.portcard:active {
     letter-spacing:6px;
     font-weight:bold;
     background-color: rgba(255,255,255,0.9);
-    border-radius:2px;
+    border-radius:5px;
     padding:10px 15px;
     border:1px solid rgba(5,5,5,0.2);
 /*    text-shadow:2px 2px rgba(5,5,5,0.2);*/
