@@ -603,7 +603,7 @@ a.portcard:active {
      #showMenu{
          padding:10px;
          margin-top:54px;
-         width:75%;
+         width:75%;display:none;
      }
      
      
@@ -630,7 +630,7 @@ a.portcard:active {
      
      a.howitworks2{
     display:inline-block;
-    width:100%;
+    width:70%;
          margin-top:25px;
     color:#777;
     letter-spacing:6px;
