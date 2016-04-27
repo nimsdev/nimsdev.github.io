@@ -6,7 +6,8 @@ html, body{
 
 div.topbar{
    background-color:#EDDA8D;   
-   background-color:transparent;   
+   background-color:#3eb489;   
+/*   background-color:transparent;   */
     position:fixed;
     z-index:9999;
     width:100%;
@@ -49,6 +50,7 @@ a.gogogo:active{
 /*    background:url(images/workspace.jpg) no-repeat;*/
     
     background-color:#EDDA8D;
+    background-color:#3eb489;
     
     width:100%;
     height:750px;
@@ -78,11 +80,16 @@ a.gogogo:active{
    
 }
 
+a.tccenter{
+    display:inline-block;text-align:center;margin-right:10px;
+}
+
 .topbar a{
-    position:absolute;
+    position:;
     padding-top:10px;
     left:15px;
     color:rgba(5,5,5,0.2);
+    color:rgba(255,255,255,0.6);
     letter-spacing:2px;
     font-weight:400;
     text-decoration:none;
@@ -96,7 +103,8 @@ a.gogogo:active{
 
 .topbar a:hover{
     color:rgba(5,5,5,0.4);
-    border-bottom-color:rgba(5,5,5,0.4);
+    color:rgba(255,255,255,0.8);
+    border-bottom-color:rgba(255,255,255,0.8);
     
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
@@ -255,8 +263,8 @@ input.contact {
     -o-transition: all .3s ease;
 }
 input.contact:focus {
-    color: #CFB53B;
-    border-bottom-color: #CFB53B;
+    color: #3eb489;
+    border-bottom-color: #3eb489;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -286,8 +294,8 @@ textarea.contact {
     -o-transition: all .3s ease;
 }
 textarea.contact:focus {
-    color: #CFB53B;
-    border-bottom-color: #CFB53B;
+    color: #3eb489;
+    border-bottom-color: #3eb489;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -313,7 +321,7 @@ a.contact {
     -o-transition: all .3s ease;
 }
 a.contact:hover {
-    background-color: #CFB53B;
+    background-color: #3eb489;
     text-decoration: none;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -349,8 +357,8 @@ a.contact2 {
     -o-transition: all .3s ease;
 }
 a.contact2:hover {
-    color: #CFB53B;
-    border-color: #CFB53B;
+    color: #3eb489;
+    border-color: #3eb489;
     text-decoration: none;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -366,8 +374,8 @@ a.contact2:active {
     -o-transition: all .3s ease;
 }
 input.contactbutton:hover {
-    color: #CFB53B;
-    border-color: #CFB53B;
+    color: #3eb489;
+    border-color: #3eb489;
     text-decoration: none;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
