@@ -116,8 +116,17 @@ a.tccenter{
 }
 
 .topbar a:active{
-    position:absolute;
-    top:5px;
+/*    position:absolute;*/
+/*    top:5px;*/
+    
+    
+  
+    color:rgba(255,255,255,0.4);
+    border-bottom-color:rgba(255,255,255,0.4);
+    
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
 }
 
 
