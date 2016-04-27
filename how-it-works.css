@@ -5,8 +5,10 @@ html, body{
 }
 
 div.topbar{
-   background-color:#EDDA8D;   
-   background-color:#3eb489;   
+   background-color:#EDDA8D;  
+    
+    background-color:white;
+/*   background-color:#3eb489;   */
 /*   background-color:transparent;   */
     position:fixed;
     z-index:9999;
@@ -15,7 +17,7 @@ div.topbar{
     top:0;
 }
 
-
+ 
 a.gogogo{
     border:2px solid #333;
     color:#333;
@@ -50,7 +52,7 @@ a.gogogo:active{
 /*    background:url(images/workspace.jpg) no-repeat;*/
     
     background-color:#EDDA8D;
-    background-color:#3eb489;
+/*    background-color:#3eb489;*/
     
     width:100%;
     height:750px;
@@ -89,7 +91,7 @@ a.tccenter{
     padding-top:10px;
     left:15px;
     color:rgba(5,5,5,0.2);
-    color:rgba(255,255,255,0.6);
+/*    color:rgba(255,255,255,0.6);*/
     letter-spacing:2px;
     font-weight:400;
     text-decoration:none;
@@ -103,8 +105,8 @@ a.tccenter{
 
 .topbar a:hover{
     color:rgba(5,5,5,0.4);
-    color:rgba(255,255,255,0.8);
-    border-bottom-color:rgba(255,255,255,0.8);
+/*    color:rgba(255,255,255,0.8);*/
+/*    border-bottom-color:rgba(255,255,255,0.8);*/
     
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
@@ -416,8 +418,8 @@ input.contactbutton:focus {
 }
 
  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 640px) 
+  and (min-width: 320px) 
+  and (max-width: 640px) 
  { 
       
       .heading img{
