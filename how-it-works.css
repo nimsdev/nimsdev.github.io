@@ -30,6 +30,7 @@ a.gogogo{
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
+    font-weight:bold;
 }
  
 
@@ -130,7 +131,7 @@ a.portfolio{
     height:auto;
     background-color:#FFFFFF;
     top:750px;
-   color:#b5b5b5;
+   color:#333;
      padding-top:55px;
     position:relative;
     z-index:999;
@@ -148,7 +149,7 @@ a.portfolio{
     font-size:44pt;
     letter-spacing:4px;
      padding-top:55px;
-    color:#b5b5b5;
+    color:#333;
 }
 
 .spaceheight{
