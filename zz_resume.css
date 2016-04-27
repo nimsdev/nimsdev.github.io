@@ -26,7 +26,16 @@ h2.name{
     letter-spacing:5px;
 }
 
+img.profile{
+    width:150px;
+    height:150px;
+    border-radius:100%;
 
+    border-right:2px solid #3eb489;
+    border-bottom:2px solid #3eb489;
+    margin-top:145px;
+    margin-left:33px;
+}
 
 p.title{
     font-weight:300;
@@ -225,7 +234,7 @@ div.leftcolumnskills{
     width:58%;
    height:335px;
       
-    float:right;
+/*    float:right;*/
     display:inline-block;
    
 }
@@ -237,7 +246,7 @@ div.rightcolumnskills{
    height:335px;
  
     display:inline-block;
-    
+    float:right;
     
     letter-spacing:1px;
     
@@ -397,7 +406,7 @@ li.used{
 .skills{
     background-color:#333;
     width:48%;   
-    height:650px;
+    height:759px;
     padding-top:20px;
     
     
