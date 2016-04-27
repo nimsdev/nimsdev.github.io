@@ -9,7 +9,7 @@ div.topbar{
     
     background-color:white;
 /*   background-color:#3eb489;   */
-/*   background-color:transparent;   */
+   background-color:#93b1b9;   
     position:fixed;
     z-index:9999;
     width:100%;
@@ -52,6 +52,7 @@ a.gogogo:active{
 /*    background:url(images/workspace.jpg) no-repeat;*/
     
     background-color:#EDDA8D;
+    background-color:#93b1b9;
 /*    background-color:#3eb489;*/
     
     width:100%;
@@ -91,7 +92,7 @@ a.tccenter{
     padding-top:10px;
     left:15px;
     color:rgba(5,5,5,0.2);
-/*    color:rgba(255,255,255,0.6);*/
+    color:rgba(255,255,255,0.6);
     letter-spacing:2px;
     font-weight:400;
     text-decoration:none;
@@ -105,8 +106,8 @@ a.tccenter{
 
 .topbar a:hover{
     color:rgba(5,5,5,0.4);
-/*    color:rgba(255,255,255,0.8);*/
-/*    border-bottom-color:rgba(255,255,255,0.8);*/
+    color:rgba(255,255,255,0.8);
+    border-bottom-color:rgba(255,255,255,0.8);
     
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
@@ -265,8 +266,8 @@ input.contact {
     -o-transition: all .3s ease;
 }
 input.contact:focus {
-    color: #3eb489;
-    border-bottom-color: #3eb489;
+    color: #93b1b9;
+    border-bottom-color: #93b1b9;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -296,8 +297,8 @@ textarea.contact {
     -o-transition: all .3s ease;
 }
 textarea.contact:focus {
-    color: #3eb489;
-    border-bottom-color: #3eb489;
+    color: #93b1b9;
+    border-bottom-color: #93b1b9;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -359,8 +360,8 @@ a.contact2 {
     -o-transition: all .3s ease;
 }
 a.contact2:hover {
-    color: #3eb489;
-    border-color: #3eb489;
+    color: #93b1b9;
+    border-color: #93b1b9;
     text-decoration: none;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -376,8 +377,8 @@ a.contact2:active {
     -o-transition: all .3s ease;
 }
 input.contactbutton:hover {
-    color: #3eb489;
-    border-color: #3eb489;
+    color: #93b1b9;
+    border-color: #93b1b9;
     text-decoration: none;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
