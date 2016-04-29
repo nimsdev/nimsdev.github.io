@@ -86,9 +86,12 @@ background-color: rgba(5,5,5,0.2);
     font-size: 11pt;
     letter-spacing: 2px;
     margin-top: 190px;
+    margin-top: 260px;
     height: 200px;
     text-align: center;
 }
+
+
 .overlay0 h2 {
     color: white;
     letter-spacing: 10px;
@@ -137,6 +140,9 @@ button {
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     outline: none !important;
+    
+    
+    margin-top:60px;
 }
 button:hover {
     color: #333;
@@ -471,7 +477,8 @@ input.contactbutton:focus {
     width: 0px;
     height: 0px;
     left: 95%;
-    top: -40px;
+/*    top: -40px;*/
+    top: -50px;
     position: relative;
     /*width:90px;height:90px;
     line-height:90px;
