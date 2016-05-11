@@ -709,19 +709,23 @@ and (min-width : 768px)
         
 background:url(newphotos/bodybg.gif) relative;  
         background-size:100% 100%;
+           background-position:relative;background-size:100% 100%;
+
     }
         
     div.howitworks{
         font-size:14pt;
         background:url(newphotos/howitworks.jpeg) relative;
+           background-position:relative;background-size:100% 100%;
+
     }    
 
     
 
 div.about{
 
-    background:url(newphotos/about.gif) relative;
-   
+    background:url(newphotos/about.gif);
+   background-position:relative;background-size:100% 100%;
 
     
     }
@@ -729,7 +733,7 @@ div.about{
         
         
         div.portfoliobox{
-            width:30%;
+            width:49%;
         }        
     
 }/*tablet media */
