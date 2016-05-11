@@ -696,6 +696,7 @@ div.about{
     }
     
     input.contact,textarea.contact , input.contactbutton, div.about h1{width:90%;}   
-    
+    h1.name{color:white;font-size:16pt;} 
+    h3.desc, h3.desc2, h3.desc3{font-size:12pt;display:block;margin-right:0;margin-left:0;}
 } 
 /*end media query*/
