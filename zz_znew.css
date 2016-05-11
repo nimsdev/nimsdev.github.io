@@ -707,7 +707,7 @@ and (min-width : 768px)
     and (max-width : 1024px) {
     body{
         
-background:url(newphotos/bodybg.gif) relative;  
+background:url(newphotos/bodybg.gif);  
         background-size:100% 100%;
            background-position:relative;background-size:100% 100%;
 
@@ -715,7 +715,7 @@ background:url(newphotos/bodybg.gif) relative;
         
     div.howitworks{
         font-size:14pt;
-        background:url(newphotos/howitworks.jpeg) relative;
+        background:url(newphotos/howitworks.jpeg);
            background-position:relative;background-size:100% 100%;
 
     }    
@@ -733,7 +733,7 @@ div.about{
         
         
         div.portfoliobox{
-            width:49%;
+            width:44%;
         }        
     
 }/*tablet media */
