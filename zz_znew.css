@@ -21,7 +21,7 @@ body {
   height:100%;
   width:100%;
   
-  position:; 
+
 /*  z-index:3;*/
 }
 
@@ -687,16 +687,49 @@ div.toptxt{
     
 
 div.about{
-/* background:url(http://i.imgur.com/DWu4RWN.gif) fixed;    */
-/*    background:url(http://i.imgur.com/qd65NCe.gif) fixed;*/
+
     background:url(newphotos/about.gif) relative;
    
-/*    border-top:4px solid #0f1629; */
+
     
     }
-    
+    body{background:url(newphotos/bodybg.gif) relative;    }
     input.contact,textarea.contact , input.contactbutton, div.about h1{width:90%;}   
     h1.name{color:white;font-size:16pt;} 
     h3.desc, h3.desc2, h3.desc3{font-size:12pt;display:block;margin-right:0;margin-left:0;}
 } 
 /*end media query*/
+
+
+
+@media only screen 
+and (min-width : 768px) 
+    and (max-width : 1024px) {
+    body{
+        
+background:url(newphotos/bodybg.gif) relative;  
+        background-size:100% 100%;
+    }
+        
+    div.howitworks{
+        font-size:14pt;
+        background:url(newphotos/howitworks.jpeg) relative;
+    }    
+
+    
+
+div.about{
+
+    background:url(newphotos/about.gif) relative;
+   
+
+    
+    }
+        
+        
+        
+        div.portfoliobox{
+            width:30%;
+        }        
+    
+}/*tablet media */
