@@ -440,7 +440,7 @@ input.contact{
     margin-top:10px;
     border:2px solid white;
     
-    border-radius:5px;
+/*    border-radius:5px;*/
 }
 
 
@@ -453,7 +453,7 @@ textarea.contact{
     margin-top:10px; 
     border:2px solid white;
     resize:none;
-    border-radius:5px;
+/*    border-radius:5px;*/
     
      transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -741,6 +741,6 @@ div.about{
             
         }    
 /*EDIT TOPTXT DIXV!!!!!!!!        */
-        
+        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}
         
 }/*tablet media */
