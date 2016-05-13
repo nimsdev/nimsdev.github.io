@@ -747,6 +747,7 @@ background:url(newphotos/about.gif) ;
     margin-bottom:-300px;
     background-size:100% 100%;
     background-position:relative;
+    margin-top:-200px;
 }        
         
 
@@ -757,6 +758,7 @@ body{
     width:100%;
    
     background-repeat:no-repeat;
+    
     
 }       
     
