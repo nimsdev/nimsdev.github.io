@@ -15,13 +15,14 @@ html {
 body {
   margin:0;
      background-color:#3eb489;
-    background:url(newphotos/bodybg.gif) fixed;
+    background:url(newphotos/newb.gif) fixed;
+
 
     background-size:100% 100%;
   height:100%;
   width:100%;
-  
-
+   
+    
 /*  z-index:3;*/
 }
 
@@ -35,7 +36,8 @@ body {
     
     background:url(http://i.imgur.com/Se1C0kG.gif);
     background:url(http://images.huffingtonpost.com/2014-03-11-Shanghai_Oriental_Pearl_1000.gif);
-/*    background:url(https://49.media.tumblr.com/f5a6275906b94322b2e7eb0729df17a4/tumblr_n1u6sabtVV1r8s0d7o1_500.gif);*/
+/*   http://37.media.tumblr.com/c39c0e115db5216ae2820200ac3d6bdd/tumblr_n9508jxytD1qkprgpo1_r1_400.gif background:url(https://49.media.tumblr.com/f5a6275906b94322b2e7eb0729df17a4/tumblr_n1u6sabtVV1r8s0d7o1_500.gif);*/
+/*   http://37.media.tumblr.com/c39c0e115db5216ae2820200ac3d6bdd/tumblr_n9508jxytD1qkprgpo1_r1_400.gif background:url(https://49.media.tumblr.com/f5a6275906b94322b2e7eb0729df17a4/tumblr_n1u6sabtVV1r8s0d7o1_500.gif);*/
 /*    background:url(http://gifrific.com/wp-content/uploads/2012/04/nature-gif.gif);*/
     
     
@@ -57,8 +59,11 @@ body {
 
 a.portfoliosinglelink{
     color:rgba(255,255,255,0.4);
+    border:2px solid rgba(255,255,255,0.4);
+    padding:12px 22px;
+    border-radius:5px;
     text-align:center;
-    font-size:22pt;
+    font-size:17pt;
     letter-spacing:6px;
     font-weight:200;
     cursor:pointer;
@@ -76,8 +81,11 @@ a.portfoliosinglelink{
 
 
 a.portfoliosinglelink:hover{
-     color:rgba(255,255,255,0.9);
+/*     color:rgba(255,255,255,0.9);*/
+    background-color:rgba(5,5,5,0.3);
+/*    border-color:rgba(5,5,5,0.3);*/
     
+    background-color:white;color:#333;
      transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
@@ -85,8 +93,8 @@ a.portfoliosinglelink:hover{
 
 
 a.portfoliosinglelink:active{
-     color:rgba(255,255,255,0.4);
-    
+/*     color:rgba(255,255,255,0.4);*/
+    position:relative;top:10px;
      transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
@@ -200,7 +208,7 @@ h3.desc{
     color:white;
     color:rgba(5,5,5,0.5);
     color:rgba(255,255,255,0.4);
-    color:#d66f6f;
+/*    color:#d66f6f;*/
     display:inline-block;
 }
 
@@ -209,8 +217,8 @@ h3.desc2{
     font-weight:300;
     letter-spacing:2px;
     color:white;
-    color:rgba(5,5,5,0.5);
-   color:#cba0fd;
+   color:rgba(255,255,255,0.4);
+/*   color:#cba0fd;*/
     display:inline-block;
     
     margin-left:20px;
@@ -222,8 +230,8 @@ h3.desc3{
     font-weight:300;
     letter-spacing:2px;
     color:white;
-    color:rgba(5,5,5,0.5);
-    color:#ffff06;
+    color:rgba(255,255,255,0.4);
+/*    color:#ffff06;*/
     
     display:inline-block;
     
@@ -287,10 +295,11 @@ p.barspace3{
      height: 0;
     width: 1040px;;
 /*    border-top: 4px solid rgba(5,5,5,0.1);*/
-    border-top: 2px solid rgba(36, 32, 32, 0.4);
-    border-bottom: 1px solid rgba(67, 67, 67, 0.4);
+/*    border-top: 2px solid rgba(36, 32, 32, 0.4);*/
+/*    border-bottom: 1px solid rgba(67, 67, 67, 0.4);*/
     
-   
+   border-top:2px solid #1a606a;
+    border-bottom:1px solid rgba(147, 128, 128, 0.51);
 }
 
 
@@ -302,6 +311,7 @@ div.maincontent {
   width:100%;height:auto;
   background:#2e3b50; 
   background:#1a1f2c; 
+  background:#1c6a74; 
   
 
     
@@ -317,6 +327,7 @@ div.maincontent h2{
   
     color: rgba(120, 129, 155, 0.2); 
     color: rgba(120, 129, 155, 0.9); 
+    color:rgba(178, 217, 222, 0.6);
     font-size:22pt;
     font-weight:300;letter-spacing:4px;
 }
@@ -325,7 +336,7 @@ div.maincontent h2{
 div.portfoliobox{
     width:500px;
     display:inline-block;
-  background:rgba(205,205,205,0.09); 
+  background:rgba(205,205,205,0.15); 
     height:550px;
     border-radius:5px;
     padding:0 auto;
@@ -337,6 +348,8 @@ div.portfoliobox{
     font-size:11pt;
     font-weight:300;
     text-align:left;
+    
+    border:1px solid rgba(255,255,255,0.1)
 }
 
 div.portfoliobox img{
@@ -379,6 +392,7 @@ div.portfoliobox a:hover {
 
 div.heading a {
     color:rgba(255,255,255,0.4);
+    color:rgba(5,5,5,0.4);
     border-bottom:1px solid transparent;
     padding-bottom:2px;
     text-decoration:none;
@@ -396,8 +410,8 @@ div.heading a {
 
 
 div.heading a:hover{
-    color:rgba(255,255,255,0.6);
-    border-color:rgba(255,255,255,0.6);
+/*    color:rgba(255,255,255,0.6);*/
+    border-color:rgba(5,5,5,0.6);
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -408,7 +422,8 @@ div.heading a:hover{
 div.about{
 /* background:url(http://i.imgur.com/DWu4RWN.gif) fixed;    */
 /*    background:url(http://i.imgur.com/qd65NCe.gif) fixed;*/
-    background:url(newphotos/about.gif) fixed;
+    background:url(https://images.unsplash.com/photo-1462076537281-8b6ad187b75b?crop=entropy&fit=crop&fm=jpg&h=875&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1325) fixed;
+    background:url(http://i.imgur.com/9mv2XGt.gif) fixed;
    
 /*    border-top:4px solid #0f1629; */
     height:800px;
@@ -532,7 +547,7 @@ div.about h1{
 
 div.howitworks{
     background-color:#358d8d;
-    background:url(newphotos/howitworks.jpeg) fixed;
+    background:url(newphotos/works2.jpeg) fixed;
     
     background-size:100% 100%;
     height:auto;
@@ -540,24 +555,29 @@ div.howitworks{
     color:white;   
     font-size:20pt;
     font-weight:100;
-    padding-top:105px;
-    padding-bottom:205px;
+    padding-top:205px;
+    padding-bottom:305px;
     display:block;
     letter-spacing:2px;
+    letter-spacing:4px;
+    
+    font-weight:bold;
 }
 
 
 a.startit{
     color:white;
     background-color:rgba(255,255,255,0.3);
-    border:1px solid rgba(255,255,255,0.5);
-    padding:10px 25px;
-    border-radius:5px;
+/*    border:1px solid rgba(255,255,255,0.5);*/
+    background-color:#3eb489;
+    border-color:#3eb489;
+    padding:14px 35px;
+    border-radius:35px;
     margin-top:20px;
     display:inline-block;
     text-decoration:none;
     cursor:pointer;
-    
+    font-weight:300;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -567,8 +587,8 @@ a.startit{
 a.startit:hover{
    
     background-color:rgba(255,255,255,0.4);
-    border:1px solid rgba(255,255,255,0.5);
-   
+/*    border:1px solid rgba(255,255,255,0.5);*/
+   background-color:#199064;
     
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -578,10 +598,10 @@ a.startit:hover{
 
 a.startit:active{
    
-    background-color:rgba(255,255,255,0.2);
-    border:1px solid rgba(255,255,255,0.5);
+/*    background-color:rgba(255,255,255,0.2);*/
+/*    border:1px solid rgba(255,255,255,0.5);*/
    
-    
+     position:relative;top:8px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease; 
@@ -681,19 +701,19 @@ div.toptxt{
    
     div.howitworks{
         font-size:14pt;
-        background:url(newphotos/howitworks.jpeg) relative;
+        background:url(newphotos/works2.jpeg) relative;
     }    
 
     
 
 div.about{
 
-    background:url(newphotos/about.gif) relative;
+    background:url(newphotos/newabout.gif) relative;
    
 
     
     }
-    body{background:url(newphotos/bodybg.gif) relative;    }
+    body{background:url(newphotos/newb.gif) relative;    }
     input.contact,textarea.contact , input.contactbutton, div.about h1{width:90%;}   
     h1.name{color:white;font-size:16pt;} 
     h3.desc, h3.desc2, h3.desc3{font-size:12pt;display:block;margin-right:0;margin-left:0;}
@@ -705,42 +725,111 @@ div.about{
 @media only screen 
 and (min-width : 768px) 
     and (max-width : 1024px) {
-    body{
-        overflow-x:hidden;
-background:url(newphotos/bodybg.gif);  
-        background-size:100% 100%;
-           background-position:relative;background-size:100% 100%;
+  
+        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}
 
-    }
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}          
+ 
         
-    div.howitworks{
-        font-size:14pt;
-        background:url(newphotos/howitworks.jpeg);
-           background-position:relative;background-size:100% 100%;
-
+    div.portfoliobox{
+        width:45%;
     }    
-
+        
+        
+div.howitworks{
+    background:url(newphotos/works2.jpeg);
+    background-size:100% 100%;  
+    background-position:relative;
+}
     
-
 div.about{
 
-    background:url(newphotos/about.gif);
-   background-position:relative;background-size:100% 100%;
+background:url(newphotos/newabout.gif) ;
+    margin-bottom:-300px;
+    background-size:100% 100%;
+    background-position:relative;
+}        
+        
 
+body{
+/*    background:url(https://images.unsplash.com/photo-1432824785550-fe0a80ac9eb1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=f58230413dbc4f456bbe42124b40ee3a) 100% 100%;*/
+    background:url(newphotos/newb.gif) 100% 100%;
+    background-position:relative;
+    background-size:100% 100%;
+    width:100%;
+   
+    background-repeat:no-repeat;
     
-    }
-        
-        
-        
-        div.portfoliobox{
-            width:44%;
-        }        
     
-        div.toptxt{
-            position:relative;
-            
-        }    
-/*EDIT TOPTXT DIXV!!!!!!!!        */
-        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}
+}       
+    
+/*        
+div.toptxt{
+    margin-top:200px;
+     width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    
+    position:relative;
+   
+    
+}
+        */
+  
+p.barspace3{
+
+    width: 90%;
+
+   
+}        
+        
+        
+div.maincontent{
+    margin-top:-45px;
+}        
         
 }/*tablet media */
+
+
+
+@media only screen and (max-width : 768px) {
+
+div.portfoliobox{
+    width:90%;
+    display:block;
+  background:rgba(205,205,205,0.09); 
+    
+   
+    border-radius:5px;
+    padding:0 auto;
+    margin:0 auto;
+    color:#ffffff;
+    margin-left:20px;
+    margin-right:20px;
+    letter-spacing:2px;
+    font-size:11pt;
+    font-weight:300;
+    text-align:left;
+    border:1px solid rgba(205,205,205,0.29);
+    margin-top:15px;
+}     
+}
