@@ -702,3 +702,36 @@ div.about{
 
 
 
+@media only screen 
+and (min-width : 768px) 
+    and (max-width : 1024px) {
+    body{
+        overflow-x:hidden;
+background:url(newphotos/bodybg.gif) relative;  
+        background-size:100% 100%;
+           background-position:relative;background-size:100% 100%;
+position:relative;
+    }
+        
+    div.howitworks{
+        font-size:14pt;
+        background:url(newphotos/howitworks.jpeg);
+           background-position:relative;background-size:100% 100%;
+
+    }    
+
+    
+
+div.about{
+
+    background:url(newphotos/about.gif);
+   background-position:relative;background-size:100% 100%;
+position:relative;
+    
+    }
+        
+        
+        
+        div.portfoliobox{
+            width:34%;
+        }  
