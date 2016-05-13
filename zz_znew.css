@@ -756,6 +756,10 @@ body{
     background-size:100% 100%;
     width:100%;
    
+    background-repeat:no-repeat;
+    
 }       
+    
+    div.toptxt{position:relative;}    
         
 }/*tablet media */
