@@ -710,7 +710,7 @@ and (min-width : 768px)
 background:url(newphotos/bodybg.gif);  
         background-size:100% 100%;
            background-position:relative;background-size:100% 100%;
-
+position:relative;
     }
         
     div.howitworks{
@@ -726,18 +726,18 @@ div.about{
 
     background:url(newphotos/about.gif);
    background-position:relative;background-size:100% 100%;
-
+position:relative;
     
     }
         
         
         
         div.portfoliobox{
-            width:44%;
+            width:34%;
         }        
     
         div.toptxt{
-            position:relative;
+            position:fixed;
             
         }    
         input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}
