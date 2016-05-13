@@ -756,14 +756,22 @@ and (min-width : 768px)
         
         
 div.howitworks{
+<<<<<<< HEAD
     background:url(newphotos/works2.jpeg);
+=======
+    background:url(newphotos/howitworks.jpeg);
+>>>>>>> origin/master
     background-size:100% 100%;  
     background-position:relative;
 }
     
 div.about{
 
+<<<<<<< HEAD
 background:url(newphotos/newabout.gif) ;
+=======
+background:url(newphotos/about.gif) ;
+>>>>>>> origin/master
     margin-bottom:-300px;
     background-size:100% 100%;
     background-position:relative;
@@ -772,7 +780,11 @@ background:url(newphotos/newabout.gif) ;
 
 body{
 /*    background:url(https://images.unsplash.com/photo-1432824785550-fe0a80ac9eb1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=f58230413dbc4f456bbe42124b40ee3a) 100% 100%;*/
+<<<<<<< HEAD
     background:url(newphotos/newb.gif) 100% 100%;
+=======
+    background:url(newphotos/bodybg.gif) 100% 100%;
+>>>>>>> origin/master
     background-position:relative;
     background-size:100% 100%;
     width:100%;
@@ -801,12 +813,22 @@ p.barspace3{
 
    
 }        
+<<<<<<< HEAD
         
+=======
+>>>>>>> origin/master
         
 div.maincontent{
     margin-top:-45px;
 }        
         
+<<<<<<< HEAD
+=======
+div.maincontent{
+    margin-top:-45px;
+}        
+        
+>>>>>>> origin/master
 }/*tablet media */
 
 
