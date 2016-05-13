@@ -736,17 +736,23 @@ and (min-width : 768px)
         
         
 div.howitworks{
-    background:url(newphotos/howitworks.jpeg) relative;
-    background-size:100% 100%;        
+    background:url(newphotos/howitworks.jpeg);
+    background-size:100% 100%;  
+    background-position:relative;
 }
     
 div.about{
 
-background:url(newphotos/about.gif) relative;
+background:url(newphotos/about.gif) ;
     margin-bottom:-100px;
     background-size:100% 100%;
-
+    background-position:relative;
 }        
         
+
+body{
+overflow-x:hidden;    
+    
+}        
         
 }/*tablet media */
