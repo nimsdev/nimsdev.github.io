@@ -707,7 +707,6 @@ and (min-width : 768px)
     and (max-width : 1024px) {
     body{
         overflow-x:hidden;
-background:url(newphotos/bodybg.gif);  
         background-size:100% 100%;
 /*           background-position:relative;*/
         background-size:100% 100%;
@@ -716,7 +715,7 @@ background:url(newphotos/bodybg.gif);
         
     div.howitworks{
         font-size:14pt;
-        background:url(newphotos/howitworks.jpeg);
+       
            background-position:;background-size:100% 100%;
 
     }    
@@ -725,7 +724,6 @@ background:url(newphotos/bodybg.gif);
 
 div.about{
 
-    background:url(newphotos/about.gif);
    background-position:;background-size:100% 100%;
 position:;
     
@@ -741,7 +739,9 @@ position:;
             position:relative;
             
         }    
-        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}
+        
+        
+/*        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}*/
 
 	.animated {
 		/*CSS transitions*/
