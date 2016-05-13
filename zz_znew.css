@@ -744,7 +744,7 @@ div.howitworks{
 div.about{
 
 background:url(newphotos/about.gif) ;
-    margin-bottom:-100px;
+    margin-bottom:-300px;
     background-size:100% 100%;
     background-position:relative;
 }        
@@ -781,3 +781,11 @@ p.barspace3{
 }        
         
 }/*tablet media */
+
+
+
+@media only screen and (max-width : 768px) {
+
+background:red;    
+    
+}
