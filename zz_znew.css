@@ -707,7 +707,7 @@ and (min-width : 768px)
     and (max-width : 1024px) {
     body{
         overflow-x:hidden;
-background:url(newphotos/bodybg.gif);  
+background:url(newphotos/bodybg.gif) relative;  
         background-size:100% 100%;
            background-position:relative;background-size:100% 100%;
 position:relative;
@@ -737,7 +737,7 @@ position:relative;
         }        
     
         div.toptxt{
-            position:fixed;
+            position:relative;
             
         }    
         input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}
