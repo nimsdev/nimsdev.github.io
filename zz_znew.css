@@ -705,42 +705,7 @@ div.about{
 @media only screen 
 and (min-width : 768px) 
     and (max-width : 1024px) {
-    body{
-        overflow-x:hidden;
-        background-size:100% 100%;
-/*           background-position:relative;*/
-        background-size:100% 100%;
-
-    }
-        
-    div.howitworks{
-        font-size:14pt;
-       
-           background-position:;background-size:100% 100%;
-
-    }    
-
-    
-
-div.about{
-
-   background-position:;background-size:100% 100%;
-position:;
-    
-    }
-        
-        
-        
-        div.portfoliobox{
-            width:34%;
-        }        
-    
-        div.toptxt{
-            position:relative;
-            
-        }    
-        
-        
+  
 /*        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}*/
 
 	.animated {
