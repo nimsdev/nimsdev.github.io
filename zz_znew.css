@@ -786,6 +786,23 @@ p.barspace3{
 
 @media only screen and (max-width : 768px) {
 
-background:red;    
+div.portfoliobox{
+    width:90%;
+    display:block;
+  background:rgba(205,205,205,0.09); 
     
+   
+    border-radius:5px;
+    padding:0 auto;
+    margin:0 auto;
+    color:#ffffff;
+    margin-left:20px;
+    margin-right:20px;
+    letter-spacing:2px;
+    font-size:11pt;
+    font-weight:300;
+    text-align:left;
+    border:1px solid rgba(205,205,205,0.29);
+    margin-top:15px;
+}     
 }
