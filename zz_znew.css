@@ -706,7 +706,7 @@ div.about{
 and (min-width : 768px) 
     and (max-width : 1024px) {
   
-/*        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}*/
+        input.contact,textarea.contact,input.contactbutton{-webkit-appearance:none;-moz-appearance:none;}
 
 	.animated {
 		/*CSS transitions*/
@@ -728,5 +728,12 @@ and (min-width : 768px)
 		-ms-animation: none !important;
 		animation: none !important;
 	}          
+ 
+        
+    div.portfoliobox{
+        width:45%;
+    }    
+        
+        
         
 }/*tablet media */
