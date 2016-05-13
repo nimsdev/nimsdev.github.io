@@ -760,11 +760,22 @@ body{
     
 }       
     
-    div.toptxt{position:relative;}    
+/*        
+div.toptxt{
+    margin-top:200px;
+     width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    
+    position:relative;
+   
+    
+}
+        */
   
 p.barspace3{
 
-    width: 90%;;
+    width: 90%;
 
    
 }        
