@@ -735,5 +735,18 @@ and (min-width : 768px)
     }    
         
         
+div.howitworks{
+    background:url(newphotos/howitworks.jpeg) relative;
+    background-size:100% 100%;        
+}
+    
+div.about{
+
+background:url(newphotos/about.gif) relative;
+    margin-bottom:-100px;
+    background-size:100% 100%;
+
+}        
+        
         
 }/*tablet media */
