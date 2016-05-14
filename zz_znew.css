@@ -488,6 +488,33 @@ a.old:active {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease
 }
+
+
+
+::-webkit-scrollbar {
+    width: 8px;margin-right:24px;position:fixed;z-index:99999;
+}
+ 
+::-webkit-scrollbar-track {
+
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    background-color:#444; /* eggshell f0ead6 */
+/*    background:url(newphotos/bodybg.gif);  eggshell f0ead6 */
+    z-index:99999;
+  
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;cursor:pointer;background-color:#21a559;/*sitegreen*/
+    /*border:3px solid #ff406d;opacity:0.3;z-index:99999;*/
+    background: #fca898;
+
+}
+
+
+
 @media screen and (max-width: 480px) {
     .animated {
         -o-transition-property: none!important;
