@@ -156,9 +156,15 @@ a{text-decoration:none;}
  
     div.messagebox{
         width:60%;
+        padding-left:25px;
+    padding-right:25px;
     }    
     
- 
+    div.messagebox h1 {font-size:16pt;}
     .keepdesk{display:none;}    
+    
+    
+    a.links{display:block;margin-top:10px;}
+    html,body{overflow-x:hidden;}
     
 }
