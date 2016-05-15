@@ -114,9 +114,10 @@ div.toptxt {
     height: 43.3px;
     line-height: 43.3px;
     background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 21.65px 0;
-    color: rgba(255, 255, 255, 0.5);
-    font-weight: 100;
+    color: #fca898;
+    font-weight: bold;
     font-size: 19pt;
     letter-spacing: 2px;
     margin-top: 30px;
@@ -132,12 +133,12 @@ div.toptxt {
 }
 .hexagon:before {
     bottom: 100%;
-    border-bottom: 21.65px solid rgba(255, 255, 255, 0.2)
+    border-bottom: 21.65px solid rgba(255, 255, 255, 0.8)
 }
 .hexagon:after {
     top: 100%;
     width: 0;
-    border-top: 21.65px solid rgba(255, 255, 255, 0.2)
+    border-top: 21.65px solid rgba(255, 255, 255, 0.8)
 }
 h1.name {
     font-size: 26pt;
@@ -145,7 +146,8 @@ h1.name {
     letter-spacing: 4px;
     color: #fff;
     color: rgba(5, 5, 5, 0.5);
-    color: rgba(255, 255, 255, 0.4)
+    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8)
 }
 h3.desc {
     font-size: 15pt;
@@ -153,7 +155,7 @@ h3.desc {
     letter-spacing: 2px;
     color: #fff;
     color: rgba(5, 5, 5, 0.5);
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8);
     display: inline-block
 }
 h3.desc2 {
@@ -161,7 +163,7 @@ h3.desc2 {
     font-weight: 300;
     letter-spacing: 2px;
     color: #fff;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8);
     display: inline-block;
     margin-left: 20px
 }
@@ -170,7 +172,7 @@ h3.desc3 {
     font-weight: 300;
     letter-spacing: 2px;
     color: #fff;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.8);
     display: inline-block;
     margin-left: 20px
 }
@@ -312,7 +314,7 @@ div.heading a:hover {
 div.about {
     background: url(https://images.unsplash.com/photo-1462076537281-8b6ad187b75b?crop=entropy&fit=crop&fm=jpg&h=875&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1325) fixed;
     background: url(http://www.lovethispic.com/uploaded_images/182523-Futuristic-Space.gif) fixed;
-    background: url(newphotos/neon.gif) fixed;
+    background: url(newphotos/lh.gif) fixed;
     height: 800px;
     margin-bottom: -100px;
     background-size: 100% 100%;
@@ -489,8 +491,6 @@ a.old:active {
     -moz-transition: all .3s ease
 }
 
-
-
 ::-webkit-scrollbar {
     width: 8px;margin-right:24px;position:fixed;z-index:99999;
 }
@@ -562,7 +562,7 @@ a.old:active {
         background: url(newphotos/works2.jpeg) relative
     }
     div.about {
-        background: url(newphotos/neon.gif) relative
+        background: url(newphotos/lh.gif) relative
     }
     body {
         background: url(newphotos/newb.gif) relative
@@ -619,7 +619,7 @@ a.old:active {
         background-position: relative
     }
     div.about {
-        background: url(newphotos/neon.gif);
+        background: url(newphotos/lh.gif);
         margin-bottom: -300px;
         background-size: 100% 100%;
         background-position: relative
