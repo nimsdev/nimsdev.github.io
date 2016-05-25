@@ -18,7 +18,31 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
       <script src="js/modernizr.custom.25376.js"></script>
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+       
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type='text/javascript'>
+$(window).load(function(){
+var fixboxTop = $('.fixbox').offset().top;
+$(window).scroll(function() {
+    var currentScroll = $(window).scrollTop();
+    if (currentScroll >= fixboxTop) {
+        $('.fixbox').css({
+            position: 'fixed',
+            top: '0px',
+            right: '0px',
+           
+        });
+    } else {
+        $('.fixbox').css({
+            position: 'static'
+        });
+    }
+});
+});
+
+</script> 
+       
       <script>
          $(function() {   
            $('a[href*=#]:not([href=#])').click(function() {
@@ -74,6 +98,8 @@
       <!--</div> headerimg-->
       <!--    <div class="spacediv"></div>    -->
       <div class="maincontent">
+          <div class="fixbox"><br><br> <a class="" href="http://www.jonathanbelok.com/images/JonathanB.pdf">Resume</a>
+             </div><!-- fixbox-->
          <h1 id="portfolio"></h1>
          <br>
          <center>
@@ -275,7 +301,7 @@
             </div>
          </center>
          <div class="about">
-              <a class="resumelink" href="http://www.jonathanbelok.com/resume">Resume</a>
+             
             <h1 id="contact"></h1>
             <center>
                <section class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" style="height:0px;">
