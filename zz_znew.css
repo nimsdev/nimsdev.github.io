@@ -405,9 +405,9 @@ div.heading a:hover {
     -moz-transition: all .3s ease
 }
 div.about {
-    background: url(https://images.unsplash.com/photo-1462076537281-8b6ad187b75b?crop=entropy&fit=crop&fm=jpg&h=875&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1325) fixed;
     background: url(http://www.lovethispic.com/uploaded_images/182523-Futuristic-Space.gif) fixed;
-    background: url(newphotos/lh.gif) fixed;
+   
+    background: url(newphotos/newabout.jpeg) fixed;
     height: 800px;
     margin-bottom: -100px;
     background-size: 100% 100%;
@@ -563,22 +563,26 @@ a.startit:active {
     -moz-transition: all .3s ease
 }
 a.old {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 1);
     font-size: 10pt;
     cursor: pointer;
     text-decoration: none;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease
+    -moz-transition: all .3s ease;
+    border-bottom:1px solid transparent;
+    padding-bottom:1px;
 }
 a.old:hover {
-    color: rgba(255, 255, 255, 0.9);
+   
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease
+    -moz-transition: all .3s ease;
+    border-bottom:1px solid white;
 }
 a.old:active {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.6);
+    border-color: rgba(255, 255, 255, 0.6);
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease
@@ -655,7 +659,7 @@ a.old:active {
         background: url(newphotos/works2.jpeg) relative
     }
     div.about {
-        background: url(newphotos/lh.gif) relative
+        background: url(newphotos/newabout.jpeg) relative
     }
     body {
         background: url(newphotos/newb.gif) relative
@@ -712,7 +716,7 @@ a.old:active {
         background-position: relative
     }
     div.about {
-        background: url(newphotos/lh.gif);
+         background: url(newphotos/newabout.jpeg);
         margin-bottom: -300px;
         background-size: 100% 100%;
         background-position: relative
