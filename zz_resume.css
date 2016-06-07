@@ -10,10 +10,10 @@ div.main {
     padding-left: 20px;
     padding-right: 20px;
     border: 2px solid white;
-    height: 1090px;
+    height: auto;
     background-color: white;
     width: 45%;
-}
+} 
 h2.name {
     color: #444;
     color: #3eb489;
@@ -125,7 +125,7 @@ p.portfolio {
     letter-spacing: 3px;
     font-weight: bold;
     padding-bottom: 2px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     width: 75px;
     font-size: 10pt;
     margin-top: 50px;
@@ -135,7 +135,7 @@ p.portfolio2 {
     letter-spacing: 3px;
     font-weight: bold;
     padding-bottom: 2px;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     width: 63px;
     font-size: 10pt;
     margin-top: 50px;
@@ -336,6 +336,8 @@ p.skill{
     display:inline;
     margin-right:3px;
     margin-left:3px;
+    font-size:9pt;
+    letter-spacing:1px;
 }
 
 .blankspace{
