@@ -195,6 +195,7 @@ svg {
 .slide:nth-child(4) .slide__bg {
   left: -150%;
   background-image: url(zxpc-pho/yeezyseason.gif);
+  background-image: url(zxpc-pho/cambry-fitness-screenshot.png);
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: #333;
