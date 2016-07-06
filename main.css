@@ -261,12 +261,19 @@ a.startit:active {
 
 div.footer {
     height: 800px;
-    background: url(https://images.unsplash.com/photo-1465935607384-d6a9087be24a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b8aaca5c26e6d2b806894a6917150762) fixed;
+    background:linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),  url(img/acbg.gif) fixed;
     background-size: 100% 100%;
     border-radius: 0;
     margin-top: -40px;
     z-index: 999999;
+    font-weight:100;
     padding-top: 100px
+}
+
+.messg{
+    font-weight:100;
+    letter-spacing: 2px;
+    font-size:10pt;
 }
 
 input.contact,
@@ -383,7 +390,7 @@ td.text {
 }
 
 .ctbox {
-    background-color: rgba(255, 255, 255, 0.66);
+    background-color: rgba(255, 255, 255, 0.96);
     border-radius: 5px;
     height: auto;
     padding-top: 60px;
