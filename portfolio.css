@@ -44,7 +44,22 @@ div.portfoliobox {
     font-weight: 300;
     text-align: left;
     border: 1px solid rgba(255, 255, 255, .1);
-    font-family: Cousine
+    font-family: Cousine;
+    position: relative;
+    top: 20px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+div.portfoliobox:hover {
+    top: 0px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-box-shadow: 0px 7px 5px -1px rgb(214, 214, 214);
+    -moz-box-shadow: 0px 7px 5px -1px rgb(214, 214, 214);
+    box-shadow: 0px 7px 5px -1px rgb(214, 214, 214);
 }
 
 div.portfoliobox img {
@@ -63,7 +78,7 @@ div.portfoliobox h4 {
     font-weight: 700;
     font-size: 14pt;
     letter-spacing: 2px;
-    color:#333;
+    color: #333;
 }
 
 div.portfoliobox a {
@@ -115,14 +130,14 @@ iframe.cp_embed_iframe {
 @media only screen and (min-width:768px) and (max-width:1024px) {
     div.portfoliobox {
         width: 45%;
-        color:#444;
+        color: #444;
     }
 }
 
 @media only screen and (max-width:768px) {
     div.portfoliobox {
         width: 90%;
-        height:700px;
+        height: 700px;
         display: block;
         border-radius: 5px;
         padding: 0 auto;
