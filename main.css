@@ -24,7 +24,6 @@ img.bikeimg {
     margin-top: 20%
 }
 
-.rtop,
 img.fire {
     width: 100%
 }
@@ -33,6 +32,23 @@ img.fire {
     background-color: #eaeaea;
     height: auto;
     z-index: 9999999!important
+}
+
+.heaginsect {
+    height: 600px;
+    background: url(zxpc-pho/bg324.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+.heaginsect:hover {
+    background-size: 101% 101%;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
 }
 
 div.locationtop {
@@ -55,21 +71,24 @@ a.portfolio {
     position: relative
 }
 
+.specs {
+    background-color: red;
+    height: 100px;
+    color: black;
+}
+
 .rtop {
     background-color: rgba(255, 255, 255, 0);
     position: relative;
     height: auto;
-    z-index: 9;
-    left: 50%;
-    margin-left: -50%;
-    margin-top: 10px
+    /*    z-index: 9;*/
+    top: 220px;
 }
 
 .rtop h3 {
     font-size: 34pt;
     font-weight: 100;
     letter-spacing: 2px;
-    margin-top: 220px
 }
 
 .rtop h5 {
@@ -77,6 +96,19 @@ a.portfolio {
     font-weight: 100;
     letter-spacing: 1px;
     margin-top: 5px
+}
+
+.topint {
+    height: 600px;
+    background:
+/*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
+            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),
+    /*        url(http://i.imgur.com/pRTiIeG.gif);*/
+/*    url(http://im2.ezgif.com/tmp/ezgif-3962813413.gif);*/
+/*    url(zxpc-pho/topinf.gif);*/
+    url(img/3242343.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 a.about,
@@ -269,7 +301,7 @@ div.footer {
     margin-top: -40px;
     z-index: 999999;
     font-weight: 100;
-    padding-top: 100px
+    padding-top: 250px;
 }
 
 .messg {
@@ -454,4 +486,149 @@ a.menutoplink {
     padding: 10px 75px;
     text-decoration: none;
     z-index: 999999;
+}
+
+a.ttc1 {
+       color: #FFF;
+    /*        border:3px solid rgba(48, 48, 48, 0.67);*/
+    background-color: rgba(255, 218, 185, 0.62);
+    background-color: rgba(88, 88, 88, 0.62);
+    padding: 15px 55px;
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+    font-family: Cousine;
+    font-weight:100;
+    letter-spacing:3px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+    border-bottom:2px solid transparent;
+}
+
+a.ttc2 {
+    color: #FFF;
+    /*        border:3px solid rgba(48, 48, 48, 0.67);*/
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 15px 55px;
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+    font-family: Cousine;
+    font-weight:100;
+    letter-spacing:3px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+       border-bottom:2px solid transparent;
+}
+
+a.ttc1:hover,
+a.ttc2:hover {
+    position: relative;
+    top: 35px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    border-radius:0;
+       border-bottom-color:#3eb489;
+   
+}
+
+a.ttc1:active,
+a.ttc2:active {
+    position: relative;
+    top: 50px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+input.toptwo{
+    background-color:rgba(255, 255, 255, 0.23);
+    background-color:rgba(93, 93, 93, 0.23); 
+    height:35px;
+    line-height:40px;
+    width:400px;
+    font-family: Cousine;
+    font-size:10pt;
+    margin-top:10px;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+input.toptwo:focus, textarea.toptwo:focus {
+    color:#303030;
+    background-color:#FFF;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+}
+
+textarea.toptwo{
+background-color:rgba(93, 93, 93, 0.23);    height:145px;
+    line-height:30px;
+    width:400px;
+    font-family: Cousine;
+    font-size:10pt;
+    margin-top:10px;
+    resize: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+input.toptwobutton{
+    display:block;
+    background-color:rgba(209, 100, 100, 0.92);   
+    background-color:rgba(209, 100, 100, 0.71);   
+    height:45px;
+    line-height:30px;
+    width:400px;
+    font-family: Cousine;
+    font-size:10pt;
+    margin-top:10px;
+    box-shadow:none;
+    border-radius:3px;
+    border:1pxx solid red !important;
+    outline:none !important;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+}
+
+input.toptwobutton:hover{
+       background-color:rgb(209, 100, 100);   
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+input.toptwobutton:active{
+       background-color:rgba(209, 100, 100, 0.78);   
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+p.oneft{
+    color:rgba(255, 255, 255, 0.67);
+    font-size:15pt;
+    letter-spacing:3px;
+    font-weight:100;
+}
+
+p.twift{
+    color:rgba(255, 255, 255, 0.67);
+    font-size:10pt;
+    letter-spacing:3px;
+    font-weight:100;
 }
