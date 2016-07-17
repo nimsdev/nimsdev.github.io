@@ -52,6 +52,8 @@ div.portfoliobox {
     -moz-transition: all .3s ease;
 }
 
+
+/*
 div.portfoliobox:hover {
     top: 0px;
     transition: all .3s ease;
@@ -60,7 +62,7 @@ div.portfoliobox:hover {
     -webkit-box-shadow: 0px 7px 5px -1px rgb(214, 214, 214);
     -moz-box-shadow: 0px 7px 5px -1px rgb(214, 214, 214);
     box-shadow: 0px 7px 5px -1px rgb(214, 214, 214);
-}
+} */
 
 div.portfoliobox img {
     height: 295px;

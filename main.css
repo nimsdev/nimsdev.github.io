@@ -94,19 +94,23 @@ a.portfolio {
 .rtop h5 {
     font-size: 16pt;
     font-weight: 100;
-    letter-spacing: 1px;
-    margin-top: 5px
+    letter-spacing: 8px;
+    margin-top: 5px;
+/*    font-family:cousine;*/
+    color:rgba(255, 255, 255, 0.55);
+    font-weight:100;
 }
 
 .topint {
     height: 600px;
     background:
 /*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
-            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),
+/*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
     /*        url(http://i.imgur.com/pRTiIeG.gif);*/
-/*    url(http://im2.ezgif.com/tmp/ezgif-3962813413.gif);*/
+
 /*    url(zxpc-pho/topinf.gif);*/
-    url(img/3242343.gif);
+    url(img/345345.gif);
+/*    url(http://www.chloeaftel.com/images/pics/582_sprint_city_0185_210_motion_mode_v2gif.gif);*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -163,8 +167,9 @@ a.about:active {
 }
 
 .aboutjon {
-    width: 490px;
-    height: auto
+    width: 100%;
+    height: auto;
+   
 }
 
 .aboutjon h1 {
@@ -405,24 +410,6 @@ input.contactbutton:active {
     position: relative
 }
 
-table {
-    width: 80%
-}
-
-td {
-    width: 70%
-}
-
-td.form,
-td.text {
-    width: 50%
-}
-
-td.text {
-    vertical-align: middle;
-    text-shadow: 2px 1px #000;
-    font-weight: 700
-}
 
 .ctbox {
     background-color: rgba(255, 255, 255, 0.96);
@@ -534,7 +521,7 @@ a.ttc2:hover {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     border-radius:0;
-       border-bottom-color:#3eb489;
+       border-bottom-color:#b4673e;
    
 }
 
@@ -545,7 +532,30 @@ a.ttc2:active {
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
+    
+           border-bottom-color:transparent;
+
 }
+
+a.crumyum{
+    color:#ff406d;
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+   
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.crumyum:hover{
+text-decoration:underline;
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
 
 input.toptwo{
     background-color:rgba(255, 255, 255, 0.23);
@@ -632,4 +642,55 @@ p.twift{
     font-size:10pt;
     letter-spacing:3px;
     font-weight:100;
+}
+
+
+/*
+table {
+    width: 80%
+}
+
+td {
+    width: 70%
+}
+
+td.form,
+td.text {
+    width: 50%
+}
+
+td.text {
+    vertical-align: middle;
+    text-shadow: 2px 1px #000;
+    font-weight: 700
+}
+*/
+
+table.movicit{
+    width:500px !important;
+    border:1px solid red;
+}
+
+img.profile{
+    display:inline-block;
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+}
+
+p.intropara{
+    letter-spacing:1px;
+    color:#333;
+    font-family:Cousine;
+    display:inline-block;
+    width:500px;
+    text-align:left;
+}
+
+td.paratd{
+    vertical-align: text-top;
+    border:2px solid blue;
+    padding:0 auto;
+    margin:0 auto;
+
 }
