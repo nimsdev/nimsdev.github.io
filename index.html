@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="del/css/style.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="justify.css">
-    <link rel="stylesheet" href="sk.css">
+    <!--    <link rel="stylesheet" href="justify.css">-->
+    <!--    <link rel="stylesheet" href="sk.css">-->
     <link rel="stylesheet" href="main.css">
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
     <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="showcase.css">
+    <link rel='stylesheet prefetch' href='//cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.min.css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>Jonathan Belok | Ottawa Designer &amp; Developer</title>
@@ -52,11 +54,17 @@
         <div class="rtop">
             <h3>Jonathan Belok</h3>
             <h5>Designer &amp; Developer</h5>
-            <!--            <a class="ttc1" href="#about">About Me</a>  &nbsp;&nbsp;  --><a class="ttc1" href="#portfolio">Showcase</a>&nbsp;&nbsp;&nbsp; <a class="ttc2" href="http://www.jonathanbelok.com/portfolio">Portfolio</a> </div>
+            <!--            <a class="ttc1" href="#about">About Me</a>  &nbsp;&nbsp;  --><a class="ttc1" href="#portfolio">Showcase</a>&nbsp;&nbsp;&nbsp; <a class="ttc2" href="http://www.jonathanbelok.com/portfolio">Portfolio</a>
+        <br><br>
+            <a class="hvr-hang" href="#about"><center><i class="fa fa-arrow-down" aria-hidden="true"></i></center>
+</a>
+        
+        </div>
     </div>
     <div class="hoye">
-        <Div class="fixbox">
-            <div class="menu">
+        <h1 id="about"></h1>
+<!--        <Div class="fixbox">-->
+<!--            <div class="menu">-->
                 <h1 id="about"></h1>
                 <div id="page-wrapper">
                     <header id="header" class="alt">
@@ -68,7 +76,9 @@
                                         <ul>
                                             <li><a href="#home">Home</a></li>
                                             <!--                                    <li><a href="#about">About</a></li>-->
-                                            <li><a href="http://www.jonathanbelok.com/portfolio">Portfolio</a></li>
+                        
+        
+        <li><a href="http://www.jonathanbelok.com/portfolio">Portfolio</a></li>
                                             <li><a href="#crumyumdemo">App Demo</a></li>
                                             <li><a href="#contact">Contact</a></li>
                                         </ul>
@@ -78,11 +88,11 @@
                         </nav>
                     </header>
                 </div>
-                <!-- page wrapper -->
-            </div>
-        </Div>
+                
+<!--            </div>-->
+<!--        </Div>-->
         <!--- fix box -->
-        <!--<div class="spacebox"></div>
+        <div class="spacebox"></div>
         <div class="aboutjon">
             <center> <img src="img/zcalderonpic.jpg" class="profile">
                 <br>
@@ -93,60 +103,108 @@
                     <br> I enjoy cycling, running, &amp; basketball! </p>
             </center>
         </div>
-        <div class="spacebox"></div>-->
+        <div class="spacebox"></div>
         <h1 id="portfolio"></h1>
-        <div class="slider-container">
-            <div class="slider-control left inactive"></div>
-            <div class="slider-control right"></div>
-            <ul class="slider-pagi"></ul>
-            <div class="slider">
-                <div class="slide slide-0 active">
-                    <div class="slide__bg"></div>
-                    <div class="slide__content">
-                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" /> </svg>
-                        <div class="slide__text">
-                            <h2 class="slide__text-heading">Kelso Bikes</h2>
-                            <p class="slide__text-desc">This is an early draft for 'KELSO's Bike Shop' </p>
-                            <br><a class="viewproj" href="http://www.jonathanbelok.com/kelso-bikes/" target="_blank">Check It Out!</a> </div>
+        <div class="site-content cf">
+            <div class="courses cf" id="showcase">
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/cambry-fitness-screenshot.png" class="mtbbcui" alt="TextEdit Image"> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">Cambry Fitness</div>
+                            <h3 class="course-title">HTML, CSS, JS</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/cambry-fitness/" target="_blank">Landing Page</a></time>
+                            </div>
+                        </div> <span class="course-caption ion ion-closed-captioning"></span> </div>
+                </div>
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/kelso-screenshot.png" class="mtbbcui" alt="image"> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">Kelso Bikes</div>
+                            <h3 class="course-title">HTML, CSS, JS</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/kelso-bikes/" target="_blank">Landing Page</a></time>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="slide slide-1 ">
-                    <div class="slide__bg"></div>
-                    <div class="slide__content">
-                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" /> </svg>
-                        <div class="slide__text">
-                            <h2 class="slide__text-heading">Schoolitup</h2>
-                            <p class="slide__text-desc">Schoolitup is a photo sharing website for students. They upload photos about life at their schools, follow each other, like photos, &amp; look for other students.</p>
-                            <br><a class="viewproj" href="http://www.schoolitup.com/sid-jenkins/" target="_blank">Check It Out!</a> </div>
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/crumyumRecScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">Crumyum</div>
+                            <h3 class="course-title">HTML, CSS, JS, paint.net</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://www.crumyumapp.com" target="_blank">Landing Page</a> &nbsp;<a class="portlinks" href="http://www.crumyumapp.com/web/start/asian-dishes/meals/kung-pao-chicken/" target="_blank">Recipe Page</a></time>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="slide slide-2">
-                    <div class="slide__bg"></div>
-                    <div class="slide__content">
-                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" /> </svg>
-                        <div class="slide__text">
-                            <h2 class="slide__text-heading">Crumyum</h2>
-                            <p class="slide__text-desc">Users are provided a list of options, and they just answer what they're in the mood for. They are then reccomended a meal, a dessert, or a drink.</p>
-                            <br><a class="viewproj" href="http://www.crumyumapp.com/" target="_blank">Check It Out!</a> </div>
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/schoolitupPhotosScreenshot.png" class="mtbbcui" alt=""> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">Schoolitup</div>
+                            <h3 class="course-title">PHP, HTML, CSS, JS, PhotoShop, SQL</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://schoolitup.com/" target="_blank">Landing Page</a> &nbsp; <a class="portlinks" href="http://schoolitup.com/sid-jenkins" target="_blank">Photos Section</a></time>
+                            </div>
+                        </div> <span class="course-caption ion ion-closed-captioning"></span> </div>
+                </div>
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/rmcScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">RM Construction</div>
+                            <h3 class="course-title">HTML, CSS</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/rmc/" target="_blank">Main Site</a></time>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="slide slide-3">
-                    <div class="slide__bg"></div>
-                    <div class="slide__content">
-                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
-                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" /> </svg>
-                        <div class="slide__text">
-                            <h2 class="slide__text-heading">Cambry Fitness</h2>
-                            <p class="slide__text-desc">Mockup for the Cambry Fitness company</p>
-                            <br><a class="viewproj" href="http://www.jonathanbelok.com/cambry-fitness/" target="_blank">Check It Out!</a> </div>
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/bryvoScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">Bryvo Studios</div>
+                            <h3 class="course-title">HTML, CSS, JS</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/bryvo-studios/" target="_blank">Main Site</a></time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/vd4aScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">VacationDeals4All</div>
+                            <h3 class="course-title">HTML, CSS, Wordpress, PHP</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/vacationdeals4all-web/" target="_blank">Landing Page</a></time>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-item slide">
+                    <div class="course-summary card">
+                        <div class="course-thumbnail"> <img src="zxpc-pho/yeezyseason.gif" class="mtbbcui" alt="Linux Image"> </div>
+                        <div class="course-info">
+                            <div class="course-topic design">Kyasto</div>
+                            <h3 class="course-title">HTML, CSS, JS, paint.net</h3>
+                            <div class="course-meta">
+                                <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/kyasto/" target="_blank">Site (before client info update)</a></time>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <center> <a class="totalport" href="http://www.jonathanbelok.com/portfolio">Click Here For Portfolio Details</a> </center>
         </div>
-        <center> <a class="totalport" href="http://www.jonathanbelok.com/portfolio">Click Here To See More Work</a> </center>
+        
         <br>
         <br>
         <div class="appshowcase">
@@ -176,7 +234,7 @@
             <center>
                 <p class="oneft">Have a question or a comment?</p>
                 <br>
-                <p class="twoft">Get in touch!</p>
+                <p class="twift">Get in touch!</p>
                 <br>
                 <br>
                 <form action="https://formspree.io/jon@jonathanbelok.com" method="POST">
@@ -197,6 +255,15 @@
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
     <!-- Resource jQuery -->
+    <script src='//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.pkgd.min.js'></script>
+    <script>
+        $('#showcase').flickity({
+            wrapAround: true
+        });
+        //# sourceURL=pen.js
+    </script>
     <script src="del/js/jquery.min.js"></script>
     <script src="del/js/jquery.scrollex.min.js"></script>
     <script src="del/js/jquery.scrolly.min.js"></script>
