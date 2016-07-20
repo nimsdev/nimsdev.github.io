@@ -856,7 +856,7 @@ a.hvr-hang:active {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and  {
     .rtop {
         position: relative;
     }
@@ -883,29 +883,3 @@ a.hvr-hang:active {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .rtop {
-        position: relative;
-    }
-    .topint {
-        height: 600px;
-        background: /*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
-        /*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
-        /*        url(http://i.imgur.com/pRTiIeG.gif);*/
-        /*    url(zxpc-pho/topinf.gif);*/
-        url(img/345345.gif) relative;
-        background-repeat: no-repeat;
-        background-size: 100% 600px;
-    }
-    div.footer {
-        height: 800px;
-        background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(img/acbg.gif) relative;
-        background-size: 100% 800px;
-        border-radius: 0;
-        margin-top: -40px;
-        z-index: 999999;
-        font-weight: 100;
-        padding-top: 250px;
-        background-repeat: no-repeat;
-    }
-}
