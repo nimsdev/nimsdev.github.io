@@ -31,7 +31,8 @@ img.fire {
 .hoye {
     background-color: #eaeaea;
     height: auto;
-    z-index: 9999999!important
+    z-index: 9999999!important;
+    position:relative;
 }
 
 .heaginsect {
@@ -79,10 +80,13 @@ a.portfolio {
 
 .rtop {
     background-color: rgba(255, 255, 255, 0);
-    position: relative;
+    
     height: auto;
     /*    z-index: 9;*/
     top: 220px;
+    z-index:1;
+    width:100%;
+    position:fixed;
 }
 
 .rtop h3 {
@@ -108,7 +112,7 @@ a.portfolio {
     /*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
     /*        url(http://i.imgur.com/pRTiIeG.gif);*/
     /*    url(zxpc-pho/topinf.gif);*/
-    url(img/345345.gif);
+    url(img/345345.gif) fixed;
     /*    url(http://www.chloeaftel.com/images/pics/582_sprint_city_0185_210_motion_mode_v2gif.gif);*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -461,11 +465,6 @@ input-placeholder {
 ::-moz-placeholder {
     color: #bababa!important;
     opacity: 1
-}
-
-.rtop {
-    z-index: 999999;
-    position: relative;
 }
 
 a.menutoplink {
@@ -856,4 +855,36 @@ a.hvr-hang:active {
     input.toptwobutton {
         width: 90%;
     }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+    .rtop{
+        position:relative;
+        
+    }
+    
+    .topint {
+    height: 600px;
+    background: /*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
+    /*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
+    /*        url(http://i.imgur.com/pRTiIeG.gif);*/
+    /*    url(zxpc-pho/topinf.gif);*/
+    url(img/345345.gif) relative;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+    
+    
+    div.footer {
+    height: 800px;
+    background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(img/acbg.gif) relative;
+    background-size: 100% 100%;
+    border-radius: 0;
+    margin-top: -40px;
+    z-index: 999999;
+    font-weight: 100;
+    padding-top: 250px;
+}
 }
