@@ -3051,7 +3051,7 @@ button:disabled,
     right: 0;
     top: 0;
     width: 20em;
-    z-index: 10002;
+    z-index: 99999999 !important;
 }
 
 #menu ul {
@@ -3195,6 +3195,8 @@ body.is-menu-visible #menu {
     font-size: 10pt;
     color: #303030;
     top: -2px;
+    color:rgba(255, 64, 109, 0.85);
+    
 /*    background-color:rgba(255, 255, 255, 0.2);*/
     /*                            z-index:9999999;*/
 }
