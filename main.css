@@ -32,7 +32,7 @@ img.fire {
     background-color: #eaeaea;
     height: auto;
     z-index: 9999999!important;
-    position:relative;
+    position: relative;
 }
 
 .heaginsect {
@@ -80,13 +80,12 @@ a.portfolio {
 
 .rtop {
     background-color: rgba(255, 255, 255, 0);
-    
     height: auto;
     /*    z-index: 9;*/
     top: 220px;
-    z-index:1;
-    width:100%;
-    position:fixed;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
 }
 
 .rtop h3 {
@@ -858,33 +857,55 @@ a.hvr-hang:active {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-
-    .rtop{
-        position:relative;
-        
+    .rtop {
+        position: relative;
     }
-    
     .topint {
-    height: 600px;
-    background: /*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
-    /*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
-    /*        url(http://i.imgur.com/pRTiIeG.gif);*/
-    /*    url(zxpc-pho/topinf.gif);*/
-    url(img/345345.gif) relative;
-    
-    background-repeat: no-repeat;
-    background-size: 100% 600px;
-}
-    
-    
+        height: 600px;
+        background: /*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
+        /*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
+        /*        url(http://i.imgur.com/pRTiIeG.gif);*/
+        /*    url(zxpc-pho/topinf.gif);*/
+        url(img/345345.gif) relative;
+        background-repeat: no-repeat;
+        background-size: 100% 600px;
+    }
     div.footer {
-    height: 800px;
-    background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(img/acbg.gif) relative;
-    background-size: 100% 800px;
-    border-radius: 0;
-    margin-top: -40px;
-    z-index: 999999;
-    font-weight: 100;
-    padding-top: 250px;
+        height: 800px;
+        background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(img/acbg.gif) relative;
+        background-size: 100% 800px;
+        border-radius: 0;
+        margin-top: -40px;
+        z-index: 999999;
+        font-weight: 100;
+        padding-top: 250px;
+        background-repeat: no-repeat;
+    }
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .rtop {
+        position: relative;
+    }
+    .topint {
+        height: 600px;
+        background: /*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
+        /*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
+        /*        url(http://i.imgur.com/pRTiIeG.gif);*/
+        /*    url(zxpc-pho/topinf.gif);*/
+        url(img/345345.gif) relative;
+        background-repeat: no-repeat;
+        background-size: 100% 600px;
+    }
+    div.footer {
+        height: 800px;
+        background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(img/acbg.gif) relative;
+        background-size: 100% 800px;
+        border-radius: 0;
+        margin-top: -40px;
+        z-index: 999999;
+        font-weight: 100;
+        padding-top: 250px;
+        background-repeat: no-repeat;
+    }
 }
