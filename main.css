@@ -840,6 +840,7 @@ a.hvr-hang:active {
     .rtop {
         display: block;
         width: 100%;
+        top:100px;
     }
     p.intropara {
         width: 90%;
