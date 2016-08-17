@@ -3040,6 +3040,7 @@ button:disabled,
     /*-webkit-overflow-scrolling: touch;*/
     background: rgba(6, 144, 206, 0.84);
     background: rgba(33, 32, 32, 0.56);
+    background: rgba(33, 32, 32, 0.87);
     /*		border-left:4px solid rgba(46, 59, 65, 0.84);*/
     /*        box-shadow:inset 2px 0 0 0 rgba(255, 255, 255, 0.63);*/
     color: #ffffff;
@@ -3083,6 +3084,7 @@ button:disabled,
     margin-top: 8px;
     font-weight: 300;
     font-family: 'Roboto Condensed', sans-serif;
+    font-family: Cousine;
     cursor: pointer;
 }
 
