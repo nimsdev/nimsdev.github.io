@@ -3041,6 +3041,8 @@ button:disabled,
     background: rgba(6, 144, 206, 0.84);
     background: rgba(33, 32, 32, 0.56);
     background: rgba(33, 32, 32, 0.87);
+    border-left:2px solid #ff406d;
+/*    box-shadow:inset 3px 0 0 0 rgba(255,255,255,0.7);*/
     /*		border-left:4px solid rgba(46, 59, 65, 0.84);*/
     /*        box-shadow:inset 2px 0 0 0 rgba(255, 255, 255, 0.63);*/
     color: #ffffff;
@@ -3086,11 +3088,17 @@ button:disabled,
     font-family: 'Roboto Condensed', sans-serif;
     font-family: Cousine;
     cursor: pointer;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
 }
 
 #menu ul > li > a:hover {
     color: white;
+    color: #ff406d;
     transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
 }
 
 @media screen and (max-width: 736px) {
