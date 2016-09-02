@@ -113,6 +113,34 @@ iframe.cp_embed_iframe {
     width: 95%!important
 }
 
+a.resumelink{
+    background-color:#3eb489;
+    border-radius:6px;
+    position:fixed;
+    right:25px;
+    top:55px;
+    padding:15px 30px;
+    color:white;
+    text-decoration:none;
+    letter-spacing;2px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+a.resumelink2{
+    font-family: Cousine;
+    letter-spacing:2px;
+    color:#3eb489;
+    text-decoration:none;
+    text-transform: ;
+    top:-2px;
+    position:relative;
+    margin-left:10px;
+    margin-right:10px;
+    right:40px;
+}
+
 @media screen and (max-width:480px) {
     div.portfoliobox {
         width: 90%;
