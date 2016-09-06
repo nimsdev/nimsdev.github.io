@@ -181,7 +181,10 @@ img.mtbbcui{
 }
 
 a.portlinks {
-    color: rgba(56, 56, 56, .5);
+    color: rgba(56, 56, 56, 0.86);
+    color: #3eb489;
+    padding-bottom:1px;
+    border-bottom:1px solid transparent;
     transition: all .3s ease;
     text-decoration:none;
     letter-spacing:2px;
@@ -190,7 +193,8 @@ a.portlinks {
 }
 
 a.portlinks:hover {
-    color: rgba(49, 49, 49, .9);
+/*    color: rgba(49, 49, 49, .9);*/
+    border-bottom:1px solid #3eb489;
     text-decoration: none;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
