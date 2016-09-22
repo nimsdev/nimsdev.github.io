@@ -35,6 +35,7 @@ div.portfoliobox {
     display: inline-block;
     background: #FFF;
     height: 650px;
+    max-height: 50px;
     border-radius: 5px;
     padding: 0 auto;
     margin: 0 20px;
@@ -145,6 +146,7 @@ a.resumelink2{
     div.portfoliobox {
         width: 90%;
         display: block;
+        max-height:650px;
         border-radius: 5px;
         padding: 0 auto;
         margin: 15px 20px 0;
