@@ -490,6 +490,27 @@ a.crumyumlink:hover {
     -moz-transition: all .3s ease;
 }
 
+
+
+a.ttc0 {
+    color: #FFF;
+    /*        border:3px solid rgba(48, 48, 48, 0.67);*/
+    background-color: rgba(255, 218, 185, 0.62);
+    background-color: rgba(60, 60, 60, 0.41);
+    padding: 16px 55px;
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+    font-family: Cousine;
+    font-weight: 100;
+    letter-spacing: 3px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+}
+
 a.ttc1 {
     color: #FFF;
     /*        border:3px solid rgba(48, 48, 48, 0.67);*/
@@ -527,6 +548,7 @@ a.ttc2 {
     border-bottom: 2px solid transparent;
 }
 
+a.ttc0:hover,
 a.ttc1:hover,
 a.ttc2:hover {
     position: relative;
@@ -538,6 +560,7 @@ a.ttc2:hover {
     border-bottom-color: #b4673e;
 }
 
+a.ttc0:active,
 a.ttc1:active,
 a.ttc2:active {
     position: relative;
