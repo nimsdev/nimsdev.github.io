@@ -17,6 +17,7 @@
     <!--    <link rel="stylesheet" href="justify.css">-->
     <!--    <link rel="stylesheet" href="sk.css">-->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="imagemodal.css">
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
     <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
@@ -46,6 +47,8 @@
             });
         });
     </script>
+    
+
     <script src="js/sk.js" type="text/javascript"></script>
     <script src="js/scroll.js" type="text/javascript"></script>
 </head>
@@ -57,10 +60,7 @@
             <!--            <section class="wow fadeInUp" data-wow-offset="100" data-wow-delay=".95s" style="height:auto;margin-top:0;">-->
             <h3>Jonathan Belok</h3>
             <h5>Designer &amp; Developer</h5>
-            <!--            <a class="ttc1" href="#about">About Me</a>  &nbsp;&nbsp;  -->
-            <a class="ttc0" href="#me">Me</a>&nbsp;&nbsp;&nbsp; 
-            <a class="ttc1" href="#portfolio">Showcase</a>&nbsp;&nbsp;&nbsp; 
-            <a class="ttc2" href="http://www.jonathanbelok.com/portfolio">Portfolio</a>
+            <!--            <a class="ttc1" href="#about">About Me</a>  &nbsp;&nbsp;  --><a class="ttc0" href="#me">Me</a>&nbsp;&nbsp;&nbsp; <a class="ttc1" href="#portfolio">Showcase</a>&nbsp;&nbsp;&nbsp; <a class="ttc2" href="http://www.jonathanbelok.com/portfolio">Portfolio</a>
             <!--            </section>-->
             <br>
             <br>
@@ -98,7 +98,8 @@
         </div>
         <!--            </div>-->
         <!--        </Div>-->
-        <!--- fix box --><h1 id="me"></h1>
+        <!--- fix box -->
+        <h1 id="me"></h1>
         <div class="spacebox"></div>
         <div class="aboutjon">
             <section class="wow fadeIn" data-wow-offset="100" data-wow-delay="0.45s" style="height:auto;;margin-top:0;">
@@ -106,7 +107,6 @@
                     <br>
                     <br>
                     <br>
-                
                     <p class="intropara"> Hello,
                         <br> I'm Jonathan! I am a designer &amp; a developer. Day to day You can find me <a class="crumyum" href="http://www.crumyumapp.com/" target="_blank">@crumyum</a>.
                         <br> I enjoy cycling, running, &amp; basketball! </p>
@@ -117,7 +117,7 @@
         <div class="site-content cf">
             <section class="wow bounceInLeft" data-wow-offset="100" data-wow-delay=".95s" style="height:auto;margin-top:0;">
                 <div class="courses cf" id="showcase">
-                      <div class="course-item slide">
+                    <div class="course-item slide">
                         <div class="course-summary card">
                             <div class="course-thumbnail"> <img src="zxpc-pho/schoolitupPhotosScreenshot.png" class="mtbbcui" alt=""> </div>
                             <div class="course-info">
@@ -163,7 +163,6 @@
                             </div>
                         </div>
                     </div>
-                  
                     <div class="course-item slide">
                         <div class="course-summary card">
                             <div class="course-thumbnail"> <img src="zxpc-pho/rmcScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
@@ -227,11 +226,57 @@
                 </div>
             </section>
             <center>
-                <section class="wow bounceInRight" data-wow-offset="100" data-wow-delay=".95s" style="height:auto;margin-top:0;"> 
-<!--                    <a class="totalport" href="http://www.jonathanbelok.com/portfolio">Click Here For Portfolio Details</a>-->
+                <section class="wow bounceInRight" data-wow-offset="100" data-wow-delay=".95s" style="height:auto;margin-top:0;">
+                    <!--                    <a class="totalport" href="http://www.jonathanbelok.com/portfolio">Click Here For Portfolio Details</a>-->
                     <center> <a class="crumyumlink" href="http://www.jonathanbelok.com/portfolio" target="_blank">Portfolio Item Details</a></center>
                 </section>
             </center>
+            <div class="sketchbox"> 
+                
+            <div class="responsive">
+  <div class="img">
+      <img src="sketch/main1.2.png" alt="Trolltunga Norway" width="300" height="200">
+    <div class="desc">Toronto Rapors Mockup</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <img src="sketch/music.png" alt="Trolltunga Norway" width="300" height="200">
+    <div class="desc">Music Player</div>
+  </div>
+</div>
+
+<!--
+<div class="responsive">
+  <div class="img">
+    <img src="sketch/main1.2.png" alt="Trolltunga Norway" width="300" height="200">
+    <div class="desc">Toronto Rapors Mockup</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+       <img src="http://www.w3schools.com/css/img_lights.jpg" alt="Mountains" width="300" height="200">
+    <div class="desc">Beautiful Mountains</div>
+  </div>
+</div>
+        -->
+                
+<div class="clearfix"></div>
+
+<!-- The Modal -->
+                <span class="close">
+<div id="myModal" class="modal">
+  
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+                </span>
+            
+            
+            </div>
         </div>
         <br>
         <br>
@@ -317,6 +362,32 @@
             section.className = 'section--purple wow fadeInDown';
             this.parentNode.insertBefore(section, this);
         };
+    </script>
+    <script>
+var modal = document.getElementById('myModal');
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+// Get all images and insert the clicked image inside the modal
+// Get the content of the image description and insert it inside the modal image caption
+var images = document.getElementsByTagName('img');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+var i;
+for (i = 0; i < images.length; i++) {
+   images[i].onclick = function(){
+       modal.style.display = "block";
+       modalImg.src = this.src;
+       modalImg.alt = this.alt;
+       captionText.innerHTML = this.nextElementSibling.innerHTML;
+   }
+}
     </script>
 </body>
 

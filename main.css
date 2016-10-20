@@ -748,6 +748,15 @@ a.downabout:hover {
     -moz-transition: all .3s ease;
 }
 
+.sketchbox {
+    width:100%;
+    display:block;
+/*    border:2px solid red;*/
+    margin-right:10%;
+    margin-right:10%;
+    position:relative;
+    padding-bottom:100px;
+}
 
 /*animatins*/
 
@@ -874,6 +883,7 @@ a.hvr-hang:active {
     .appshowcase {
         display: none;
     }
+    a.ttc0,
     a.ttc1,
     a.ttc2 {
         display: block;
