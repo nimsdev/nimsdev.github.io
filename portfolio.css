@@ -160,6 +160,17 @@ a.resumelink2{
     }
 }
 
+div.sketchraps {
+    background:url(sketch/raptors.png) fixed;
+    height:1300px;
+    background-size:100% 100%:
+    
+}
+
+img.raps {
+    width:100%;
+}
+
 @media only screen and (min-width:768px) and (max-width:1024px) {
     div.portfoliobox {
         width: 45%;
