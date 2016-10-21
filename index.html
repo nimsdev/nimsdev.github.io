@@ -47,8 +47,6 @@
             });
         });
     </script>
-    
-
     <script src="js/sk.js" type="text/javascript"></script>
     <script src="js/scroll.js" type="text/javascript"></script>
 </head>
@@ -231,37 +229,30 @@
                     <center> <a class="crumyumlink" href="http://www.jonathanbelok.com/portfolio" target="_blank">Portfolio Item Details</a></center>
                 </section>
             </center>
-            <div class="sketchbox"> 
-           
-            <div class="responsive">
-  <div class="img">
-      <img src="sketch/main1.2.png" alt="Trolltunga Norway" width="300" height="200">
-    <div class="desc">Toronto Rapors Mockup</div>
-  </div>
-</div>
-
-
-<div class="responsive">
-  <div class="img">
-    <img src="sketch/music.png" alt="Trolltunga Norway" width="300" height="200">
-    <div class="desc">Music Player</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="img">
-    <img src="sketch/shopping-.png" alt="User Profile" width="300" height="200">
-    <div class="desc">Shopping Site</div>
-  </div>
-</div>
-                
-                <div class="responsive">
-  <div class="img">
-    <img src="sketch/user-profile-crop.png" alt="User Profile" width="300" height="200">
-    <div class="desc">User Profile</div>
-  </div>
-</div>
-<!--
+            <div class="sketchbox">
+                <section class="wow fadeIn" data-wow-offset="100" data-wow-delay="1.65s" style="height:auto;margin-top:0;">
+                    <div class="responsive">
+                        <div class="img"> <img src="sketch/main1.2.png" alt="Trolltunga Norway" width="300" height="200">
+                            <div class="desc">Toronto Rapors Mockup</div>
+                        </div>
+                    </div>
+                    <div class="responsive">
+                        <div class="img"> <img src="sketch/music.png" alt="Trolltunga Norway" width="300" height="200">
+                            <div class="desc">Music Player</div>
+                        </div>
+                    </div>
+                    <div class="responsive">
+                        <div class="img"> <img src="sketch/shopping-.png" alt="User Profile" width="300" height="200">
+                            <div class="desc" style="font-weight:100;letter-spacing:4px;">Shopping Site</div>
+                        </div>
+                    </div>
+                    <div class="responsive">
+                        <div class="img"> <img src="sketch/user-profile-crop.png" alt="User Profile" width="300" height="200">
+                            <div class="desc">User Profile</div>
+                        </div>
+                    </div>
+                </section>
+                <!--
 <div class="responsive">
   <div class="img">
        <img src="http://www.w3schools.com/css/img_lights.jpg" alt="Mountains" width="300" height="200">
@@ -269,20 +260,14 @@
   </div>
 </div>
         -->
-                
-<div class="clearfix"></div>
-
-<!-- The Modal -->
-                <span class="close">
+                <div class="clearfix"></div>
+                <!-- The Modal --><span class="close">
 <div id="myModal" class="modal">
   
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
-                </span>
-            
-            
-            </div>
+                </span> </div>
         </div>
         <br>
         <br>
@@ -370,30 +355,27 @@
         };
     </script>
     <script>
-var modal = document.getElementById('myModal');
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-
-// Get all images and insert the clicked image inside the modal
-// Get the content of the image description and insert it inside the modal image caption
-var images = document.getElementsByTagName('img');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-var i;
-for (i = 0; i < images.length; i++) {
-   images[i].onclick = function(){
-       modal.style.display = "block";
-       modalImg.src = this.src;
-       modalImg.alt = this.alt;
-       captionText.innerHTML = this.nextElementSibling.innerHTML;
-   }
-}
+        var modal = document.getElementById('myModal');
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () { 
+                modal.style.display = "none";
+            }
+            // Get all images and insert the clicked image inside the modal
+            // Get the content of the image description and insert it inside the modal image caption
+        var images = document.getElementsByTagName('img');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        var i;
+        for (i = 0; i < images.length; i++) {
+            images[i].onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                modalImg.alt = this.alt;
+                captionText.innerHTML = this.nextElementSibling.innerHTML;
+            }
+        }
     </script>
 </body>
 

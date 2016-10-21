@@ -378,7 +378,7 @@ textarea.contact:focus {
     padding-bottom: 100px;
     position: relative;
     margin-top: 55px;
-    color: #333
+    color: #333;
 }
 
 input.contactbutton {
@@ -490,8 +490,6 @@ a.crumyumlink:hover {
     -moz-transition: all .3s ease;
 }
 
-
-
 a.ttc0 {
     color: #FFF;
     /*        border:3px solid rgba(48, 48, 48, 0.67);*/
@@ -592,7 +590,7 @@ input.toptwo {
     background-color: rgba(93, 93, 93, 0.23);
     height: 35px;
     line-height: 40px;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     width: 400px;
     font-family: Cousine;
     font-size: 10pt;
@@ -607,8 +605,8 @@ input.toptwo:focus,
 textarea.toptwo:focus {
     color: #303030;
     color: #fff;
-/*    background-color: #FFF;*/
-/*    background-color: rgba(87, 87, 87, 0.23);*/
+    /*    background-color: #FFF;*/
+    /*    background-color: rgba(87, 87, 87, 0.23);*/
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -620,7 +618,7 @@ textarea.toptwo {
     line-height: 30px;
     width: 400px;
     font-family: Cousine;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     font-size: 10pt;
     margin-top: 10px;
     resize: none;
@@ -749,14 +747,15 @@ a.downabout:hover {
 }
 
 .sketchbox {
-    width:100%;
-    display:block;
-/*    border:2px solid red;*/
-    margin-right:10%;
-    margin-right:10%;
-    position:relative;
-    padding-bottom:100px;
+    width: 100%;
+    display: block;
+    /*    border:2px solid red;*/
+    margin-right: 10%;
+    margin-right: 10%;
+    position: relative;
+    padding-bottom: 100px;
 }
+
 
 /*animatins*/
 
