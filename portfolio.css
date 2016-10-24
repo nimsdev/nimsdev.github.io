@@ -8,10 +8,10 @@ html {
     background: #FFF;
     height: auto;
     padding-top: 100px;
-/*    padding-bottom: 100px;*/
+    /*    padding-bottom: 100px;*/
     position: relative;
     margin-top: -10px;
-    margin-bottom:-100px;
+    margin-bottom: -100px;
     color: #333
 }
 
@@ -115,39 +115,40 @@ iframe.cp_embed_iframe {
     width: 95%!important
 }
 
-a.resumelink{
-    background-color:#3eb489;
-    border-radius:6px;
-    position:fixed;
-    right:25px;
-    top:55px;
-    padding:15px 30px;
-    color:white;
-    text-decoration:none;
-    letter-spacing;2px;
+a.resumelink {
+    background-color: #3eb489;
+    border-radius: 6px;
+    position: fixed;
+    right: 25px;
+    top: 55px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    letter-spacing;
+    2px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
 }
 
-a.resumelink2{
+a.resumelink2 {
     font-family: Cousine;
-    letter-spacing:2px;
-    color:#3eb489;
-    text-decoration:none;
+    letter-spacing: 2px;
+    color: #3eb489;
+    text-decoration: none;
     text-transform: ;
-    top:-2px;
-    position:relative;
-    margin-left:10px;
-    margin-right:10px;
-    right:40px;
+    top: -2px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    right: 40px;
 }
 
 @media screen and (max-width:480px) {
     div.portfoliobox {
         width: 90%;
         display: block;
-        max-height:650px;
+        max-height: 650px;
         border-radius: 5px;
         padding: 0 auto;
         margin: 15px 20px 0;
@@ -158,17 +159,51 @@ a.resumelink2{
         text-align: left;
         border: 1px solid rgba(205, 205, 205, .29)
     }
+    a.resumelinkmob {
+        font-family: Cousine;
+        letter-spacing: 2px;
+        background-color: #3eb489;
+        color: white !important;
+        text-decoration: none;
+        z-index: 9999999;
+        position: fixed;
+        left: 0px;
+        top: 93.6%;
+        width: 50%;
+        text-align: center;
+        line-height:45px;
+        height:45px;
+    }
+    
+        a.homelinkmob {
+        font-family: Cousine;
+        letter-spacing: 2px;
+        background-color: #333;
+        color: white !important;
+        text-decoration: none;
+        z-index: 9999999;
+        position: fixed;
+        right: 0px;
+        top: 93.6%;
+        width: 50%;
+        text-align: center;
+        line-height:45px;
+        height:45px;
+    }
+    
+    a.resumelink2{
+        display:none;
+    }
 }
 
 div.sketchraps {
-    background:url(sketch/raptors.png) fixed;
-    height:1300px;
-    background-size:100% 100%:
-    
+    background: url(sketch/raptors.png) fixed;
+    height: 1300px;
+    background-size: 100% 100%:
 }
 
 img.raps {
-    width:100%;
+    width: 100%;
 }
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
