@@ -882,6 +882,10 @@ a.hvr-hang:active {
     .appshowcase {
         display: none;
     }
+    .sketchbox{
+        display:none;
+    }
+    
     a.ttc0,
     a.ttc1,
     a.ttc2 {
