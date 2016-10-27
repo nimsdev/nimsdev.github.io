@@ -918,12 +918,9 @@ a.hvr-hang:active {
         position: relative;
     }
     .topint {
-        height: 600px;
-        background: /*            linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)),*/
-        /*            linear-gradient(rgba(51, 51, 51, 0.31), rgba(51, 51, 51, 0.31)),*/
-        /*        url(http://i.imgur.com/pRTiIeG.gif);*/
-        /*    url(zxpc-pho/topinf.gif);*/
-        url(img/345345.gif) relative;
+        height: 100px;
+        background:
+        url(img/345345.gif) relative !important;
         background-repeat: no-repeat;
         background-size: 100% 600px;
     }
