@@ -913,20 +913,19 @@ a.hvr-hang:active {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and {
+@media only screen and (min-width:768px) and (max-width:1024px) {
     .rtop {
         position: relative;
     }
     .topint {
-        height: 100px;
-        background:
-        url(img/345345.gif) relative !important;
+        height: 600px;
+        background:url(img/345345.gif);
         background-repeat: no-repeat;
         background-size: 100% 600px;
     }
     div.footer {
         height: 800px;
-        background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(img/345345.gif) relative;
+        background: linear-gradient(rgba(51, 51, 51, 0.71), rgba(51, 51, 51, 0.71)), url(img/345345.gif);
         background-size: 100% 800px;
         border-radius: 0;
         margin-top: -40px;
