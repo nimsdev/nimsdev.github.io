@@ -886,9 +886,20 @@ a.hvr-hang:active {
     a.ttc1,
     a.ttc2 {
         display: block;
-        margin-top: 10px;
+        margin-top: -10px;
         width: 90%;
         margin-left: 5%;
+    }
+    a.ttc0:hover,
+    a.ttc1:hover,
+    a.ttc2:hover {
+        position: relative;
+        top: 40px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        border-radius: 0;
+        border-bottom-color: #b4673e;
     }
     .rtop {
         display: block;
@@ -919,7 +930,7 @@ a.hvr-hang:active {
     }
     .topint {
         height: 600px;
-        background:url(img/345345.gif);
+        background: url(img/345345.gif);
         background-repeat: no-repeat;
         background-size: 100% 600px;
     }
@@ -934,12 +945,10 @@ a.hvr-hang:active {
         padding-top: 250px;
         background-repeat: no-repeat;
     }
-    
 }
 
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) {
-    
     .sketchbox {
-        display:none;
+        display: none;
     }
 }
