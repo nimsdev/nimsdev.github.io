@@ -10,6 +10,15 @@
     fill: #b2b2b2 !important;
 }
 
+.flickity-prev-next-button .arrow:hover {
+    fill: #c7c7c7 !important;
+}
+
+
+.flickity-prev-next-button .arrow:active {
+    fill: #939393 !important;
+}
+
 .flickity-prev-next-button {
     background-color: #b2b2b2 !important;
     background-color: transparent !important;
@@ -24,14 +33,14 @@
 
 .flickity-prev-next-button:hover {
     background-color: #585858 !important;
-    background-color: rgba(87, 87, 87, 0.2) !important;
+    background-color: transparent !important;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease
 }
 
 .flickity-prev-next-button:active {
-    background-color: #3e3e3e !important;
+    background-color: transparent !important;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease
