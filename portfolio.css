@@ -32,17 +32,17 @@ body {
 }
 
 table.portlist {
-    width:100%;
-/*    border:2px solid red;*/
-    font-size:8pt;
-    text-align:center;
+    width: 100%;
+    /*    border:2px solid red;*/
+    font-size: 8pt;
+    text-align: center;
     text-transform: lowercase;
     font-family: Cousine;
 }
 
 td.portlist {
-/*    border:2px solid blue;*/
-    width:25%;
+    /*    border:2px solid blue;*/
+    width: 25%;
 }
 
 div.portfoliobox {
@@ -185,11 +185,10 @@ a.resumelink2 {
         top: 93.6%;
         width: 50%;
         text-align: center;
-        line-height:45px;
-        height:45px;
+        line-height: 45px;
+        height: 45px;
     }
-    
-        a.homelinkmob {
+    a.homelinkmob {
         font-family: Cousine;
         letter-spacing: 2px;
         background-color: #333;
@@ -201,17 +200,15 @@ a.resumelink2 {
         top: 93.6%;
         width: 50%;
         text-align: center;
-        line-height:45px;
-        height:45px;
+        line-height: 45px;
+        height: 45px;
     }
-    
-    a.resumelink2{
-        display:none;
+    a.resumelink2 {
+        display: none;
     }
-    
-    td.portlist{
-     width:100% !important;
-    display:block;
+    td.portlist {
+        width: 100% !important;
+        display: block;
     }
 }
 
@@ -225,27 +222,23 @@ img.raps {
     width: 100%;
 }
 
-
-
-
 .mainport img {
-    width:100%;
-    height:200px;
+    width: 100%;
+    height: 200px;
 }
 
-a.portlinks{
-    text-decoration:none;
-    color:#3e87b4;
-    border-bottom:1px solidtransparent;
-    padding-bottom:1px;
+a.portlinks {
+    text-decoration: none;
+    color: #3e87b4;
+    border-bottom: 1px solidtransparent;
+    padding-bottom: 1px;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
 }
 
 a.portlinks:hover {
-    border-bottom:1px solid #3e87b4;
-    
+    border-bottom: 1px solid #3e87b4;
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
