@@ -81,6 +81,7 @@ div.desc {
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.9);
     /* Black w/ opacity */
+    z-index:9999999999;
 }
 
 
