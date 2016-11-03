@@ -4,11 +4,6 @@ html {
     color: #333!important
 }
 
-body{
-    overflow:hidden;
-    height:auto;
-}
-
 .appshowcase {
     background: #FFF;
     height: auto;
@@ -33,7 +28,10 @@ html {
 
 body {
     margin-top: 200px;
-    padding-bottom: 100px
+    padding-bottom: 100px;
+    overflow:hidden;
+    height:auto;
+        
 }
 
 table.portlist {
