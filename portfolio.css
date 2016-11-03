@@ -4,6 +4,10 @@ html {
     color: #333!important
 }
 
+body{
+    overflow:none;
+}
+
 .appshowcase {
     background: #FFF;
     height: auto;
