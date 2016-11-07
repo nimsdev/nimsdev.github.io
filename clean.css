@@ -1,0 +1,300 @@
+b,
+body,
+html {
+    color: #333 !important
+}
+
+.appshowcase {
+    background: #FFF;
+    height: auto;
+    padding-top: 100px;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: -100px;
+    color: #333
+}
+
+a.menuToggle,
+div.portfoliobox a {
+    text-decoration: none
+}
+
+body,
+html {
+    font-family: Roboto, sans-serif;
+    background-color: #eaeaea
+}
+
+body {
+    margin-top: 200px;
+    padding-bottom: 100px;
+    overflow: visible
+}
+
+table.portlist {
+    width: 100%;
+    font-size: 8pt;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: Cousine;
+    padding:10px;
+}
+
+td.portlist {
+    width: 25%
+}
+
+.mainport img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 0;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.mainport img:hover {
+    position: relative;
+    top: -10px;
+    border-bottom: 2px solid #ff406d;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+a.portlinks {
+    text-decoration: none;
+    color: #3e87b4;
+    border-bottom: 1px solidtransparent;
+    padding-bottom: 1px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease
+}
+
+a.portlinks:hover {
+    border-bottom: 1px solid #3e87b4;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease
+}
+
+div.portfoliobox {
+    width: 500px;
+    display: inline-block;
+    background: #FFF;
+    height: 650px;
+    max-height: 50px;
+    border-radius: 5px;
+    padding: 0 auto;
+    margin: 0 20px;
+    color: #333;
+    letter-spacing: 2px;
+    font-size: 9pt;
+    font-weight: 300;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, .1);
+    font-family: Cousine;
+    position: relative;
+    top: 20px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+div.portfoliobox img {
+    height: 295px;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px
+}
+
+div.portspace {
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+div.portfoliobox h4 {
+    font-weight: 700;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    color: #333
+}
+
+div.portfoliobox a {
+    color: rgba(56, 56, 56, .5);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+div.portfoliobox a:hover {
+    color: rgba(49, 49, 49, .9);
+    text-decoration: none;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.menu {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #FFFFFF;
+    background: url(img/logos/dyane.regular-no-n.png) center center no-repeat, center center no-repeat #fff;
+    background-size: 185px;
+    position: fixed;
+    top: 0;
+    z-index: 99
+}
+
+iframe.cp_embed_iframe {
+    width: 95% !important
+}
+
+a.resumelink {
+    background-color: #3eb489;
+    border-radius: 6px;
+    position: fixed;
+    right: 25px;
+    top: 55px;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    letter-spacing;
+    2px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+a.resumelink2 {
+    font-family: Cousine;
+    letter-spacing: 2px;
+    color: #3eb489;
+    text-decoration: none;
+    text-transform: ;
+    top: -2px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    right: 40px
+}
+
+@media screen and (max-width:480px) {
+    div.portfoliobox {
+        width: 90%;
+        display: block;
+        max-height: 650px;
+        border-radius: 5px;
+        padding: 0 auto;
+        margin: 15px 20px 0;
+        color: #fff;
+        letter-spacing: 2px;
+        font-size: 11pt;
+        font-weight: 300;
+        text-align: left;
+        border: 1px solid rgba(205, 205, 205, .29)
+    }
+    a.resumelinkmob {
+        font-family: Cousine;
+        letter-spacing: 2px;
+        background-color: #3eb489;
+        color: white !important;
+        text-decoration: none;
+        z-index: 9999999;
+        position: fixed;
+        left: 0px;
+        top: 93.6%;
+        width: 50%;
+        text-align: center;
+        line-height: 45px;
+        height: 45px
+    }
+    a.homelinkmob {
+        font-family: Cousine;
+        letter-spacing: 2px;
+        background-color: #333;
+        color: white !important;
+        text-decoration: none;
+        z-index: 9999999;
+        position: fixed;
+        right: 0px;
+        top: 93.6%;
+        width: 50%;
+        text-align: center;
+        line-height: 45px;
+        height: 45px
+    }
+    a.resumelink2 {
+        display: none
+    }
+    td.portlist {
+        width: 100% !important;
+        display: block
+    }
+}
+
+div.sketchraps {
+    background: url(sketch/raptors.png) fixed;
+    height: 1300px;
+    background-size: 100% 100%:
+}
+
+img.raps {
+    width: 100%
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    div.portfoliobox {
+        width: 45%;
+        color: #444
+    }
+}
+
+@media only screen and (max-width:768px) {
+    div.portfoliobox {
+        width: 90%;
+        height: 700px;
+        display: block;
+        border-radius: 5px;
+        padding: 0 auto;
+        margin: 15px 20px 0;
+        color: #333;
+        letter-spacing: 2px;
+        font-size: 11pt;
+        font-weight: 300;
+        text-align: left;
+        border: 1px solid rgba(205, 205, 205, .29)
+    }
+}
+
+a.backicon {
+    color: #333;
+    cursor: pointer;
+    position: fixed;
+    float: left;
+    top: 0px;
+    font-size: 22px;
+    left: 20px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    opacity: 0.3;
+}
+
+a.backicon:hover {
+    opacity: 0.9;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+a.backicon:active {
+    opacity: 0.7;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}

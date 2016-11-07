@@ -1,0 +1,376 @@
+/*BGS.CSS*/
+
+.campbg {
+    background:url(/sketch/camp-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.campbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.raptorsbg {
+    background:url(/sketch/main1.2-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.raptorsbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.shoppingbg {
+    background:url(/sketch/shopping-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.shoppingbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.jamfmbg {
+    background:url(/sketch/jam.fm-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.jamfmbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+
+.audibg {
+    background:url(/sketch/audi-nobg-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.audibg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+
+.userprofilebg {
+    background:url(/sketch/user-profile.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.userprofilebg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+
+.mplayerbg {
+    background:url(/sketch/music-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.mplayerbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.beddiesbg {
+    background:url(/sketch/beddies-logIn-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.beddiesbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+
+/*-----------------------------sites----------------------------*/
+
+.covertisebg {
+    background:url(/zxpc-pho/covertiseScreenshot-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.covertisebg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.cambrybg {
+    background:url(/zxpc-pho/cambry-fitness-screenshot-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.cambrybg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.schoolitupbg {
+    background:url(/zxpc-pho/schoolitupPhotosScreenshot-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.schoolitupbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.kelsobg {
+    background:url(/zxpc-pho/kelso-screenshot-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.kelsobg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.crumyumbg {
+    background:url(/zxpc-pho/crumyumScreenshot-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.crumyumbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.rmcbg {
+    background:url(/zxpc-pho/rmcScreenshot-thumb.png) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.rmcbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.kyastobg {
+    background:url(/zxpc-pho/yeezyseason.gif) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.kyastobg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.oldbg {
+    background:url(/zxpc-pho/jonathanold.gif) no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    top: 0;
+    padding-bottom: 14px;
+/*    border-bottom: 2px solid transparent;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+
+.oldbg:hover {
+    position: relative;
+    top: -10px;
+/*    border-bottom: 2px solid #ff406d;*/
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease
+}
+

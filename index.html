@@ -1,31 +1,25 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
+    <title>Jonathan Belok - Ottawa Designer &amp; Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <!--     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
-    <link rel="shortcut icon" type="image/x-icon" href="1459399511.ico">
-    <!--  <link rel="stylesheet" href="https://creator.ionic.io//css/app.css">-->
     <link rel="stylesheet" href="https://creator.ionic.io//css/share.css">
-    <link rel="icon" href="/img/favicon.png">
-    <link rel="stylesheet" href="del/css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
     <link rel="stylesheet" href="css/style.css">
-<!--    <link rel="stylesheet" href="wow/css/libs/animate.css">-->
-<!--    <link rel="stylesheet" href="wow/css/site.css">-->
-    <!--    <link rel="stylesheet" href="justify.css">-->
-    <!--    <link rel="stylesheet" href="sk.css">-->
-    <link rel="stylesheet" href="imagemodal.css">
-    <link rel="stylesheet" href="main.css">
-    <script src="js/modernizr.js"></script>
-    <!-- Modernizr -->
-    <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="showcase.css">
-    <link rel='stylesheet prefetch' href='//cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.min.css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+  
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <title>Jonathan Belok | Ottawa Designer &amp; Developer</title>
+
+    <!--remove this -->
+    <link rel="stylesheet" href="http://www.jonathanbelok.com/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="http://www.jonathanbelok.com/wow/css/site.css">
+    <!--remove this -->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cuprum');
+        @import url('https://fonts.googleapis.com/css?family=Cousine');
+    </style>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type='text/javascript'>
         $(window).load(function () {
@@ -47,224 +41,260 @@
             });
         });
     </script>
-    <script src="js/sk.js" type="text/javascript"></script>
-    <script src="js/scroll.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            $('a[href*=#]:not([href=#])').click(function () {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 700);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <div class="topint">
-        <h1 id="home"></h1>
-        <div class="rtop">
-            <!--            <section class="wow fadeInUp" data-wow-offset="100" data-wow-delay=".95s" style="height:auto;margin-top:0;">-->
-            <h3>Jonathan Belok</h3>
-            <h5>Designer &amp; Developer</h5>
-            <!--            <a class="ttc1" href="#about">About Me</a>  &nbsp;&nbsp;  --><a class="ttc0" href="#me">Me</a>&nbsp;&nbsp;&nbsp; <a class="ttc1" href="#portfolio">Showcase</a>&nbsp;&nbsp;&nbsp; <a class="ttc2" href="http://www.jonathanbelok.com/portfolio">Portfolio</a>
-            <!--            </section>-->
+    <div id="page-wrapper">
+
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html" style="letter-spacing:2px;"></a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#" class="menuToggle"><span><font size="4pt;"><i class="fa fa-bars"></i></font></span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="#me">Me</a></li>
+											<li><a href="#mywork">My Work</a></li>
+											<li><a href="#crumyumshowcase">App Showcase</a></li>
+                                            <li><a href="#skills">Skills</a></li>
+											<li><a href="#contactsection">Contact</a></li>
+											
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+    </div>
+    <div class="mainer">
+    <div class="heighter">
+        <canvas id="world"></canvas>
+        <center>
+            <div class="topint">
+                <h1>Jonathan Belok</h1>
+                <h2>Designer &amp; Developer</h2> <a class="aboutme" href="#me">Me</a> <a class="porta" href="#mywork">Portfolio</a>
+                <br>
+                <br>
+                <br>
+                <br> </div>
+        </center>
+    </div>
+    </div>
+    <h1 id="me"></h1>
+    <div class="jonb">
+        <div class="jontext"> Hello, my name is Jon, and I am a self taught UX designer &amp; app developer from Ottawa.
+            <br>
+            <br> Day to day you can find me at<a class="crumyum" href="http://www.crumyumapp.com/" target="_blank"> crumyum</a> designing layouts, and developing an awesome food app!
+            <br>
+            <br> I am: creative, a problem solver, an efficient worker, &amp; an easy going person.
+            <br>
+            <br> <span class="good">Things I like:</span> cycling, running, eating, basketball, low budget 1 - 2 star movies.
+            <br>
+            <br> <span class="bad">Things I don't like:</span> early holiday decorations, when the audio &amp; video don't sync up
             <br>
             <br>
-            <!--            <section class="wow fadeIn" data-wow-offset="100" data-wow-delay="1.95s" style="height:auto;;margin-top:0;">-->
-            <a class="hvr-hang" href="#about">
-                <center><i class="fa fa-arrow-down" aria-hidden="true"></i></center>
-            </a>
-            <!--            </section>-->
+            <div class="buttonhov"> <a href="#mywork" class="mywork">Check out my work</a> </div>
+            <div class="jayla">photo taken by: Jayla</div>
         </div>
     </div>
-    <div class="hoye">
-        <h1 id="about"></h1>
-        <!--        <Div class="fixbox">-->
-        <!--            <div class="menu">-->
-        <h1 id="about"></h1>
-        <div id="page-wrapper">
-            <header id="header" class="alt">
-                <h1><a href="index.html" style="letter-spacing:2px;"></a></h1>
-                <nav id="nav">
-                    <ul>
-                        <li class="special"> <a href="#" class="menuToggle"><span><!--MENU--> <font size="3pt;"><i class="fa fa-bars"></i></font></span></a>
-                            <div id="menu">
-                                <ul>
-                                    <li><a href="#home">Home</a></li>
-                                    <!--                                    <li><a href="#about">About</a></li>-->
-                                    <li><a href="http://www.jonathanbelok.com/portfolio">Portfolio</a></li>
-                                    <li><a href="#crumyumdemo">App Demo</a></li>
-                                    <li><a href="#contact">Contact</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
+    <h1 id="mywork"></h1>
+    <div class="main">
+        <div class="fixbox">
+            <section class="wow fadeIn" data-wow-offset="10" data-wow-delay="2.05s" style="height:0px;margin:0;"> Jonathan Belok
+                <!--            <span style="color:rgba(244, 92, 68, 1);">Belok</span> --></section>
         </div>
-        <!--            </div>-->
-        <!--        </Div>-->
-        <!--- fix box -->
-        <h1 id="me"></h1>
-        <div class="spacebox"></div>
-        <div class="aboutjon">
-            <section class="wow fadeIn" data-wow-offset="100" data-wow-delay="0.45s" style="height:auto;;margin-top:0;">
-                <center> <img src="img/zcalderonpic.jpg" class="profile">
-                    <br>
-                    <br>
-                    <br>
-                    <p class="intropara"> Hello,
-                        <br> I'm Jonathan! I am a designer &amp; a developer. Day to day You can find me <a class="crumyum" href="http://www.crumyumapp.com/" target="_blank">@crumyum</a>.
-                        <br> I enjoy cycling, running, &amp; basketball! </p>
-                </center>
-            </section>
+        <h2 style="color:#333;font-size:20pt;letter-spacing:1px;text-align:center;font-family:Cousine;">Live Sites</h2>
+        <div class="tablepusher">
+            <table class="portlist">
+                <tr>
+                    <td class="portlist">
+                        <a href="http://www.jonathanbelok.com/covertise/" target="_blank">
+                            <div class="covertisebg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br> covertise marketing
+                        <br>
+                        <br> html, css
+                        <br>
+                        <br> <a class="portlinks" href="http://www.jonathanbelok.com/covertise/" target="_blank">Landing Page</a> </td>
+                    <td class="portlist">
+                        <a href="http://www.jonathanbelok.com/cambry-fitness/" target="_blank">
+                            <div class="cambrybg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br>cambry fitness
+                        <br>
+                        <br> html, css, javascript
+                        <br>
+                        <br> <a class="portlinks" href="http://www.jonathanbelok.com/cambry-fitness/" target="_blank">Landing Page</a> </td>
+                    <td class="portlist">
+                        <a href="http://www.schoolitup.com/sid-jenkins" target="_blank">
+                            <div class="schoolitupbg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br>schoolitup
+                        <br>
+                        <br> php, html, css, js, sql
+                        <br>
+                        <br> <a class="portlinks" href="http://schoolitup.com/" target="_blank">Landing</a>&nbsp;&amp;&nbsp;<a class="portlinks" href="http://schoolitup.com/sid-jenkins" target="_blank">Photos Section</a> </td>
+                    <td class="portlist">
+                        <a href="http://www.jonathanbelok.com/kelso-bikes/" target="_blank">
+                            <div class="kelsobg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br>kelso bikes
+                        <br>
+                        <br> html, css, javascript
+                        <br>
+                        <br> <a class="portlinks" href="http://www.jonathanbelok.com/kelso-bikes/" target="_blank">Landing Page</a> </td>
+                </tr>
+                <tr>
+                    <td class="portlist">
+                        <a href="http://www.crumyumapp.com/web/start/asian-dishes/meals/kung-pao-chicken/
+/" target="_blank">
+                            <div class="crumyumbg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br> crumyum
+                        <br>
+                        <br> html, css, js, sketch
+                        <br>
+                        <br> <a class="portlinks" href="http://www.crumyumapp.com" target="_blank">Landing Page</a>&nbsp;&amp;&nbsp;<a class="portlinks" href="http://www.crumyumapp.com/web/start/asian-dishes/meals/kung-pao-chicken/" target="_blank">Recipe Page</a> </td>
+                    <td class="portlist">
+                        <a href="http://www.jonathanbelok.com/rmc/" target="_blank">
+                            <div class="rmcbg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br> rm construction
+                        <br>
+                        <br> html, css
+                        <br>
+                        <br> <a class="portlinks" href="http://www.jonathanbelok.com/rmc/" target="_blank">Main Site</a> </td>
+                    <td class="portlist">
+                        <a href="http://www.jonathanbelok.com/kyasto/" target="_blank">
+                            <div class="kyastobg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br> kyasto
+                        <br>
+                        <br> html, css, js, paint.net
+                        <br>
+                        <br> <a class="portlinks" href="http://www.jonathanbelok.com/kyasto/" target="_blank">Site (before info update)</a> </td>
+                    <td class="portlist">
+                        <a href="http://www.jonathanbelok.com/pbtc/" target="_blank">
+                            <div class="oldbg">
+                                <div class="mainport2"> </div>
+                            </div>
+                        </a>
+                        <br> jonathanbelok.com (old)
+                        <br>
+                        <br> html, css, js
+                        <br>
+                        <br> <a class="portlinks" href="http://www.jonathanbelok.com/pbtc/" target="_blank">First</a> &amp; <a class="portlinks" href="http://www.jonathanbelok.com/pbtc2/" target="_blank">Second</a> </td>
+                </tr>
+            </table>
         </div>
-        <h1 id="portfolio"></h1>
-        <div class="site-content cf">
-            <section class="wow bounceInLeft" data-wow-offset="100" data-wow-delay=".95s" style="height:auto;margin-top:0;">
-                <div class="courses cf" id="showcase">
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/schoolitupPhotosScreenshot.png" class="mtbbcui" alt=""> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">Schoolitup</div>
-                                <h3 class="course-title">PHP, HTML, CSS, JS, PhotoShop, SQL</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://schoolitup.com/" target="_blank">Landing Page</a> &nbsp; <a class="portlinks" href="http://schoolitup.com/sid-jenkins" target="_blank">Photos Section</a></time>
-                                </div>
-                            </div> <span class="course-caption ion ion-closed-captioning"></span> </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/cambry-fitness-screenshot.png" class="mtbbcui" alt="TextEdit Image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">Cambry Fitness</div>
-                                <h3 class="course-title">HTML, CSS, JS</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/cambry-fitness/" target="_blank">Landing Page</a></time>
-                                </div>
-                            </div> <span class="course-caption ion ion-closed-captioning"></span> </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/kelso-screenshot.png" class="mtbbcui" alt="image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">Kelso Bikes</div>
-                                <h3 class="course-title">HTML, CSS, JS</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/kelso-bikes/" target="_blank">Landing Page</a></time>
-                                </div>
+        <div class="sketchbox">
+            <h2 style="color:#333;font-size:20pt;letter-spacing:1px;text-align:center;font-family:Cousine;">Mockups</h2>
+            <div class="tablepusher">
+                <table class="portlist">
+                    <tr>
+                        <td class="portlist">
+                            <div class="campbg">
+                                <div class="mainport2"> <img src="sketch/camp.png" alt="Camp Ytsurk Mockup" width="300" height="200"> </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/crumyumRecScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">Crumyum</div>
-                                <h3 class="course-title">HTML, CSS, JS, paint.net</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.crumyumapp.com" target="_blank">Landing Page</a> &nbsp;<a class="portlinks" href="http://www.crumyumapp.com/web/start/asian-dishes/meals/kung-pao-chicken/" target="_blank">Recipe Page</a></time>
-                                </div>
+                            <br> Camp Ytsurk Mockup
+                            <br>
+                            <br> Sketch </td>
+                        <td class="portlist">
+                            <div class="raptorsbg">
+                                <div class="mainport2"> <img src="sketch/main1.2.png" alt="Raptors Website Redesign" width="300" height="200"> </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/rmcScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">RM Construction</div>
-                                <h3 class="course-title">HTML, CSS</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/rmc/" target="_blank">Main Site</a></time>
-                                </div>
+                            <br> raptors site redesign
+                            <br>
+                            <br> Sketch </td>
+                        <td class="portlist">
+                            <div class="shoppingbg">
+                                <div class="mainport2"> <img src="sketch/shopping-.png" alt="Clothing Website Mockup" width="300" height="200"> </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/bryvoScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">Bryvo Studios</div>
-                                <h3 class="course-title">HTML, CSS, JS</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/bryvo-studios/" target="_blank">Main Site</a></time>
-                                </div>
+                            <br> clothing site mockup
+                            <br>
+                            <br> Sketch </td>
+                        <td class="portlist">
+                            <div class="jamfmbg">
+                                <div class="mainport2"> <img src="sketch/jam.fm.png" alt="Website Music Playerp" width="300" height="200"> </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/vd4aScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">VacationDeals4All</div>
-                                <h3 class="course-title">HTML, CSS, Wordpress, PHP</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/vacationdeals4all-web/" target="_blank">Landing Page</a></time>
+                            <br> website music player
+                            <br>
+                            <br> Sketch </td>
+                        <tr>
+                            <td class="portlist">
+                                <div class="audibg">
+                                    <div class="mainport2"> <img src="sketch/audi-nobg.png" alt="Audi Website Mockup" width="300" height="200"> </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/yeezyseason.gif" class="mtbbcui" alt="Linux Image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">Kyasto</div>
-                                <h3 class="course-title">HTML, CSS, JS, paint.net</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/kyasto/" target="_blank">Site (before client info update)</a></time>
+                                <br> audi website mockup
+                                <br>
+                                <br> Sketch </td>
+                            <td class="portlist">
+                                <div class="userprofilebg">
+                                    <div class="mainport2"> <img src="sketch/user-profile.png" alt="User Profile Mockup" width="300" height="200"> </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="course-item slide">
-                        <div class="course-summary card">
-                            <div class="course-thumbnail"> <img src="zxpc-pho/hevarioScreenshot.png" class="mtbbcui" alt="Linux Image"> </div>
-                            <div class="course-info">
-                                <div class="course-topic design">Covertise Marketing</div>
-                                <h3 class="course-title">HTML, CSS</h3>
-                                <div class="course-meta">
-                                    <time class="course-date"><a class="portlinks" href="http://www.jonathanbelok.com/covertise/" target="_blank">Current Project - Incomplete</a></time>
+                                <br> user profile mockup
+                                <br>
+                                <br> Sketch </td>
+                            <td class="portlist">
+                                <div class="mplayerbg">
+                                    <div class="mainport2"> <img src="sketch/music-thumb.png" alt="Music Player" width="300" height="200"> </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <center>
-                <section class="wow bounceInRight" data-wow-offset="100" data-wow-delay=".95s" style="height:auto;margin-top:0;">
-                    <!--                    <a class="totalport" href="http://www.jonathanbelok.com/portfolio">Click Here For Portfolio Details</a>-->
-                    <center> <a class="crumyumlink" href="http://www.jonathanbelok.com/portfolio" target="_blank">Full Portfolio</a></center>
-                </section>
-            </center><br><br>
-            <div class="sketchbox">
-                <section class="wow fadeIn" data-wow-offset="100" data-wow-delay="1.65s" style="height:auto;margin-top:0;">
-                    <div class="responsive">
-                        <div class="img"> <img src="sketch/audi-nobg.png" alt="Audi Website Mockup" width="300" height="200" style="-webkit-clip-path: polygon(0 0, 100% 0, 100% 42%, 0 42%);
-clip-path: polygon(0 0, 100% 0, 100% 42%, 0 42%);">
-                            <div class="desc"></div>
-                        </div>
-                    </div>
-                    <div class="responsive">
-                         <div class="img"> <img src="sketch/main1.2.png" alt="Raptors Website Mockup" width="300" height="200">
-                            <div class="desc"></div>
-                        </div>
-                    </div>
-                    <div class="responsive">
-                        <div class="img"> <img src="sketch/shopping-.png" alt="User Profile" width="300" height="200">
-                            <div class="desc" style="font-weight:100;letter-spacing:4px;"></div>
-                        </div>
-                    </div>
-                    <div class="responsive">
-                        <div class="img"> <img src="sketch/camp.png" alt="User Profile" width="300" height="200">
-                            <div class="desc"></div>
-                        </div>
-                    </div>
-                </section>
-
-                <div class="clearfix"></div>
-                <!-- The Modal --><span class="close">
+                                <br> music player
+                                <br>
+                                <br> Sketch </td>
+                            <td class="portlist">
+                                <div class="beddiesbg">
+                                    <div class="mainport2"> <img src="sketch/beddies-logIn-thumb.png" alt="App Login" width="300" height="200"> </div>
+                                </div>
+                                <br> app login
+                                <br>
+                                <br> Sketch </td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <!-- The Modal --><span class="close">
 <div id="myModal" class="modal">
   
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>
-                </span> </div>
-        </div>
-        <br>
-        <br>
+        </span>
+        <h1 id="crumyumshowcase"></h1>
         <div class="appshowcase">
             <h1 id="crumyumdemo"></h1>
             <br>
@@ -272,67 +302,62 @@ clip-path: polygon(0 0, 100% 0, 100% 42%, 0 42%);">
             <br>
             <br>
             <center> This is the crumyum app. You can try it out! Click &amp; drag the screen to scroll.
-                <br> The app isn't complete, but this demo will give you an idea of what it does.</center>
+                <br> The app isn't complete, but this demo will give you an idea of what it does. </center>
             <div class="preview-ios">
                 <div id="share-wrapper" class="container">
                     <div id="phone-wrapper">
-                        <div id="phone" class="device-preview">
+                        <div id="phone" class="device-preview" style="width:450px;height:740px;">
                             <div class="content">
-                                <div id="statusbar" style="background-color:white !important;margin-top:-1px;"></div>
-                                <iframe id="mainframe" src="https://creator.ionic.io/share/html/f092965ea979?ionicplatform=ios#/side-menu21/home_outline_old"> </iframe>
+                                <div id="statusbar" style="background-color:white !important;margin-top:-1px;width:300px;"></div>
+                                <iframe style="width:300px; height:540px;" id="mainframe" src="https://creator.ionic.io/share/html/f092965ea979?ionicplatform=ios#/side-menu21/home_outline_old"> </iframe>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <center> <a class="crumyumlink" href="http://www.crumyumapp.com" target="_blank">www.crumyumapp.com</a></center>
         </div>
         <!-- appshowcase -->
-        <div class="footer">
-            <h1 id="contact"></h1>
-            <center>
-                <section class="wow fadeIn" data-wow-offset="100" data-wow-delay=".65s" style="height:auto;margin-top:0;">
-                    <p class="oneft">Have a question or a comment?</p>
-                    <br>
-                    <p class="twift">Get in touch!</p>
-                    <br>
-                    <br>
-                    <form action="https://formspree.io/jon@jonathanbelok.com" method="POST">
-                        <input type="hidden" name="_next" value="http://www.jonathanbelok.com/contact" />
-                        <input type="text" class="toptwo" placeholder="name" name="name" autocomplete="off" required>
-                        <input type="email" class="toptwo" placeholder="email" name="_replyto" autocomplete="off" required>
-                        <textarea type="text" class="toptwo" placeholder="message" name="message" required></textarea>
-                        <input type="submit" class="toptwobutton" value="Contact">
-                        <br>
-                        <br> <b style="color:rgba(255, 255, 255, 0.67);">
+    </div>
+    <h1 id="skills"></h1>
+    <div class="markhenry">
+        <center>
+            <div class="textfixer">
+            <h1>Skills</h1>
+            <p>I have experience with:
+                <br> html &middot; css &middot; php &middot; sql &middot; git &middot; photoshop &middot; sketch</p>
+            <br>
+            <br>
+            <p>How I can help:
+                <br> I'm a problem solver, a team player, &amp; I work until the job is done </p>
+            <br>
+            <br>
+            <p>Up Next:
+                <br> Build an app with Ruby </p>
+        </div>
+        </center>
+    </div>
+    <h1 id="contactsection"></h1>
+    <div class="contact">
+        <div class="textfixer-">
+<!--        <h1>Thanks for checking out my site!</h1>-->
+            <h1>Get In Touch</h1>
+        <center>
+            <!--        <p class="twift">Get in touch!</p>-->
+            <form action="https://formspree.io/jon@jonathanbelok.com" method="POST">
+                <input type="hidden" name="_next" value="http://www.jonathanbelok.com/contact" />
+                <input type="text" class="toptwo" placeholder="name" name="name" autocomplete="off" required>
+                <input type="email" class="toptwo" placeholder="email" name="_replyto" autocomplete="off" required>
+                <textarea type="text" class="toptwo" placeholder="message" name="message" required></textarea>
+                <input type="submit" class="toptwobutton" value="Contact">
+                <br>
+                <br> <b style="color:rgba(255, 255, 255, 0.67);font-size:10pt;">
                                     Your email will be sent to: 
                                     <center ><i class="fa fa-envelope-o"></i>&nbsp;jon@jonathanbelok.com</center>
                                  </b> </form>
-                </section>
-            </center>
-        </div>
+        </center>
     </div>
-    <!-- hoye -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Resource jQuery -->
-    <script src='//assets.codepen.io/assets/common/stopExecutionOnTimeout.js?t=1'></script>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.pkgd.min.js'></script>
-    <script>
-        $('#showcase').flickity({
-            wrapAround: true
-        });
-        //# sourceURL=pen.js
-    </script>
-    <script src="del/js/jquery.min.js"></script>
-    <script src="del/js/jquery.scrollex.min.js"></script>
-    <script src="del/js/jquery.scrolly.min.js"></script>
-    <script src="del/js/skel.min.js"></script>
-    <script src="del/js/init.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="https://creator.ionic.io/js/share.js"></script>
-    <script src="wow/dist/wow.min.js"></script>
+    </div>
+    <script src="http://www.jonathanbelok.com/wow/dist/wow.min.js"></script>
     <script>
         wow = new WOW({
             animateClass: 'animated'
@@ -353,7 +378,7 @@ clip-path: polygon(0 0, 100% 0, 100% 42%, 0 42%);">
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
         // When the user clicks on <span> (x), close the modal
-        span.onclick = function () { 
+        span.onclick = function () {
                 modal.style.display = "none";
             }
             // Get all images and insert the clicked image inside the modal
@@ -371,6 +396,17 @@ clip-path: polygon(0 0, 100% 0, 100% 42%, 0 42%);">
             }
         }
     </script>
+    <!--menu-->
+<!--        <script src="http://www.jonathanbelok.com/del/js/jquery.min.js"></script>-->
+<!--    <script src="http://www.jonathanbelok.com/del/js/jquery.scrollex.min.js"></script>-->
+    <script src="/del/js/jquery.scrolly.min.js"></script>
+    <script src="/del/js/skel.min.js"></script>
+    <script src="/del/js/init.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!--menu-->
+    
+    <script src="js/index.js"></script>
+    <script src="https://creator.ionic.io/js/share.js"></script>
 </body>
 
 </html>
