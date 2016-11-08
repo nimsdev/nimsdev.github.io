@@ -238,7 +238,7 @@ div.preview-ios .device-preview {
 
 .appshowcase {
     background: #FFF;
-    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://images.unsplash.com/uploads/1412198485051133af17f/5049dacb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=5d840855cf87dcb14090d756bffd0037)fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/appdemo.jpeg)fixed;
     background-size: 100% 100%;
     height: auto;
     padding-top: 0px;
@@ -541,7 +541,7 @@ a.menuitem {
 }
 
 .contact {
-    background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.78), rgba(108, 42, 165, 0.78)), url(https://images.unsplash.com/uploads/1413349410189e2a95d2e/39982a21?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7abef3248a0b647f332190a1d8249761) fixed;
+    background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.78), rgba(108, 42, 165, 0.78)), url(/images/office.jpeg) fixed;
     background-size: 100% 100%;
     height: 1000px;
     height: 100%;
@@ -1647,7 +1647,7 @@ table.alt tfoot {
         text-align: left !important
     }
     .contact {
-        background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.78), rgba(108, 42, 165, 0.78)), url(https://images.unsplash.com/uploads/1413349410189e2a95d2e/39982a21?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7abef3248a0b647f332190a1d8249761) no-repeat;
+        background: linear-gradient(to bottom left, rgba(255, 140, 105, 0.78), rgba(108, 42, 165, 0.78)), url(/images/office.jpeg) no-repeat;
         background-size: 100% 100%
     }
     .jayla {
