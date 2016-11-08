@@ -25,7 +25,7 @@ body {
     font-family: 'Cuprum', sans-serif;
     position: relative;
     z-index: 9999 !important;
-    min-height:100% !important;
+    min-height: 100% !important;
 }
 
 body {
@@ -40,14 +40,14 @@ body {
     width: 100%;
     color: white;
     text-align: center;
-/*      border-style: solid;
+    /*      border-style: solid;
     border-width: 27px 19px 27px 27px;
    /* -moz-border-image: url(http://i.imgur.com/r1rbLwC.png) 27 19 27 27;
     -webkit-border-image: url(http://i.imgur.com/r1rbLwC.png) 27 19 27 27;
     -o-border-image: url(http://i.imgur.com/r1rbLwC.png) 27 19 27 27;
     border-image: url(http://i.imgur.com/r1rbLwC.png) 27 19 27 27 fill;*/
     width: 600px;
-    height:100%;
+    height: 100%;
     z-index: 9999999 !important;
     margin-top: -45% !important;
     margin-top: 15% !important;
@@ -332,8 +332,7 @@ a.portlinks:hover {
     -moz-transition: all .3s ease
 }
 
-.jonb:hover 
-.jayla {
+.jonb:hover .jayla {
     position: relative;
     top: 90px;
     text-align: center;
@@ -356,8 +355,10 @@ a.portlinks:hover {
     z-index: 99999
 }
 
+
 /*.jonb:hover*/
-.jonb{
+
+.jonb {
     background: url(/images/Untitled-a.png) fixed;
     background-size: 100% 100%;
     height: 100%;
@@ -516,9 +517,9 @@ a.crumyum {
     opacity: 0.7;
     width: 500px;
     text-align: center;
-      font-family:cousine;
+    font-family: cousine;
     font-weight: 100;
-    font-size:12pt;
+    font-size: 12pt;
 }
 
 .markhenry h1 {
@@ -528,7 +529,7 @@ a.crumyum {
     font-style: italic;
     padding-top: 110px;
     text-align: center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .jon b a.menuitem {
@@ -1000,10 +1001,10 @@ div.desc {
     height: 100%;
     position: relative;
     z-index: 1;
-    border:2px solid transparent;
-    margin-top:-40px;
+    border: 2px solid transparent;
+    margin-top: -40px;
     background: url(/images/topinbg.gif) no-repeat;
-    background-size:100% 100%;
+    background-size: 100% 100%;
 }
 
 .colorguide {
@@ -1592,7 +1593,7 @@ table.alt tfoot {
         width: 100%;
         color: white;
         text-align: center;
-/*          border-style: solid;
+        /*          border-style: solid;
         border-width: 27px 19px 27px 27px;
       -moz-border-image: url(http://i.imgur.com/r1rbLwC.png) 27 19 27 27;
         -webkit-border-image: url(http://i.imgur.com/r1rbLwC.png) 27 19 27 27;
