@@ -1,0 +1,36 @@
+.device-preview {
+    margin: 20px auto auto;
+    background: url(/assets/images/sprite.png) no-repeat;
+    background-size: 100%
+}
+
+div.preview-ios .device-preview {
+    width: 467px;
+    height: 800px
+}
+
+a.camp:hover img {
+/*border:2px solid red !important;*/
+}
+
+.mbr-gallery-item:hover {
+
+}   
+
+.mbr-gallery-item img{
+
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    
+}
+
+.mbr-gallery-item img:hover{
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    
+    background:none !important;
+}
