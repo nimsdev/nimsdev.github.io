@@ -34,3 +34,7 @@ a.camp:hover img {
     
     background:none !important;
 }
+
+a.navbar-caption, .nav-item a{
+/*    color:white !important;*/
+}
