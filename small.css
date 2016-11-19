@@ -62,3 +62,18 @@ a.navbar-caption,
     background: #d6d6d6 !important;
     border-color: #d6d6d6 !important;
 }
+
+span.portoe {
+    font-weight: 100;
+    font-size: 24pt !important; 
+    opacity: 0.46;
+    top: -45px;
+    
+    position: relative;
+}
+
+@media (max-width: 673px) {
+    span.portoe{
+        top:-20px;
+    }   
+}
