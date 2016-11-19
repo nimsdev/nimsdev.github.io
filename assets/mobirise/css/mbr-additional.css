@@ -417,6 +417,10 @@ h6,
 #menu-4 .navbar-caption {
   color: #ffffff;
 }
+
+#menu-4 .bg-color.transparent .navbar-caption {
+color:white !important;
+}
 #menu-4 .navbar-toggler {
   color: #f28281;
 }
@@ -458,7 +462,8 @@ h6,
   background: #ffffff;
 }
 #menu-4 .bg-color.transparent .link {
-  color: #f28281;
+  color: #ffffff;
+/*    letter-spacing:2px;*/
   transition: none;
 }
 #menu-4 .bg-color.transparent.opened .link {

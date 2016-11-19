@@ -1285,6 +1285,11 @@ input:-webkit-autofill:active {
     background: -ms-linear-gradient(top left, rgba(143, 31, 255, 0.7), rgba(250, 191, 58, 0.7)) !important;
     background: linear-gradient(top left, rgba(143, 31, 255, 0.7), rgba(250, 191, 58, 0.7)) !important;
     opacity: 0;
+    background:rgba(240, 118, 118, 0.54) !important;
+    background:rgba(255, 255, 255, 0.44) !important;
+    
+/*    border-top:4px solid #f07676;*/
+/*    border-bottom:4px solid #f07676;*/
     -webkit-transition: .2s opacity ease-in-out;
     transition: .2s opacity ease-in-out;
 }

@@ -10,31 +10,55 @@ div.preview-ios .device-preview {
 }
 
 a.camp:hover img {
-/*border:2px solid red !important;*/
+    /*border:2px solid red !important;*/
 }
 
-.mbr-gallery-item:hover {
+.mbr-gallery-item:hover {}
 
-}   
-
-.mbr-gallery-item img{
-
+.mbr-gallery-item img {
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
-    
 }
 
-.mbr-gallery-item img:hover{
+.mbr-gallery-item img:hover {
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
-    
-    background:none !important;
+    background: none !important;
 }
 
-a.navbar-caption, .nav-item a{
-/*    color:white !important;*/
+a.navbar-caption,
+.nav-item a {
+    /*    color:white !important;*/
+}
+
+.mainbutton {}
+
+.btn-primary:hover {
+    background: #f89b9b !important;
+    border-color: #f89b9b !important;
+}
+
+.btn-primary:active {
+    background: #e56a6a !important;
+    border-color: #e56a6a !important;
+}
+
+.btn-white {
+    background: transparent !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.btn-white:hover {
+    color: black !important;
+    background: rgb(255, 255, 255) !important;
+}
+
+.btn-white:active {
+    background: #d6d6d6 !important;
+    border-color: #d6d6d6 !important;
 }
