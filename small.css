@@ -65,15 +65,29 @@ a.navbar-caption,
 
 span.portoe {
     font-weight: 100;
-    font-size: 24pt !important; 
+    font-size: 24pt !important;
     opacity: 0.46;
     top: -45px;
-    
     position: relative;
 }
 
+p.maketag {
+    background-color: rgba(255, 255, 255, 0.55);
+    color: black !important;
+    padding: 2px 7px;
+    font-size: 7pt !important;
+    display: inline-block;
+    font-weight: bold !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-transform: uppercase;
+    position: relative;
+    top: -25px !important;
+    margin-bottom: -145px !important;
+}
+
 @media (max-width: 673px) {
-    span.portoe{
-        top:-20px;
-    }   
+    span.portoe {
+        top: -20px;
+    }
 }
