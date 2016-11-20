@@ -90,4 +90,9 @@ p.maketag {
     span.portoe {
         top: -20px;
     }
+    
+    .mbr-section .col-md-7 .preview-ios {
+/*        background:red !important;*/
+        margin-left:-55px !important;
+    }
 }
