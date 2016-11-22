@@ -99,11 +99,17 @@ p.maketag2 {
     letter-spacing:1px;
 }
 
+@media screen and (max-width: 480px) { 
+     span.portoe {
+        top: -20px;
+        font-size:18pt !important;
+        margin-left:5px;
+    }
+}
+
 @media (max-width: 673px) {
     span.portoe {
         top: -20px;
-        font-size:13pt !important;
-        margin-left:5px;
     }
     
     .mbr-section .col-md-7 .preview-ios {
