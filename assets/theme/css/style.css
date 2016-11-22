@@ -2597,7 +2597,7 @@ input:-webkit-autofill:active {
 }
 
 .mbr-arrow a {
-    background: rgba(0, 0, 0, 0.2);
+/*    background: rgba(0, 0, 0, 0.2);*/
     border-radius: 3px;
     color: #fff;
     display: inline-block;
@@ -2621,14 +2621,24 @@ input:-webkit-autofill:active {
     content: "\203a";
     display: inline-block;
     font-family: serif;
-    font-size: 32px;
+    font-size: 110px;
     line-height: 1;
     font-style: normal;
+    font-weight: 100 !important;
+    font-family:Roboto;
     left: 4px;
     position: relative;
     top: 6px;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
+    color:rgb(255, 255, 255);
+    opacity:1;
+}
+
+.mbr-arrow a:hover {
+    color:red !important;
+    background:transparent;
+    
 }
 
 .mbr-arrow-floating .mbr-arrow-icon {

@@ -86,6 +86,19 @@ p.maketag {
     margin-bottom: -145px !important;
 }
 
+p.maketag2 {
+    background-color: rgba(0, 0, 0, 0.91);
+    color: white !important;
+    padding: 2px 7px;
+    font-size: 7pt !important;
+    display: inline-block;
+    font-weight: bold !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-transform: uppercase;
+    letter-spacing:1px;
+}
+
 @media (max-width: 673px) {
     span.portoe {
         top: -20px;
