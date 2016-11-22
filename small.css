@@ -102,6 +102,7 @@ p.maketag2 {
 @media (max-width: 673px) {
     span.portoe {
         top: -20px;
+        font-size:18pt;
     }
     
     .mbr-section .col-md-7 .preview-ios {
