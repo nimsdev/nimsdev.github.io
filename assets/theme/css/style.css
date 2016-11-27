@@ -29,7 +29,7 @@
 }
 
 .bg-success {
-    background-color: #90a878 !important;
+    background-color: #10c950 !important;
 }
 
 .bg-info {
@@ -201,8 +201,8 @@
 }
 
 .btn-success {
-    background-color: #90a878;
-    border-color: #90a878;
+    background-color: #10c950;
+    border-color: #10c950;
     box-shadow: none;
     color: #fff;
 }
@@ -488,21 +488,21 @@
 .btn-success-outline:active,
 .btn-success-outline.active {
     color: #fff;
-    background-color: #90a878;
-    border-color: #90a878;
+    background-color: #10c950;
+    border-color: #10c950;
 }
 
 .btn-success-outline:hover {
     color: #fff;
-    background-color: #90a878;
-    border-color: #90a878;
+    background-color: #10c950;
+    border-color: #10c950;
 }
 
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
     color: #fff !important;
-    background-color: #90a878 !important;
-    border-color: #90a878 !important;
+    background-color: #10c950 !important;
+    border-color: #10c950 !important;
     opacity: 0.85;
 }
 
@@ -825,7 +825,7 @@ p.lead,
 }
 
 .alert-success {
-    background-color: #90a878;
+    background-color: #10c950;
     color: #fff;
 }
 
@@ -893,7 +893,7 @@ input:-webkit-autofill:active {
 }
 
 .text-success {
-    color: #90a878 !important;
+    color: #10c950 !important;
 }
 
 .text-info {
@@ -1676,7 +1676,7 @@ input:-webkit-autofill:active {
 }
 
 .mbr-cards .striped .mbr-cards-col:nth-child(2n+1) {
-    background: #2e2e2e;
+    background: #952e2e;
     color: #fff;
 }
 
