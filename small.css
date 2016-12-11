@@ -68,7 +68,7 @@ span.portoe {
     font-size: 20pt !important;
     opacity: 0.46;
     top: -45px;
-    margin-left:5px;
+    margin-left: 5px;
     position: relative;
 }
 
@@ -97,14 +97,58 @@ p.maketag2 {
     margin-left: 2px;
     margin-right: 2px;
     text-transform: uppercase;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 }
 
-@media screen and (max-width: 480px) { 
-     span.portoe {
+a.uxui {
+    color: #333;
+    color: white !important;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    padding: 10px 50px;
+    background: rgba(255, 255, 255, 0.28);
+    /*    background:rgb(255, 255, 255);*/
+    background: transparent;
+    text-decoration: none;
+    /*    border-radius: 4px;*/
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.uxui:hover {
+    background: white;
+    /*    color:#3eb489;*/
+    color: #333;
+    cursor: pointer;
+    text-decoration: none !important;
+    /*    top:-10px;*/
+    background: transparent;
+    background:rgb(250, 54, 84);
+    color: #2dc6ff !important;
+    border-color: rgb(250, 54, 84);
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+a.uxui:active {
+    color: #2dc6ff !important;
+    border-color: rgb(250, 54, 84);
+    position: relative;
+    top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    span.portoe {
         top: -20px;
-        font-size:18pt !important;
-        margin-left:5px;
+        font-size: 18pt !important;
+        margin-left: 5px;
     }
 }
 
@@ -112,9 +156,8 @@ p.maketag2 {
     span.portoe {
         top: -20px;
     }
-    
     .mbr-section .col-md-7 .preview-ios {
-/*        background:red !important;*/
-        margin-left:-55px !important;
+        /*        background:red !important;*/
+        margin-left: -55px !important;
     }
 }
