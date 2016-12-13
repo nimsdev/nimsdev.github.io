@@ -1,0 +1,147 @@
+/*
+      a,
+        a:hover,
+        a:active {
+            font-size: 10pt;
+            color: #3eb489 !important;
+        }
+        
+        body {
+            font-size: 10pt;
+        }
+*/
+
+body {
+    padding-bottom: 55px;
+    font-size: 10pt;
+    background: #fafafa;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none !important;
+}
+
+.schoolitup {
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.65), rgba(5, 5, 5, 0.65)), url(http://www.jonathanbelok.com/assets/images/schoolitupclear-2000x1327-82.png);*/
+    background: #3eb489;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    border-bottom: /*    border: 2px solid white;*/
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.schoolitup:hover {
+    background: #3cce99;
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.schoolitup:active {
+    background: #16a873;
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.schoolitup:hover a {
+    text-decoration: none;
+}
+
+.crumyum {
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.15), rgba(5, 5, 5, 0.15)), url(http://www.crumyumapp.com/images/large/4_overlay.jpg) no-repeat;*/
+    background: #728eeb;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.crumyum:hover {
+    background: #87a4ff;
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.crumyum:active {
+    background: #4e69c1;
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.crumyum:hover a {
+    text-decoration: none;
+}
+
+.jamfx {
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.65), rgba(5, 5, 5, 0.65)), url(http://www.jonathanbelok.com/assets/images/schoolitupclear-2000x1327-82.png);*/
+    background: #f58a52;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    /*    border: 2px solid white;*/
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.jamfx:hover {
+    background: #ffa270;
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.jamfx:active {
+    background: #e35911;
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
