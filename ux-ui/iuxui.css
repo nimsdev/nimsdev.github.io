@@ -35,10 +35,10 @@ a:active {
     color: white;
     margin-top: 10px;
     border-bottom: /*    border: 2px solid white;*/
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .schoolitup:hover {
@@ -46,10 +46,10 @@ a:active {
     /*    border: 2px solid #3eb489;*/
     background-size: 100% 100%;
     text-decoration: none;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .schoolitup:active {
@@ -57,10 +57,10 @@ a:active {
     /*    border: 2px solid #3eb489;*/
     background-size: 100% 100%;
     text-decoration: none;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .schoolitup:hover a {
@@ -68,7 +68,7 @@ a:active {
 }
 
 .crumyum {
-    /*    background: linear-gradient(rgba(5, 5, 5, 0.15), rgba(5, 5, 5, 0.15)), url(http://www.crumyumapp.com/images/large/4_overlay.jpg) no-repeat;*/
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.255), rgba(5, 5, 5, 0.255)), url(http://www.crumyumapp.com/images/large/4_overlay.jpg) no-repeat;*/
     background: #728eeb;
     width: 100%;
     padding-top: 100px;
@@ -76,30 +76,30 @@ a:active {
     text-align: center;
     color: white;
     margin-top: 10px;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .crumyum:hover {
     background: #87a4ff;
     background-size: 100% 100%;
     text-decoration: none;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .crumyum:active {
     background: #4e69c1;
     background-size: 100% 100%;
     text-decoration: none;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .crumyum:hover a {
@@ -118,21 +118,20 @@ a:active {
     color: white;
     margin-top: 10px;
     /*    border: 2px solid white;*/
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .jamfx:hover {
     background: #ffa270;
     /*    border: 2px solid #3eb489;*/
-    background-size: 100% 100%;
     text-decoration: none;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 .jamfx:active {
@@ -140,8 +139,8 @@ a:active {
     /*    border: 2px solid #3eb489;*/
     background-size: 100% 100%;
     text-decoration: none;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
