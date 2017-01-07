@@ -144,3 +144,42 @@ a:active {
     -moz-transition: all .25s ease;
     -o-transition: all .25s ease;
 }
+
+.timeline {
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.65), rgba(5, 5, 5, 0.65)), url(http://www.jonathanbelok.com/assets/images/schoolitupclear-2000x1327-82.png);*/
+    background: #1fbe99;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    /*    border: 2px solid white;*/
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.timeline:hover {
+    background: rgba(31, 190, 153, 0.83);
+    /*    border: 2px solid #3eb489;*/
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.timeline:active {
+    background: #0ba581;
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
