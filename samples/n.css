@@ -1,3 +1,8 @@
+html{
+    padding-bottom:505px;
+    background:#fafafa;
+}
+
 /* imgprofile */
 
 .so-usr-box {
@@ -63,7 +68,7 @@
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    height: 240px;
+    height: 290px;
     width: 100%;
     background: url(https://images.unsplash.com/photo-1480200955624-3633ad70dceb?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=) no-repeat;
     background-size: 100% 100%;
@@ -72,8 +77,8 @@
 .stext {
     padding-top: 55px;
     text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
     color: transparent;
     cursor: default;
     transition: all .3s ease;
@@ -115,7 +120,7 @@ span.sophiecontact:hover {
 
 .mainwatchimg {
     background: url(https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=) no-repeat;
-    height: 240px;
+    height: 290px;
     width: 100%;
     background-size: 100% 100%;
 }
@@ -131,7 +136,7 @@ span.sophiecontact:hover {
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    height: 240px;
+    height: 290px;
     width: 100%;
     background: url(https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=) no-repeat;
     background-size: 100% 100%;
@@ -176,7 +181,7 @@ span.sophiecontact:hover {
 }
 
 .watch-overlay {
-    height: 240px;
+    height: 290px;
     width: 100%;
     background: transparent;
     transition: all .3s ease;
@@ -195,7 +200,7 @@ span.sophiecontact:hover {
 
 .view-details {
     border: 2px solid transparent;
-    top: 100px;
+    top: 125px;
     position: relative;
     color: transparent;
     padding: 10px 20px;
@@ -214,6 +219,10 @@ span.sophiecontact:hover {
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     text-decoration: none;
+    -webkit-transition-delay: 500ms;
+    -moz-transition-delay: 500ms;
+    -o-transition-delay: 500ms;
+    transition-delay: 500ms;
 }
 
 .watch-overlay:hover .view-details:hover {
@@ -226,7 +235,7 @@ span.sophiecontact:hover {
 
 .watch-overlay:hover .view-details:active {
     position: relative;
-    top: 110px;
+    top: 145px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -240,7 +249,7 @@ span.sophiecontact:hover {
 /* button blue */
 
 .buttonblue {
-    width: 110%;
+    width: 100%;
     background: #e64e4e;
     color: white;
     height: 45px;
@@ -253,7 +262,10 @@ span.sophiecontact:hover {
 .rightfont {
     position: relative;
     display: inline-block;
-    right: -75px;
+    right: -42.5%;
+    background-color:red;
+    padding-left:10px;
+    padding-right:10px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -271,7 +283,7 @@ span.sophiecontact:hover {
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-    width: 110%;
+    width: 100%;
     display: inline-block;
     height: 45px;
     line-height: 45px;
@@ -411,7 +423,7 @@ span.sophiecontact:hover {
 .toprow {
     background: rgba(83, 83, 83, 0.12);
     border: 2px solid transparent;
-    width: 110%;
+    width: 100%;
     height: 35px;
     letter-spacing: 3px;
     letter-spacing: 100;
@@ -429,7 +441,7 @@ span.sophiecontact:hover {
     background: #ff5a5a;
     border: 2px solid #ff5a5a;
     color: white;
-    width: 110%;
+    width: 100%;
     height: 35px;
     letter-spacing: 100;
     font-weight: bold;
@@ -492,7 +504,7 @@ input:focus:-moz-placeholder {
     background: url(https://images.unsplash.com/photo-1480200955624-3633ad70dceb?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=) no-repeat;
     background-size: 100% 100%;
     width: 80%;
-    height: 240px;
+    height: 290px;
     position: relative;
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
@@ -508,6 +520,14 @@ input:focus:-moz-placeholder {
 
 /* ishapeimg end */
 
+
+/* star */
+
+.threedbutton{
+   width:100%;
+    border:2px solid green;
+}
+/* star end */
 
 /* name box */
 
@@ -580,7 +600,7 @@ input:focus:-moz-placeholder {
     background: url(https://images.unsplash.com/photo-1482990673175-a0cb26bf62bc?dpr=1&auto=format&fit=crop&w=767&h=454&q=80&cs=tinysrgb&crop=);
     background-size: 100% 100%;
     border: 2px solid white;
-    z-index: 9999;
+/*    z-index: 9999;*/
     position: relative;
     top: 0;
     margin-top: -270px;
@@ -667,3 +687,22 @@ input:focus:-moz-placeholder {
 
 
 /* name box end */
+
+
+
+
+
+
+
+
+
+.scrollbox{
+    border:2px solid #ff0000;
+    height:400px;
+    background: #333;
+}
+
+img.fire{
+    height:200px;
+}
+
