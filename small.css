@@ -100,7 +100,8 @@ p.maketag2 {
     letter-spacing: 1px;
 }
 
-a.uxui, a.pfl {
+a.uxui,
+a.pfl {
     color: #333;
     color: white !important;
     letter-spacing: 2px;
@@ -128,7 +129,7 @@ a.uxui:hover {
     text-decoration: none !important;
     /*    top:-10px;*/
     background: transparent;
-    background:rgb(250, 54, 84);
+    background: rgb(250, 54, 84);
     color: #2dc6ff !important;
     border-color: rgb(250, 54, 84);
     transition: all .3s ease;
@@ -145,16 +146,16 @@ a.uxui:active {
 }
 
 a.pfl {
-    background:rgba(255, 255, 255, 0.22);
-    border-color:transparent;
+    background: rgba(255, 255, 255, 0.22);
+    border-color: transparent;
 }
 
 a.pfl:hover {
-/*    color: #333;*/
+    /*    color: #333;*/
     cursor: pointer;
     text-decoration: none !important;
-    border-color:transparent;
-    background:rgba(255, 255, 255, 0.31);
+    border-color: transparent;
+    background: rgba(255, 255, 255, 0.31);
     color: #ffffff !important;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
