@@ -33,18 +33,33 @@ a.camp:hover img {
 a.navbar-caption,
 .nav-item a {
     /*    color:white !important;*/
+    color:#338080 !important;
 }
 
 .mainbutton {}
 
+.btn-primary {
+     background: #2e6767 !important;
+    border-color: #2e6767 !important;
+}
+
 .btn-primary:hover {
     background: #f89b9b !important;
     border-color: #f89b9b !important;
+    
+    background: #338080 !important;
+    border-color: #338080 !important;
 }
 
 .btn-primary:active {
     background: #e56a6a !important;
     border-color: #e56a6a !important;
+    
+     background: #1c5757 !important;
+    border-color: #1c5757 !important;
+    outline: 0 !important;
+    outline:none !important;
+    box-shadow:none !important;
 }
 
 .btn-white {
