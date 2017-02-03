@@ -33,20 +33,19 @@ a.camp:hover img {
 a.navbar-caption,
 .nav-item a {
     /*    color:white !important;*/
-    color:#338080 !important;
+    color: #338080 !important;
 }
 
 .mainbutton {}
 
 .btn-primary {
-     background: #2e6767 !important;
+    background: #2e6767 !important;
     border-color: #2e6767 !important;
 }
 
 .btn-primary:hover {
     background: #f89b9b !important;
     border-color: #f89b9b !important;
-    
     background: #338080 !important;
     border-color: #338080 !important;
 }
@@ -54,12 +53,11 @@ a.navbar-caption,
 .btn-primary:active {
     background: #e56a6a !important;
     border-color: #e56a6a !important;
-    
-     background: #1c5757 !important;
+    background: #1c5757 !important;
     border-color: #1c5757 !important;
     outline: 0 !important;
-    outline:none !important;
-    box-shadow:none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .btn-white {
@@ -145,17 +143,19 @@ a.uxui:hover {
     /*    top:-10px;*/
     background: transparent;
     background: rgb(250, 54, 84);
+    background: rgb(29, 107, 149);
     color: #2dc6ff !important;
     border-color: rgb(250, 54, 84);
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
+    background: #253137;
+    color: #00aca5 !important;
+    border-color: #253137;
 }
 
 a.uxui:active {
-    color: #2dc6ff !important;
-    border-color: rgb(250, 54, 84);
     position: relative;
     top: 10px;
 }
@@ -199,4 +199,55 @@ a.pfl:active {
         /*        background:red !important;*/
         margin-left: -55px !important;
     }
+}
+
+a.uxui:hover {
+    background: #253137;
+    color: #00aca5 !important;
+    border-color: #253137;
+}
+
+.schoolitup {
+    background-color: #904848 !important;
+    border-color: #904848 !important;
+}
+
+.schoolitup:hover {
+    background-color: #985656 !important;
+    border-color: #985656 !important;
+}
+
+.schoolitup:active {
+    background-color: #7e3030 !important;
+    border-color: #7e3030 !important;
+}
+
+.jamfx {
+    background-color: #e05878 !important;
+    border-color: #e05878 !important;
+}
+
+.jamfx:hover {
+    background-color: #ed6988 !important;
+    border-color: #ed6988 !important;
+}
+
+.jamfx:active {
+    background-color: #e05878 !important;
+    border-color: #e05878 !important;
+}
+
+.cov {
+    background-color: #58ace0 !important;
+    border-color: #58ace0 !important;
+}
+
+.cov:hover {
+    background-color: #6fb6e2 !important;
+    border-color: #6fb6e2 !important;
+}
+
+.cov:active {
+    background-color: #58ace0 !important;
+    border-color: #58ace0 !important;
 }
