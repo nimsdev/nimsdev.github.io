@@ -421,6 +421,13 @@ h6,
 #menu-4 .bg-color.transparent .navbar-caption {
 color:transparent !important;
 }
+
+/*  Main menu color changer */
+#menu-4 .bg-color.transparent .nav-link {
+/*color:transparent !important;*/
+    visibility: hidden;
+}
+
 #menu-4 .navbar-toggler {
   color: #f28281;
 }
