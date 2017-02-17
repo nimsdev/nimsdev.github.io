@@ -1,0 +1,37 @@
+.carousel-inner img {
+  
+}
+
+modal {
+    background-color:#333 !important;
+    background:red !important;
+    opacity: 0;
+}
+
+.mbr-gallery img {
+   border-bottom:2px solid transparent !important;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    
+}
+
+.mbr-gallery img:hover {
+   border-bottom:2px solid #ff406d !important;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    opacity:0.7;
+    cursor:pointer;
+}
+
+.close, .right, .left {
+    color:#555555 !important;
+}
+
+.carousel-inner img:hover{
+    opacity:1 !important;
+    border-bottom:#f3f4f8 !important;
+}
