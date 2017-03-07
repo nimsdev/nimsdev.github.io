@@ -1,14 +1,16 @@
 .goto a {
     color: #2a2a2a;
-/*    border-bottom: 2px solid transparent;*/
-    
+    /*    border-bottom: 2px solid transparent;*/
     margin-left: 5px;
     margin-right: 5px;
-    border:2px solid rgba(255, 255, 255, 0);
-    padding:10px 15px;
-    position:relative;
-    background-color:  #02bf86;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 10px 15px;
+    position: relative;
+    top:0;
+    background-color: #02bf86;
     color: #333;
+    font-weight: bold;
+    border-radius:6px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -16,9 +18,9 @@
 }
 
 .goto a:hover {
-/*    border-bottom: 2px solid #02bf86;*/
-    border-color:  #02bf86;
-    background-color:  #02bf86;
+    /*    border-bottom: 2px solid #02bf86;*/
+    border-color: #02bf86;
+    background-color: #02bf86;
     color: #333;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
@@ -26,28 +28,22 @@
     -o-transition: all .3s ease;
     cursor: pointer;
     text-decoration: none;
-    
- 
 }
 
-.goto a:active{
-
+.goto a:active {
     background-color: #f0ff40;
-    position:relative;
-    top:12px;
+    position: relative;
+    top: 12px;
+    text-decoration: none !important;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
-
 }
-
-
 
 .goto a:nth-child(2) {
     border-color: #f0ff40;
     background-color: #f0ff40;
-    
 }
 
 .goto a:nth-child(3) {
@@ -60,24 +56,14 @@
     background-color: #40b6ff;
 }
 
-
-
-
-
-
-
-
 .goto a:hover:nth-child(1) {
     border-color: #00d688;
     background-color: #00d688;
-    
 }
-
 
 .goto a:hover:nth-child(2) {
     border-color: #f6ff8a;
     background-color: #f6ff8a;
-    
 }
 
 .goto a:hover:nth-child(3) {
@@ -90,24 +76,16 @@
     background-color: #6fc8ff;
 }
 
-
-
-
-
-
-
 .goto a:active:nth-child(1) {
     border-color: #3eb389;
     background-color: #3eb489;
-    position:relative;
-    top:12px;
+    position: relative;
+    top: 12px;
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
 }
-
-
 
 .textinfo {
     display: block;
@@ -175,8 +153,6 @@
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-
-
 
 .cardpl {
     overflow: hidden;
@@ -314,6 +290,6 @@
     -o-transition: all .3s ease;
 }
 
-.hwrap{
+.hwrap {
     overflow: hidden;
 }
