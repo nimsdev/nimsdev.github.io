@@ -293,3 +293,49 @@
 .hwrap {
     overflow: hidden;
 }
+
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  {
+      
+      .goto {
+           margin: auto;
+    width: 70%;
+    
+    padding: 10px;
+      }
+      
+      .goto a {
+          display:block;
+          width:100%;
+          text-align:center;
+          margin-top:6px;
+          border-radius: 0;
+          
+      }
+}
+
+
+@media only screen 
+  and (min-width: 480px) 
+  and (max-width: 1040px)
+  {
+      
+      .goto {
+           margin: auto;
+    width: 70%;
+    
+    padding: 10px;
+      }
+      
+      .goto a {
+          display:block;
+          width:100%;
+          text-align:center;
+          margin-top:6px;
+          border-radius: 0;
+          
+      }
+}
