@@ -1,0 +1,11 @@
+#movies img, #movie img {
+    width:100%;
+}
+
+#movies .colmd-4 .well {
+    height:400px;
+}
+
+#movies .col-md-4 img {
+    height:390px;
+}

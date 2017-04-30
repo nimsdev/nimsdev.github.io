@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Interactive Interface - Jonathan Belok - Ottawa Designer &amp; Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/1459399511.ico" type="image/x-icon">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="/assets/bootstrap-material-design-font/css/material.css">
+    <link rel="stylesheet" href="/assets/et-line-font-plugin/style.css">
+    <link rel="stylesheet" href="/assets/web/assets/site-icons/main-icons.css">
+    <link rel="stylesheet" href="/assets/tether/tether.min.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" href="/assets/animate.css/animate.min.css">-->
+    <link rel="stylesheet" href="/assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="/assets/theme/css/style.css">
+    <link rel="stylesheet" href="/assets/moivrto-gallery/style.css">
+    <link rel="stylesheet" href="/assets/moivrto/css/mbr-additional.css" type="text/css">
+    <link rel="stylesheet" href="interface.css" type="text/css">
+    <link rel="stylesheet" href="chart.css" type="text/css">
+    <link rel="stylesheet" href="calendar.css" type="text/css">
+    <link rel="stylesheet" href="modal.css" type="text/css">
+    <link rel=stylesheet type="text/css" href="https://erikflowers.github.io/weather-icons/css/weather-icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container"> <a class="basic" href="http://jonathanbelok.com/me/portfolio#i">&larr; back to my portfolio</a>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <!--                <div class="usernav"> </div>--></div>
+            <!-- first column -->
+            <div class="col-md-4">
+                <div class="card one">
+                    <div class="inboxheader"> My Menu </div> <a><i class="fa fa-comments-o" aria-hidden="true"></i> Messages</a> <a><i class="fa fa-calendar-plus-o" aria-hidden="true"></i> Invites</a>
+                    <a data-toggle="collapse" data-target="#myevents"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Events
+                        <!--                        <span class="eventtotal">5</span> --><span class="pull-right" style="margin-right:20px;font-size:8pt;font-weight:100;opacity:0.4;position:relative;top:5px;letter-spacing:2px;">open/close</span></a>
+                    <div id="myevents" class="collapse in" style="border-bottom:2px solid #eaeaea;">
+                        <label class="switchtwo">
+                            <input type="checkbox" checked>
+                            <div class="checktext">
+                                <div class="eventfield"> <span class="eventball"></span>
+                                    <div class="eventtitle">Grab Lunch <span class="pull-right eventtime">TODAY</span></div>
+                                    <div class="eventdesc">Grab something for the office!</div>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="switchtwo">
+                            <input type="checkbox">
+                            <div class="checktext">
+                                <div class="eventfield"> <span class="eventball"></span>
+                                    <div class="eventtitle">Walk Reggie <span class="pull-right eventtime">SAT 14 at 3:15PM</span></div>
+                                    <div class="eventdesc">Take Reggie on a walk because he has been a good boy and he's an aweome dog. Also because we both need exercise!</div>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="switchtwo">
+                            <input type="checkbox">
+                            <div class="checktext">
+                                <div class="eventfield"> <span class="eventball"></span>
+                                    <div class="eventtitle">Margo's BDAY! <span class="pull-right eventtime">SAT 14 at 9:30PM</span></div>
+                                    <div class="eventdesc">Meet Margo for her birthday dinner downtown and have a good time!</div>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="switchtwo">
+                            <input type="checkbox">
+                            <div class="checktext">
+                                <div class="eventfield"> <span class="eventball"></span>
+                                    <div class="eventtitle">Game day <span class="pull-right eventtime">SUN 15 at 3:30PM</span></div>
+                                    <div class="eventdesc">Meet up with the guys and go to Tim's apartment and watch the game. Let's go Giants! </div>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="switchtwo">
+                            <input type="checkbox">
+                            <div class="checktext">
+                                <div class="eventfield"> <span class="eventball"></span>
+                                    <div class="eventtitle">Finish Report <span class="pull-right eventtime">SUN 15 at 11:30PM</span></div>
+                                    <div class="eventdesc">Finish the report for Wednesday. </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div> <a><i class="fa fa-line-chart" aria-hidden="true"></i> Satistics</a> <a class="bottom"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a> </div>
+                <!--                <div class="card weather"> </div>-->
+                <div class="card">
+                    <h3 class="bdwn">App Breakdown</h3>
+                    <br>
+                    <div class="donut-chart">
+                        <div id="porcion1" class="recorte">
+                            <div class="quesito ios" data-rel="21"></div>
+                        </div>
+                        <div id="porcion2" class="recorte">
+                            <div class="quesito mac" data-rel="39"></div>
+                        </div>
+                        <div id="porcion3" class="recorte">
+                            <div class="quesito win" data-rel="31"></div>
+                        </div>
+                        <div id="porcionFin" class="recorte">
+                            <div class="quesito linux" data-rel="9"></div>
+                        </div>
+                        <p class="center-date"><i class="fa fa-bolt" aria-hidden="true"></i>
+                            <!--                            <i class="fa fa-bar-chart" aria-hidden="true"></i>-->
+                            <!--                            <br><span class="scnd-font-color"></span></p>-->
+                    </div>
+                    <div class="stats">
+                        <div class="ballspacer">
+                            <div class="ball ballblue">b</div>php <span class="pull-right">80%</span>
+                            <br> </div>
+                        <div class="ballspacer">
+                            <div class="ball ballpink">b</div>css <span class="pull-right">21%</span></div>
+                        <div class="ballspacer">
+                            <div class="ball balllight">b</div>javascript <span class="pull-right">9%</span></div>
+                        <div class="ballspacer">
+                            <div class="ball ballyellow">b</div>energy <span class="pull-right"><i class="fa fa-coffee fa-lg" aria-hidden="true"></i>
+</span></div>
+                    </div>
+                </div>
+                <div class="card updownload">
+                    <div class="cstatus">
+                        <div class="cstatus downloadstatus"> </div>
+                    </div>
+                    <div class="serverstats">
+                        <p style="display:inline;" class="saving"><i class="fa fa-cloud-download" aria-hidden="true"></i> Downloading <span>.</span><span>.</span><span>.</span></p> <span class="pull-right" style="display:inline;">75<sup>%</sup></span></div>
+                    <div class="cstatus">
+                        <div class="cstatus uploadstatus"> </div>
+                    </div>
+                    <div class="serverstats">
+                        <p style="display:inline;" class="saving"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Uploading <span>.</span><span>.</span><span>.</span></p> <span class="pull-right" style="display:inline;">45<sup>%</sup></span> </div>
+                </div>
+            </div>
+            <!-- second column -->
+            <div class="col-md-4">
+                <div class="card userme">
+                    <center>
+                        <!--                    <img src="https://images.unsplash.com/photo-1489283148690-872957c3569b?dpr=1&auto=format&fit=crop&w=767&h=575&q=80&cs=tinysrgb&crop=&bg="></center>--><img src="http://splitsider.awlnetwork.com/wp-content/uploads/sites/2/2013/01/20130117-215707.jpg" alt="User Profile Image" title="User Profile"></center>
+                    <p class="name">stuballs omnicorp</p>
+                    <p class="desc">If you don't know anything about Dutch names, I'm filming a cool show called incognito boss.</p>
+                    <center><a class="mainbutton contactbtn">Contact Stu</a></center>
+                    <center> <a class="userstats likes"><i class="fa fa-heart" aria-hidden="true"></i> 294</a> <a class="userstats message"><i class="fa fa-user-plus" aria-hidden="true"></i> 1,943</a> <a class="userstats views"><i class="fa fa-eye" aria-hidden="true"></i>
+ 897</a> </center>
+                </div>
+                <div class="card addevent">
+                    <center>
+                        <div class="dateheader"> <a class="navbtn pull-left">&larr;</a> <span class="daytitle">Friday</span> <a class="navbtn pull-right">&rarr;</a> </div>
+                        <div class="daynumber">13</div>
+                        <div class="topmarg">
+                            <!--                                           <p class="separator"></p>-->
+                            <br> <a class="mainbutton calendarbutton" style="position:relative;top:-25px;">Create event</a>
+                            <!--                            <br><a class="basic">Browse Calendar</a>-->
+                        </div>
+                    </center>
+                </div>
+                <div class="card weathercard">
+                    <div class="locationheader"> <i class="fa fa-location-arrow" aria-hidden="true"></i> Ottawa </div>
+                    <div class="headercity">
+                        <div class="datepos"> <strong>SUNDAY</strong> <span style="opacity:0.7;">15</span>
+                            <br> </div> <span class="weatherpos">24 <sup>o</sup> <i class="wi wi-day-sunny wi-flip-vertical"></i></span> </div>
+                    <div class="one weatherone"> <span class="weatherbox"> monday <span class="weatherdate">25<sup>th</sup></span> <span class="pull-right weather-right">
+                            <i class="wi wi-day-sunny wi-flip-vertical"></i> 31<sup style="text-transform:lowercase;">o</sup></span> </span> <span class="weatherbox"> tuesday <span class="weatherdate">26<sup>th</sup></span> <span class="pull-right weather-right">
+                            <i class="wi wi-day-sleet-storm"></i> 20<sup style="text-transform:lowercase;">o</sup></span> </span> <span class="weatherbox"> wednesday <span class="weatherdate">27<sup>th</sup></span> <span class="pull-right weather-right">
+                            <i class="wi wi-day-cloudy"></i> 21<sup style="text-transform:lowercase;">o</sup></span> </span> <span class="weatherbox"> thursday <span class="weatherdate">28<sup>th</sup></span> <span class="pull-right weather-right">
+                            <i class="wi wi-day-sunny wi-flip-vertical"></i> 26<sup style="text-transform:lowercase;">o</sup></span> </span> <span class="weatherbox"> friday <span class="weatherdate">29<sup>th</sup></span> <span class="pull-right weather-right">
+                            <i class="wi wi-hot "></i> 36<sup style="text-transform:lowercase;">o</sup></span> </span> <span class="weatherbox"> saturday <span class="weatherdate">30<sup>th</sup></span> <span class="pull-right weather-right">
+                            <i class="wi wi-day-sunny wi-flip-vertical"></i> 31<sup style="text-transform:lowercase;">o</sup></span> </span> <span class="weatherbox"> sunday <span class="weatherdate">31<sup>st</sup></span> <span class="pull-right weather-right">
+                            <i class="wi wi-day-showers"></i> 24<sup style="text-transform:lowercase;">o</sup></span> </span>
+                    </div>
+                </div>
+            </div>
+            <!-- third column -->
+            <div class="col-md-4">
+                <div class="card signup">
+                    <center>
+                        <p class="header">Sign in</p>
+                        <input type="text" placeholder="username">
+                        <input type="password" placeholder="password">
+                        <div class="spacer"> <a class="formsub">log in</a> </div> <a class="forgot">Forgot Password?</a> <a class="tw">Log In With <i class="fa fa-twitter" aria-hidden="true"></i>
+</a> </center>
+                </div>
+                <div class="card default">
+                    <center>
+                        <p class="header">join the newsletter</p>
+                        <input type="text" class="subscribeit" placeholder="email">
+                        <div class="spacer"> <a class="formsub subscribe">subscribe</a> </div>
+                    </center>
+                </div>
+                <div class="card musicplayer">
+                    <div class="musicimg"> <span class="pull-right">  
+                            
+                            
+                    <label class="switch">
+                        <input type="checkbox">
+                            <div class="slider"><i class="fa fa-heart" aria-hidden="true"></i></div>
+                            </label>
+                        </span> </div>
+                    <div class="musiccontent2">
+                        <div class="progresssong">
+                            <div class="progresssong songtime"> <span class="pull-right">
+                              <div class="progressball">
+                            </div>
+                            </span> </div>
+                        </div>
+                    </div> <span class="songtitle">Chanel</span>
+                    <br> <span class="songartist">Frank Ocean</span>
+                    <p class="separator"></p>
+                    <div class="musiccontent">
+                        <div class="musiccontrols"> <i class="fa fa-backward" aria-hidden="true"></i> <i class="fa fa-pause fa-x" aria-hidden="true"></i> <i class="fa fa-forward" aria-hidden="true"></i> </div>
+                    </div>
+                </div>
+                <div class="card relatedpeople">
+                    <div class="knowpeople"> People You May Know: <span class="pull-right navdots">
+                       <span class="pulldot pullactive"></span> <span class="pulldot"></span> <span class="pulldot"></span> <span class="pulldot"></span> </span>
+                    </div>
+                    <center>
+                        <div class="imgwtext" style="display:inline-block;">
+                            <div class="personimage amy">
+                                <div class="pull-right addfriend">+</div>
+                            </div>
+                            <br>
+                            <p class="imgtext">Amy</p>
+                        </div>
+                        <div class="imgwtext" style="display:inline-block;">
+                            <div class="personimage marie">
+                                <div class="pull-right addfriend">+</div>
+                            </div>
+                            <br>
+                            <p class="imgtext">Marie</p>
+                        </div>
+                        <div class="imgwtext" style="display:inline-block;">
+                            <div class="personimage tim">
+                                <div class="pull-right addfriend">+</div>
+                            </div>
+                            <br>
+                            <p class="imgtext">Tim</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="card newscard">
+                    <div class="knowpeople">Latest News <span class="pull-right navdots">
+                       <span class="pulldot pullactive"></span> <span class="pulldot"></span> <span class="pulldot"></span> <span class="pulldot"></span> </span>
+                    </div>
+                    <div class="newsstory"> <img class="newsimage" src="https://images.unsplash.com/photo-1493020258366-be3ead1b3027?dpr=1&auto=format&fit=crop&w=767&h=767&q=80&cs=tinysrgb&crop=&bg=" alt="News Image"> <span class="newsheadlines">
+                        <span class="newstitle">Hiring A Remote Employee</span>
+                        <br> <span class="newsauthor">Al Dullton</span> </span>
+                        <br>
+                        <br> </div>
+                    <div class="newsstory"> <img src="https://images.unsplash.com/photo-1466921583968-f07aa80c526e?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=&bg=" alt="News Image"> <span class="newsheadlines">
+                        <span class="newstitle">Dogs With Glasses</span>
+                        <br> <span class="newsauthor">Jenny From The Block</span> </span>
+                        <br>
+                        <br> <a class="basic pull-right" style="font-size:8pt;">Read More Stories</a> </div>
+                </div>
+                <p class='text-center'>
+                    <a class="emailmodal" data-toggle="modal" data-target="#demo"> <i class="fa fa-paper-plane-o fa-lg" aria-hidden="true"></i> Compose email </a>
+                </p>
+            </div>
+        </div>
+        <div class="modal fade" id="demo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title">Compose Message</h1> </div>
+                    <div class="modal-body"><span class="tbody">Your email</span>
+                        <input class="emailform" type="text" placeholder="">
+                        <br>
+                        <br> <span class="tbody">Recipient</span>
+                        <input class="emailform" type="text" placeholder="">
+                        <br>
+                        <br> <span class="tbody">Message</span>
+                        <textarea class="txtarea" type="text" placeholder=""></textarea>
+                    </div>
+                    <div class="modal-footer"> <a type="button" class="emailmodal emailsend" data-dismiss="modal">Send Your message</a> </div>
+                </div>
+            </div>
+        </div> <a class="basic" href="http://jonathanbelok.com/me/portfolio#i">&larr; back to my portfolio</a>
+        <br>
+        <br> </div>
+    <script src="assets/web/assets/jquery/jquery.min.js"></script>
+    <script src="assets/tether/tether.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/smooth-scroll/SmoothScroll.js"></script>
+    <script src="assets/viewportChecker/jquery.viewportchecker.js"></script>
+    <script src="assets/dropdown/js/script.min.js"></script>
+    <script src="assets/touchSwipe/jquery.touchSwipe.min.js"></script>
+    <script src="assets/jarallax/jarallax.js"></script>
+    <script src="assets/masonry/masonry.pkgd.min.js"></script>
+    <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/bootstrap-carousel-swipe/bootstrap-carousel-swipe.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+    <script src="assets/moivrto-gallery/player.min.js"></script>
+    <script src="assets/moivrto-gallery/script.js"></script>
+    <script src="assets/formoid/formoid.min.js"></script>
+</body>
+
+</html>

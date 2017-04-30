@@ -114,7 +114,7 @@
     margin-top: -20px;
     margin-bottom: 50px;
     color: #1c1c1c;
-    color:#FFFFFF;
+    color: #FFFFFF;
     letter-spacing: 3px;
     text-align: left;
     text-transform: uppercase;
@@ -127,7 +127,7 @@
     background: white;
     border: 2px solid #eaeaea;
     min-height: 300px;
-    height:auto;
+    height: auto;
 }
 
 .cardpl p {
@@ -142,17 +142,21 @@
 }
 
 p.card {
-    border-top:2px solid #f5f5f5;
-    margin-left:20px;
-    margin-right:20px;
+    border-top: 2px solid #f5f5f5;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 p.second {
-   text-align:left;
-    color:#767676;
-    margin-left:20px;
-    margin-right:20px;text-transform: none;letter-spacing:1px;padding-bottom:15px;
+    text-align: left;
+    color: #767676;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
 }
+
 
 /* watch */
 
@@ -168,7 +172,6 @@ p.second {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
-
 
 .viewonbehance {
     display: inline;
@@ -304,6 +307,139 @@ p.second {
 
 .hwrap {
     overflow: hidden;
+}
+
+a:hover, a:active {
+    text-decoration:none !important;
+}
+
+.schoolitupux {
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.65), rgba(5, 5, 5, 0.65)), url(http://www.jonathanbelok.com/assets/images/schoolitupclear-2000x1327-82.png);*/
+    background: #12AEDC;
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: 100% 100%;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+    border-bottom: /*    border: 2px solid white;*/
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.schoolitupux:hover {
+    background: rgba(18, 174, 220, 0.75);
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.schoolitupux:active {
+    background: #0096c3;
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.schoolitupux:hover a {
+    text-decoration: none;
+}
+
+.crumyum {
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.255), rgba(5, 5, 5, 0.255)), url(http://www.crumyumapp.com/images/large/4_overlay.jpg) no-repeat;*/
+    background: #CA6389;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    text-align:left;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.crumyum:hover {
+    background: rgba(202, 99, 137, 0.85);
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.crumyum:active {
+    background: #b13b66;
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.crumyum:hover a {
+    text-decoration: none;
+}
+
+.jamfxux {
+    /*    background: linear-gradient(rgba(5, 5, 5, 0.65), rgba(5, 5, 5, 0.65)), url(http://www.jonathanbelok.com/assets/images/schoolitupclear-2000x1327-82.png);*/
+    background: #7c58a5;
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: 100% 100%;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+    /*    border: 2px solid white;*/
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.jamfxux:hover {
+    background: rgba(124, 88, 165, 0.85);
+    /*    border: 2px solid #3eb489;*/
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+}
+
+.jamfxux:active {
+    background: #643b93;
+    /*    border: 2px solid #3eb489;*/
+    background-size: 100% 100%;
+    text-decoration: none;
+    transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {

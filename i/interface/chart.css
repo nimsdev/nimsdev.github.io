@@ -1,0 +1,132 @@
+.donut-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 2rem;
+    border-radius: 100%;
+    top: 5px;
+}
+
+p.center-date {
+    background: #ffffff;
+    position: absolute;
+    text-align: center;
+/*    font-size: 28pt;*/
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 35px;
+    padding: 15% 0 0;
+}
+
+.center-date i {
+    font-size:72pt;
+    color:#ffe44c;
+    text-shadow:2px 2px #394264;
+}
+
+.center-date span.scnd-font-color {
+    line-height: 0;
+}
+
+.recorte {
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.quesito {
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+#porcion1 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+#porcion1 .quesito {
+    background-color: #ff5590;
+    -webkit-transform: rotate(76deg);
+    transform: rotate(76deg);
+}
+
+#porcion2 {
+    -webkit-transform: rotate(76deg);
+    transform: rotate(76deg);
+}
+
+#porcion2 .quesito {
+    background-color: #394264;
+    -webkit-transform: rotate(140deg);
+    transform: rotate(140deg);
+}
+
+#porcion3 {
+    -webkit-transform: rotate(215deg);
+    transform: rotate(215deg);
+}
+
+#porcion3 .quesito {
+    background-color: #394264;
+    -webkit-transform: rotate(113deg);
+    transform: rotate(113deg);
+}
+
+#porcionFin {
+    -webkit-transform: rotate(-32deg);
+    transform: rotate(-32deg);
+}
+
+#porcionFin .quesito {
+    background-color: #3eafb4;
+    -webkit-transform: rotate(32deg);
+    transform: rotate(32deg);
+}
+
+
+@keyframes blink {
+  
+    0% {
+      opacity: .2;
+    }
+ 
+    20% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: .2;
+    }
+}
+
+.saving span {
+
+    animation-name: blink;
+ 
+    animation-duration: 1.4s;
+  
+    animation-iteration-count: infinite;
+
+    animation-fill-mode: both;
+}
+
+.saving span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.saving span:nth-child(3) {
+    animation-delay: .4s;
+}
