@@ -141,6 +141,16 @@
     color: #383434;
 }
 
+.cardanimate img {
+    height:500px !important;
+    transform: scale(1.1) !important;
+}
+
+.cardanimate img:hover {
+    height:500px !important;
+    transform: scale(1.25) !important;
+}
+
 p.card {
     border-top: 2px solid #f5f5f5;
     margin-left: 20px;
