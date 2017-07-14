@@ -503,7 +503,32 @@ a:active {
     -o-transition: all.3s ease !important;
 }
 
+.modal-content  {
+    background:transparent;
+    margin-top:30px;
+    margin-bottom:50px;
+}
 
+.modal-content h2 {
+    text-align:center;
+    color:white;
+    font-weight:100;
+    letter-spacing:2px;
+    transform: rotate(-270deg)
+}
+
+.mockdesc {
+    font-weight: light !important;
+    font-size:18pt !important;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    color:white !important;
+    cursor: text !important;
+    margin-top:120px;
+    opacity: 1 !important;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 3px;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .goto {
@@ -519,6 +544,8 @@ a:active {
         margin-top: 6px;
         border-radius: 0;
     }
+    
+    .mockdesc {display:none;}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1040px) {
