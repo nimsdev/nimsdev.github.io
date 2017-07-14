@@ -484,6 +484,27 @@ a:active {
     background: #b1b0b0;
 }
 
+.close {
+    color:#333 !important;
+    background:none;
+    background:transparent !important;
+    outline:none !important;
+     transition: all.3s ease !important;
+    -webkit-transition: all.3s ease !important;
+    -moz-transition: all.3s ease !important;
+    -o-transition: all.3s ease !important;
+}
+
+.close:hover {
+    color:white !important;
+    transition: all.3s ease !important;
+    -webkit-transition: all.3s ease !important;
+    -moz-transition: all.3s ease !important;
+    -o-transition: all.3s ease !important;
+}
+
+
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .goto {
         margin: auto;
