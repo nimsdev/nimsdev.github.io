@@ -142,17 +142,18 @@
 }
 
 .cardanimate img {
-    height:500px !important;
+    height: 500px !important;
     transform: scale(1.1) !important;
 }
 
 .cardanimatetour img {
-    height:500px !important;
+    height: 500px !important;
     transform: scale(1.01) !important;
 }
 
-.cardanimate img:hover, .cardanimatetour img:hover {
-    height:500px !important;
+.cardanimate img:hover,
+.cardanimatetour img:hover {
+    height: 500px !important;
     transform: scale(1.15) !important;
 }
 
@@ -485,66 +486,73 @@ a:active {
 }
 
 .close {
-    color:#333 !important;
-    background:none;
-    background:transparent !important;
-    outline:none !important;
-     transition: all.3s ease !important;
-    -webkit-transition: all.3s ease !important;
-    -moz-transition: all.3s ease !important;
-    -o-transition: all.3s ease !important;
-}
-
-.close:hover {
-    color:white !important;
+    color: #333 !important;
+    background: none;
+    background: transparent !important;
+    outline: none !important;
     transition: all.3s ease !important;
     -webkit-transition: all.3s ease !important;
     -moz-transition: all.3s ease !important;
     -o-transition: all.3s ease !important;
 }
 
-.modal-content  {
-    background:transparent;
-    margin-top:30px;
-    margin-bottom:50px;
+.close:hover {
+    color: white !important;
+    transition: all.3s ease !important;
+    -webkit-transition: all.3s ease !important;
+    -moz-transition: all.3s ease !important;
+    -o-transition: all.3s ease !important;
+}
+
+.modal-content {
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .modal-content h2 {
-    text-align:center;
-    color:white;
-    font-weight:100;
-    letter-spacing:2px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
     transform: rotate(-270deg)
 }
 
 .mockdesc {
     font-weight: light !important;
-    font-size:18pt !important;
+    font-size: 18pt !important;
     text-transform: uppercase;
     transform: rotate(90deg);
-    color:white !important;
+    color: white !important;
     cursor: text !important;
-    margin-top:120px;
+    margin-top: 120px;
     opacity: 1 !important;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 3px;
 }
 
 .mbr-arrow-icon {
-    opacity:0.2;
-    
-    transition:all .3s ease-in-out;
-    -webkit-transition:all .3s ease-in-out;
-    -moz-transition:all .3s ease-in-out;
-    -o-transition:all .3s ease-in-out;
+    opacity: 0.2;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 
 .mbr-arrow-icon:hover {
-    opacity:1;
-    transition:all .3s ease-in-out;
-    -webkit-transition:all .3s ease-in-out;
-    -moz-transition:all .3s ease-in-out;
-    -o-transition:all .3s ease-in-out;
+    opacity: 1;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.mbr-arrow-icon:active {
+    opacity: 0.2;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -561,8 +569,9 @@ a:active {
         margin-top: 6px;
         border-radius: 0;
     }
-    
-    .mockdesc {display:none;}
+    .mockdesc {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1040px) {
