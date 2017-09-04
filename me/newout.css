@@ -557,7 +557,7 @@ a:active {
 
 
 .bottomname a {
-    opacity:.55;
+    opacity:.2;
     height:auto;
     width:auto;
     letter-spacing:3px;
@@ -570,7 +570,7 @@ a:active {
 
 .bottomname a:hover {
     color:white !important;
-    border-color:#22d4ff;
+    border-color:#ffbb22;
     opacity:1 !important;
 }
 
