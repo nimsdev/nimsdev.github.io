@@ -531,7 +531,8 @@ a:active {
     letter-spacing: 3px;
 }
 
-.mbr-arrow-icon, .bottomname a{
+.mbr-arrow-icon,
+.bottomname a {
     opacity: 0.7;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
@@ -539,7 +540,8 @@ a:active {
     -o-transition: all .3s ease-in-out;
 }
 
-.mbr-arrow-icon:hover, .bottomname a:hover {
+.mbr-arrow-icon:hover,
+.bottomname a:hover {
     opacity: 1;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
@@ -547,35 +549,56 @@ a:active {
     -o-transition: all .3s ease-in-out;
 }
 
-.mbr-arrow-icon:active, .bottomname a:active {
-    opacity: 0.2 ;
+.mbr-arrow-icon:active,
+.bottomname a:active {
+    opacity: 0.2;
     transition: all .1s ease-in-out;
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -o-transition: all .1s ease-in-out;
 }
 
+.bottomname {
+    position: absolute;
+    bottom: 10px;
+}
 
 .bottomname a {
-    opacity:.2;
-    height:auto;
-    width:auto;
-    letter-spacing:3px;
-    border-bottom:2px solid transparent;
-/*    padding-left:12px;*/
-    border-radius:0;
-    position:relative;
-    top:30px;
+    height: auto;
+    width: auto;
+    letter-spacing: 3px;
+    border-bottom: 2px solid transparent;
+    /*    padding-left:12px;*/
+    border-radius: 0;
+    position: relative;
+    left: 10px;
+    opacity: 0.5;
+    margin-left: 10px;
+    color: white;
 }
 
 .bottomname a:hover {
-    color:white !important;
-    border-color:#ffbb22;
-    opacity:1 !important;
+    color: white !important;
+    border-color: #ffbb22;
+    opacity: 1 !important;
 }
 
 .bottomname a:active {
     opacity: 0.2 !important;
+}
+
+.topname {
+    opacity: .2;
+    height: auto;
+    width: auto;
+    letter-spacing: 3px;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    position: relative;
+    top: 10px;
+    font-family: 'Cousine', monospace;
+    color: white;
+    margin-left: 10px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -595,9 +618,8 @@ a:active {
     .mockdesc {
         display: none;
     }
-    
     .remanim {
-        display:none;
+        display: none;
     }
 }
 
