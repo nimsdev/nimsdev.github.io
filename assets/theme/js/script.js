@@ -151,7 +151,8 @@
             $(document).on('add.cards change.cards', function(event) {
                 $(event.target).outerFind('.mbr-parallax-background')
                     .jarallax({
-                        speed: 0.6
+                    //    speed: 0.6
+                        speed: -0.7
                     })
                     .css('position', 'relative');
             });

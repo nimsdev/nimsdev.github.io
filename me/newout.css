@@ -594,11 +594,12 @@ a:active {
     letter-spacing: 3px;
     border-bottom: 2px solid transparent;
     border-radius: 0;
-    position: relative;
+    position: absolute;
     top: 10px;
     font-family: 'Cousine', monospace;
     color: white;
     margin-left: 10px;
+    z-index:999999;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
