@@ -117,20 +117,24 @@
                 </div>
                 <div class="inner columns divided">
                     <div class="span-3-25">
-                        <form action="http://jonathanbelok.com/" method="post" data-form-title="Get In Touch">
+<!--                        <div class="emailnotif">Thanks for getting in touch. I'll reply shortly.</div>-->
+                       <form action="https://formcarry.com/s/r1WTHDf-z" method="POST" accept-charset="UTF-8" >
+                           <input type="hidden" name="_next" value="//jonathanbelok.com/index.html" />
+
                             <div class="field half">
                                 <label for="name">Name</label>
-                                <input type="text" name="name" id="name" /> </div>
+                                <input type="text" name="name" autocomplete="off" required> </div>
                             <div class="field half">
                                 <label for="email">Email</label>
-                                <input type="email" name="email" id="email" /> </div>
+                                <!--                                <input type="email" name="email" id="email" /> -->
+                                <input type="email" name="_replyto" autocomplete="off" required> </div>
                             <div class="field">
                                 <label for="message">Message</label>
-                                <textarea name="message" id="message" rows="4"></textarea>
+                                <textarea type="text" name="message" rows="4" required></textarea>
                             </div>
                             <ul class="actions">
                                 <li>
-                                    <input type="submit" value="Send Message" class="button special" /> </li>
+                                    <input type="submit" value="Send Message" id="show" class="button special" /> </li>
                             </ul>
                         </form>
                     </div>
@@ -139,10 +143,22 @@
         </div>
     </div>
     <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+        <script>
+        $(document).ready(function () {
+            $(".emailnotif").hide();
+            
+            $("#show").click(function () {
+                $(".emailnotif").show();
+            });
+        });
+    </script>
     <script src="/mainassets/js/jquery.min.js"></script>
     <script src="/mainassets/js/skel.min.js"></script>
     <script src="/mainassets/js/main.js"></script>
-    <script src="http://www.jonathanbelok.com/assets/formoid/formoid.min.js"></script>
+    
+    <div id="endform"></div>
 </body>
 
 </html>
