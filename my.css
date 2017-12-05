@@ -2,6 +2,11 @@
     height: 45px;
 }
 
+.bikebg {
+    background: url(images/bike-o.png) no-repeat;
+    background-size: 100% 100%;
+}
+
 .imgtxt {
     height: 100%;
     width: 100%;
@@ -16,7 +21,52 @@
     background: rgba(66, 240, 220, 0.71);
     background: rgba(0, 255, 118, 0.71);
     background: rgba(0, 255, 255, 0.71);
-    background: rgba(255, 0, 196, 0.71);
+    background-color: rgba(255, 0, 196, 0.71);
+}
+
+.spanschoolitup {
+    background: url(images/schoolitupclear-2000x1327-82.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spancrumyum {
+    background: url(images/crumyum.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spancoachjack {
+    background: url(images/cjckscreen.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spanlokfit {
+    background: url(images/lokfit.gif) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spanmusicui {
+    background: url(images/music-sketch2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spanmockup {
+    background: url(images/peaks-thumb.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spantrackie {
+    background: url(images/trackie-thumb.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spanestate {
+    background: url(images/res-thumb.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.spansanta {
+    background: url(images/santa.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 .imgtxt2 {
@@ -48,8 +98,8 @@
 
 .imgtxt6 {
     background: rgba(147, 0, 255, 0.71);
-    padding: 45px;
-    padding-top: 75px;
+    padding: 25px;
+    padding-top: 65px;
 }
 
 .imgtxt7 {
@@ -61,7 +111,7 @@
 .imgtxt8 {
     background: rgba(0, 98, 255, 0.71);
     padding: 45px;
-    padding-top: 165px;
+    padding-top: 135px;
 }
 
 .imgtxt9 {
