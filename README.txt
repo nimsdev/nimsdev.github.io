@@ -1,1 +1,1 @@
-<a href="http://nimsdev.github.io/>Visit the site</a>
+<a href="http://nimsdev.github.io/">Visit the site</a>

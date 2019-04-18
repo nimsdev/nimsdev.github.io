@@ -1,170 +1,358 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 
 <head>
-    <title>Jonathan Belok - Ottawa Designer &amp; Developer</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="/mainassets/css/main.css" />
-    <link rel="stylesheet" href="my.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <noscript>
-        <link rel="stylesheet" href="/mainassets/css/noscript.css" /> </noscript>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jonathan Belok | Ottawa Website Design and Development</title>
+    <meta name="description" content="A CSS Grid powered menu with a box look" />
+    <meta name="keywords" content="menu, css grid, box, navigation, web development, animation" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="1459399511.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo2.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function () {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+        };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet"> </head>
 
-<body>
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
-        <!-- Wrapper -->
-        <div id="wrapper">
-            <!-- Panel (Banner) -->
-            <section class="panel banner right">
-                <div class="content color0 span-3-75" style="background:rgba(255, 255, 255, 0.31);">
-                    <h1 class="major" style="background: -webkit-linear-gradient(45deg, #726193 25%, #e37b7c 50%, #ffe4b4);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Hey, I'm Jonathan.<br /></h1>
-                    <p style="background: -webkit-linear-gradient(45deg, #ff406d, #ed8915);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">I am a designer &amp; developer from Ottawa, Canada. Welcome to my site! Hope you like it!</p>
-                    <ul class="actions">
-                        <li><a href="#first" class="button special color1 circle icon fa-angle-right">Next</a></li>
-                    </ul>
-                </div>
-                <!--	<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic01.jpg" alt="" />
-								</div>-->
-            </section>
-            <section class="panel spotlight medium right">
-                <div class="content span-7">
-                    <h2 class="major" id="first">About Me</h2>
-                    <p>I have been an app designer and developer for the last few years. Most of that time was spent working on two things: a photo sharing app startup, and an app that recommends a meal.
-                        <br>
-                        <br>In between all of that, I have also worked as a freelancer, creating graphics, logos, and apps for some pretty great clients.
-                        <br>
-                        <br>In my spare time I enjoy watching movies, playing basketball, running, and cycling <i class="fa fa-bicycle" aria-hidden="true"></i> .</p>
-                </div>
-                <div class="image filtered tinted bikebg" data-position="top left">
-                    <!--                    <img src="" alt="" />--></div>
-            </section>
-            <!-- Panel -->
-         <!-- what I use   <section class="panel color1">
-                <div class="intro joined">
-                    <h2 class="major">What I Use</h2>
-                    <p>I specialize in application design &amp; development, and graphic design. I mostly use sketch, HTML/CSS &amp; JavaScript, Bootstrap, and Principle.
-                        <br>
-                        <br>I can design graphics, animate app prototypes, and create web applications.</p>
-                </div>
-                <div class="inner">
-                    <ul class="grid-icons three connected" id="joined">
-                        <li><span class="icon fa-code"></span></li>
-                        <li><span class="icon fa-diamond"></span></li>
-                        <li><span class="icon fa-css3"></span></li>
-                        <li><span class="icon fa-github"></span></li>
-                        <li><span class="icon fa-html5"></span></li>
-                        <li><span class="icon fa-camera"></span></li>
-                    </ul>
-                </div>
-            </section> -->
-            <!-- Panel (Spotlight) -->
-            <!--<section class="panel spotlight large left">
-								<div class="content span-5">
-									<h2 class="major">Magna amet tempus</h2>
-									<p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
-								</div>
-								<div class="image filtered tinted" data-position="top right">
-									<img src="images/pic03.jpg" alt="" />
-								</div>
-							</section> -->
-            <!-- Panel -->
-            <section class="panel">
-                <div class="intro color2">
-                    <h2 class="major">portfolio</h2>
-                    <p>Check out some of the work I have done in the past. Here you can check out sites, mockups, animations, and graphics I have created/worked on.</p>
-                </div>
-                <div class="gallery">
-                    <div class="group span-3"> <span class="image span-3 spanschoolitup" data-position="bottom"><img src="" alt="" /><span class="imgtxt imgtxt1"><br><br><span class="apptitle">Schoolitup</span>
-<!--                        A photo sharing app for students. Users were encouraged to upload anything and everything related to their schools.-->
-                         <a href="http://jonathanbelok.com/ux-ui/schoolitup" target="_blank" class="portlink">Writeup </a> </span>  
-                        </span> <span class="image span-1-5 spancrumyum" data-position="center">
-                                            <img src="" alt="" />
-                                      
-                        <span class="imgtxt imgtxt2"><br><br><span class="apptitle">Crumyum</span>
-<!--                                                A simple application that helps recommend a meal for users.-->
-                       <a href="http://www.jonathanbelok.com/i/crumyumapp/" target="_blank" class="portlink">App Demo</a> <a href="http://jonathanbelok.com/ux-ui/crumyum" target="_blank" class="portlink">Writeup </a> </span>
-                        </span> <span class="image span-1-5 spancoachjack" data-position="bottom"><img src="" alt="" />
-                                        
-                        <span class="imgtxt imgtxt3"><br><br><span class="apptitle">CJ Football</span>
-<!--                                             New site and graphics for this sports training company in CA.-->
-                       <a href="http://coachjackspeedtraining.com" target="_blank" class="portlink">Visit Site</a> <a href="http://jonathanbelok.com/ux-ui/cjpp" target="_blank" class="portlink">Writeup </a> </span>
-                        </span>
-                    </div>
-                    <a href="images/lokfit.gif" class="image span-2-5 spanlokfit" data-position="top"><img src="" alt="" /> <span class="imgtxt imgtxt4"><span class="apptitle">Lokfit / Thilk - React Native</span> 
-                        
-<!--                        Worked on designing and animating an app for a new clothing network app. I used principle for this project.  <a href="http://github.com/skatlhs/thilk" target="_blank" class="portlink">Github Repo</a> -->
-                        
-                        </span>
-                    </a>
-                    <div class="group span-4-5">
-                        <a href="images/music-sketch2.png" class="image span-3 spanmusicui" data-position="top"><img src="" alt="" /> <span class="imgtxt imgtxt5"><span class="apptitle">Music Player UI</span> 
-<!--                            Interface for a music mobile app.-->
-                            </span>
-                        </a>
-                        <a href="images/peaks-thumb.png" class="image span-1-5 spanmockup" data-position="center"><img src="" alt="" /> <span class="imgtxt imgtxt6"><span class="apptitle">Mockup</span>
-<!--                            A few mockup pages for a social/planning mobile app.-->
-                            </span>
-                        </a>
-                        <a href="images/trackie-cut.png" class="image span-1-5 spantrackie" data-position="bottom"> <img src="" style="width:100%;border:2p solid red;" alt="" /> <span class="imgtxt imgtxt7"><span class="apptitle">Trackie</span>
-<!--                            A website that helps you get the most out of your vacations. -->
-                            </span>
-                        </a>
-                        <a href="images/estate.png" class="image span-3 spanestate" data-position="top"><img src="" alt="" /> <span class="imgtxt imgtxt8"><span class="apptitle">Real Estate</span>
-<!--                            This is a single page design for a real estate website. -->
-                            </span>
-                        </a>
-                    </div>
-                   <!-- <a href="images/santa.png" class="image span-2-5 spansanta" data-position="right"><img src="" alt="" /> <span class="imgtxt imgtxt9"><span class="apptitle">Santa</span>Quick &amp; simple design for the holidays. </span>
-                    </a>-->
-                </div>
-                  
-                    <div class="intro color4" style="background:#48a5b1 !important">
-                        <br> <br><h2 class="major">check out the rest</h2>
-                    <p>Interested? You can get a full &amp; detailed view of my portfolio here. I also have some ux &amp; design processes there as well.</p>
-                      <a href="http://jonathanbelok.com/me/portfolio" class="portbutton">Full Portfolio</a>
-                </div>
-                
-            </section>
-            <!-- Panel -->
-            <section class="panel color4-alt">
-                <div class="intro color4">
-                    <h2 class="major">drop me a line.</h2>
-                    <p>Have any questions about my work? Want to work together? Ask away, and I'll reply as soon as I can.</p>
-                </div>
-                <div class="inner columns divided">
-                    <div class="span-3-25">
-                        <!--                        <div class="emailnotif">Thanks for getting in touch. I'll reply shortly.</div>-->
-                        <form action="https://formcarry.com/s/r1WTHDf-z" method="POST" accept-charset="UTF-8">
-                            <input type="hidden" name="_next" value="//jonathanbelok.com/index.html" />
-                            <div class="field half">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" autocomplete="off" required> </div>
-                            <div class="field half">
-                                <label for="email">Email</label>
-                                <!--                                <input type="email" name="email" id="email" /> -->
-                                <input type="email" name="_replyto" autocomplete="off" required> </div>
-                            <div class="field">
-                                <label for="message">Message</label>
-                                <textarea type="text" name="message" rows="4" required style="resize:none;"></textarea>
-                            </div>
-                            <ul class="actions">
-                                <li>
-                                    <input type="submit" value="Send Message" id="show" class="button special" /> </li>
-                            </ul>
-                        </form>
-                    </div>
-                </div>
-            </section>
+<body class="demo-2 loading">
+    <svg class="hidden">
+        <symbol id="icon-arrow" viewBox="0 0 24 24">
+            <title>arrow</title>
+            <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 " /> </symbol>
+        <symbol id="icon-drop" viewBox="0 0 24 24">
+            <title>drop</title>
+            <path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z" />
+            <path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z" /> </symbol>
+    </svg>
+    <main>
+        <div class="message">To see the menu, please view on a larger screen.</div>
+        <div class="content content--fixed">
+            <nav class="demos"> <a class="demo" href="/me/portfolio.html">view my full portfolio</a>
+                <!--					<a class="demo demo--current" href="index2.html">demo 2</a>--></nav>
+            <button class="menu-trigger styletrigbutton">check out my work</button>
         </div>
-    </div>
-    <!-- Scripts -->
-    <script src="/mainassets/js/jquery.min.js"></script>
-    <script src="/mainassets/js/skel.min.js"></script>
-    <script src="/mainassets/js/main.js"></script>
+        <div id="content-1" class="content content--switch content--switch-current">
+            <h2 class="content__title" style="font-family: 'Cousine', monospace;
+;">&lt;/JonathanBelok&gt;</h2>
+            <div class="content__subtitle"> Designer &amp; Developer </div>
+        </div>
+        <div id="content-2" class="content content--switch">
+            <h2 class="content__title">CJPP</h2>
+            <div class="content__subtitle">Website Redesign Project</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;">
+                        <p class="separator"></p> I helped Chase with his online presence. The old website was dated, and it needed a makeover. Chase gave me some ideas, I added mine, and a new site was created!
+                        <br>
+                        <br>I'll start with the old version of the site, and show what I changed, and why I made those changes. </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;">
+                        <h4>Old Header</h4> <img src="/ux-ui/cjpp/ss5.png" style="width:100%;">
+                        <br> Chase's company logo is large, but the old developers shrunk it to fit it in the nav bar. It doesn't look awful at all, but it's tough to make out some of the letters in the logo, in this case it was Chase's name. The main problem with the old header is the video. There was no reason at all for that to be included in the header. That shows up on every page. I have no clue why the previous developers did that, but removing it was the first thing I did.
+                        <br>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;">
+                        <h4>Landing Page</h4> I added a landing page to the site. The page gave users a brief outline on the services Chase is able to provide, testimonials, and an email newsletter sign up. <img src="ux-ui/cjpp/new-landing.jpeg" alt="Landing Page Screen Shot" style="width:100%;">
+                        <br>
+                        <br>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <br>
+                <p class="separator"></p>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;">
+                        <h4>Content Pages</h4> The old pages can be seen below. The main content pages were in need of a new, modern design. The pages in the previous version weren't really visually appealing. The fonts, the background images, and the alignment needed to go.
+                        <br>
+                        <br> <img src="ss1.png" style="width:100%;" alt=""> <img src="ss2.png" style="width:100%;" alt=""> <img src="ss3.png" style="width:100%;" alt="">
+                        <br>
+                        <p class="separator"></p>
+                        <h4>My Content Pages</h4> I made completely new pages detailing the services offered by the company. Since the logo for Chase Jackson Peak Performance was shaped like a box (image dimensions), the navigation took up some space. To accommodate this, the header went away when users scrolled down, and came back when they scrolled up. The new navigation bar can be seen on the screenshot of one of the new pages I created.
+                        <br>
+                        <br> <img src="ux-ui/cjpp/sports-science-page.jpeg" style="width:100%;" alt="New Design Screen Shot">
+                        <br>
+                        <br>
+                        <p class="separator"></p>
+                        <h4>Blog</h4> I also added a blog to the site. There was a blog page before, but it wasn't really a blog. The old developers basically asked for the blog content, and put it into a bootstrap modal. Users couldn't comments, but most importantly they couldn't be edited or deleted by the owner of the site unless he had web dev knowledge.
+                        <br>
+                        <br> I developed a new blog section using WordPress. Now Chase can edit blogs posts, create new ones, and have his site members comment on the articles he writes.
+                        <br>
+                        <br>
+                        <p class="separator"></p>
+                        <br> </div>
+                </div>
+            </div>
+        </div>
+        <div id="content-3" class="content content--switch">
+            <h2 class="content__title"></h2> </div>
+        <div id="content-contact" class="content content--switch">
+            <h2 class="content__title">Contact</h2>
+            <div class="content__subtitle">Get in touch with any questions you have about working together</div>
+            <div class="container">
+                <div class="span-3-25">
+                    <!--                        <div class="emailnotif">Thanks for getting in touch. I'll reply shortly.</div>-->
+                    <form action="https://formcarry.com/s/r1WTHDf-z" method="POST" accept-charset="UTF-8">
+                        <input type="hidden" name="_next" value="//jonathanbelok.com/index.html" />
+                        <center>
+                            Please email any questions or comments to jon@jonathanbelok.com. <br>My contact form filled up with a ton of spam, and is not working at the moment. <br>Sorry about that! <br><br>
+<!--                            <img src="https://discordemoji.com/assets/emoji/BlobFearSweat.png">-->
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Noto_Emoji_KitKat_1f628.svg/1024px-Noto_Emoji_KitKat_1f628.svg.png" style="width:200px;">
+                        </center>
+                        <center style="display:none;">
+                            <label for="name">Name</label><br>
+                            <input type="text" name="name" class="contactinput" autocomplete="off" required>
+                            <input type="hidden" name="_gotcha" class="contactinput" autocomplete="off" required>
+                       
+                        <br><br>
+                           <label for="email">Email</label><br>
+                            <!--                                <input type="email" name="email" id="email" /> -->
+                            <input type="email" name="_replyto"  class="contactinput" autocomplete="off" required> 
+                       
+                        <br><br>
+                            <label for="message">Message</label><br>
+                            <textarea type="text" name="message" rows="4"  class="contactinput messageinput" required style="resize:none;"></textarea>
+                     
+<!--                        <ul class="actions">-->
+<!--                            <li style="list-style: none">--><br><br>
+                                <input type="submit" value="Send Message" id="show" class="button special sendbutton" />
+<!--                            </li>-->
+<!--                        </ul>-->
+                        </center>
+                    </form>
+                </div><br><br><br>
+            </div>
+        </div>
+        <div id="content-4" class="content content--switch">
+            <h2 class="content__title">Thilk/Lokfit</h2>
+            <div class="content__subtitle">React native photo sharing app</div>
+            <div class="container">
+                <center> <img src="http://www.jonathanbelok.com/images/lokfit.gif"> </center>
+            </div>
+        </div>
+        <div id="content-5" class="content content--switch">
+            <h2 class="content__title">Crumyum</h2>
+            <div class="content__subtitle">Hybrid Mobile App Demo</div>
+            <ul class="listtags">
+                <li>Balsamiq</li>
+                <li>Sketch</li>
+                <li>HTML/CSS</li>
+                <li>Balsamiq</li>
+                <li>Ionic</li>
+                <li>Angular</li>
+            </ul>
+            <div class="container"> <img src="/images/cyum.png" alt="Schoolitup Photo" title="Schoolitup Page Photo" style="width:100%;">
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;"> Crumyum is an app that gives you a list of options (things to eat, types of foods, etc.), and then recommends something for you to eat. The end of this process brings users to a page a meal page. On this page, there is a description of the meal, ingredients, and instructions on how to make the meal. </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;">The app is meant to be simple; easy to use, and sort of self explanatory. The main page of the app gives you five main categories to start. From there you will eventually land on a meal page that falls under one of the five main categories. </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;">Crumyum can essentially be used by everyone that wants to learn how to cook, or just wants a meal idea when they're hungry, or getting ready to prepare something to eat. </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;"> <img src="/ux-ui/crumyum/infostru.png" style="width:100%;">
+                        <br>
+                        <br>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;"> Option pages are what the user sees before they reach a meal page. Depending on what users select, the can see a varieyu of pages before a meal is recommended. Since we wanted to make the app really simple, the entire process usually takes less than a minute.
+                        <br>
+                        <br> <img src="/ux-ui/crumyum/working-model.png" title="How it works" alt="working model" style="width:100%;">
+                        <br>
+                        <br>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12" style="color:#777 !important;font-weight:100;"> The meal page (results) shows a recommended meal based on the options a user chose. The user will then see the meal they landed on, and get some information about it. Users will have all ingredients and instructions allowing them to make the meal if they choose to. Depending on the meal, users will get some addition information as well. Additional information can vary from: prep &amp; cook time, estimated calorie count, and/or serving size. If the meal doesn't suit them, they can simply start the process over, and hopefully find something to eat!
+                        <br>
+                        <br> </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"> <img src="/ux-ui/crumyum/meal-mock.png" style="width:%;"> </div>
+                    <div class="col-md-4"> <img src="/ux-ui/crumyum/final-screen-1.png" style="width:%;"> </div>
+                    <div class="col-md-4"> <img src="/ux-ui/crumyum/final-screen-2.png" style="width:%;"> </div>
+                </div>
+                <br>
+                <br>
+                <center> <a href="http://jonathanbelok.com/i/crumyumapp/" target="_blank" class="demobutton"><span class="linktext">Try out the demo</span></a></center>
+                <br>
+                <br>
+                <br> </div>
+        </div>
+        <div id="content-6" class="content content--switch">
+            <h2 class="content__title">Schoolitup</h2>
+            <div class="content__subtitle">Photo Sharing App | UX</div>
+            <ul class="listtags">
+                <li>Balsamiq</li>
+                <li>Sketch</li>
+                <li>HTML/CSS</li>
+                <li>Laravel Framework</li>
+                <li>PHP</li>
+                <li>Bootstrap</li>
+                <li>Photoshop</li>
+            </ul>
+            <div class="container"> <img src="/images/schoolituplanding.png" alt="Schoolitup Photo" title="Schoolitup Page Photo" style="width:100%;">
+                <br>
+                <br> Schoolitup was a photo sharing app used by students. Users upload anything that relates to their school (sports, campus life, etc.). The site gives its users an opportunity to see life at other schools from a student's perspective.
+                <br>
+                <br> <b>Redesigning:</b> The site was not very user friendly to begin with. When users visited the url (schoolitup.com), they would see a page with an image grid containing 90 photos. There were three different thumbnail sizes: small 45*45px, medium 90*90px, and large 145*145px. There weren't any descriptions, image tags, or user information relating to the image.
+                <br>
+                <br>
+                <br>
+                <center>
+                    <h2>Old Main Page Layout</h2> <img src="http://www.jonathanbelok.com/ux-ui/schoolitup/old-mck.png" style="width:60%;">
+                    <br> <span style="font-size:10pt;">Actual grid had 90 photos changing in size depending on how often images were viewed.</span>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>New Main Page Layout</h2> <img src="http://www.jonathanbelok.com/ux-ui/schoolitup/sidjenkins.jpeg" style="width:60%;"> </center>
+                <br>
+                <br>
+                <br>
+                <h2>First Look</h2> My first task was to create a landing page. Schoolitup was a new application, and nobody knew what it was used for. This page included a brief description explaining what the site was used for, a list of schools actively using the app, a few user profile links to top users, and a registration form at the bottom.
+                <div class="row">
+                    <div class="col-md-6"> <img src="http://www.jonathanbelok.com/ux-ui/schoolitup/top-land.png" style="width:100%;"> </div>
+                    <div class="col-md-6"> <img src="http://www.jonathanbelok.com/ux-ui/schoolitup/bot-land.png" style="width:100%;"> </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <p class="separator"></p>
+                <div class="row">
+                    <div class="col-md-8" style="color:#777 !important;font-weight:100;"> To make the site more interactive, we added more features (makes sense). After adding new developers to the team, we gave users actual profiles, the ability to follow one another, and the action to like photos. Users also had a photo feed from the people they followed, and received notifications if their image was liked or commented on, or if they had a new follower.
+                        <br> <img src="http://www.jonathanbelok.com/ux-ui/schoolitup/user-profile.png" title="schoolitup user profile mockup" alt="schoolitup user profile page" style="width:100%;">
+                        <br>
+                        <br> The user profile page showed photos uploaded by users with two images per row (compared to three on the main image pages). The third column was for user profile boxes (which were fixed). Profile boxes showed the profile picture of the user you were visiting, their stats (followers, following &amp; image count), their name &amp; username, their school, and a follow button.
+                        <br>
+                        <br>
+                        <p class="separator"></p>
+                    </div>
+                    <div class="col-md-4" style="color:#777 !important;font-weight:100; border-left:1px solid #b5b5b5;"> <img src="http://www.jonathanbelok.com/ux-ui/schoolitup/img-card.png" title="schoolitup image card mockup" alt="schoolitup img card">
+                        <br> Image cards with user profile picture, name, username (linking to profile), main image, number of likes the photo has, users that like it, image description, and image tags. A 3*4 row of these cards replaced the previous image grid. It gave the site a more organized, and cleaner look. </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8" style="color:#777 !important;font-weight:100;"> The last major upgrade was the upload system. In order to keep photos organized by school, we made each registered school a category. If this wasn't done, users could type their school name, and images would have been scattered. <b>Example</b>: writing Ottawa U / University of Ottawa would result in different school pages. This could have caused school pages to merge photos from different schools as well. We also added required fields to give the photos some character. Users had to make a title, write a description, select their school, and add related image tags.
+                        <br>
+                        <br>
+                        <p class="separator"></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br> </div>
+        <nav class="grim">
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--1">
+                   <p class="showpara showpara1">J</p>
+                </div>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--2">
+                <p class="showpara showpara2">B</p>
+                </div>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--3"></div>
+                <div class="grim__item-content">
+                    <div class="grim__item-inner">
+                        <button class="menu-trigger menu-trigger--close">Close <span style="color: #f4174b;">x</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--4" style="background: #1a1a1a;"></div>
+                <a href="#content-contact" class="grim__link grim__item-content">
+                    <div class="grim__item-inner">
+                        <h3 class="grim__item-title"><i class="far fa-envelope"></i></h3> </div>
+                </a>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--5"></div>
+                <a href="#content-1" class="grim__link grim__item-content">
+                    <div class="grim__item-inner">
+                        <h3 class="grim__item-title">Home</h3> </div>
+                </a>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--6"></div>
+                <div class="grim__item-img grim__item-img--1" style="background-image: url(http://127.0.0.1:59527/ux-ui/cjpp/new-landing.jpeg);"></div>
+                <a href="#content-2" class="grim__link grim__item-content">
+                    <div class="grim__item-inner">
+                        <h3 class="grim__item-title">CJPP</h3> <span class="grim__item-desc">Website Redesign</span> </div>
+                </a>
+                <div class="grim__item-bg grim__item-bg-cover grim__item-bg--6"></div>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--7"></div>
+                <div class="grim__item-img grim__item-img--2" style="background-image: url(http://www.jonathanbelok.com/assets/images/music-sketch2.png);"></div>
+                <a href="#content-3" class="grim__link grim__item-content">
+                    <div class="grim__item-inner" style="color:  rgba(51, 51, 51, 0.43);">
+                        <h3 class="grim__item-title">Music UI</h3> <span class="grim__item-desc">Music Demo UI</span> </div>
+                </a>
+                <div class="grim__item-bg grim__item-bg-cover grim__item-bg--7"></div>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--8"></div>
+                <div class="grim__item-img grim__item-img--3" style="background-image: url(http://www.jonathanbelok.com/images/lokfit.gif);"></div>
+                <a href="#content-4" class="grim__link grim__item-content">
+                    <div class="grim__item-inner">
+                        <h3 class="grim__item-title">Thilk</h3> <span class="grim__item-desc">Animated App Demo</span> </div>
+                </a>
+                <div class="grim__item-bg grim__item-bg-cover grim__item-bg--8"></div>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--9"></div>
+                <div class="grim__item-img grim__item-img--4" style="background-image: url(/images/crumyum.png);"></div>
+                <a href="#content-5" class="grim__link grim__item-content">
+                    <div class="grim__item-inner" style="color: white !important;">
+                        <h3 class="grim__item-title">Crumyum</h3> <span class="grim__item-desc">Food App Demo</span> </div>
+                </a>
+                <div class="grim__item-bg grim__item-bg-cover grim__item-bg--9"></div>
+            </div>
+            <div class="grim__item">
+                <div class="grim__item-bg grim__item-bg--10"></div>
+                <div class="grim__item-img grim__item-img--5" style="background-image: url(images/schoolitupclear-2000x1327-82.png);background-size: 100% 100%;"></div>
+                <a href="#content-6" class="grim__link grim__item-content">
+                    <div class="grim__item-inner" style="color:white !important;/">
+                        <h3 class="grim__item-title">Schoolitup</h3> <span class="grim__item-desc">Photo Sharing App | UX</span> </div>
+                </a>
+                <div class="grim__item-bg grim__item-bg-cover grim__item-bg--10"></div>
+            </div>
+        </nav>
+    </main>
+    <script src="js/demo.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/anime.min.js"></script>
+    <script src="js/menu2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
