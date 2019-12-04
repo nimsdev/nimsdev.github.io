@@ -1,4 +1,4 @@
-/*
+ /*
       a,
         a:hover,
         a:active {
@@ -197,4 +197,16 @@ a:active {
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -o-transition: all .25s ease;
+}
+
+.amii {
+  background-color: #fc970e
+}
+
+.amii:hover {
+  background-color: #ffa62d
+}
+
+.amii:active {
+  background-color: #e58400
 }
