@@ -165,3 +165,39 @@
      }
    });
  }());
+
+ (function () {
+   const elmHamburger2 = document.querySelector('.hamburger6');
+   const elmOverlay = document.querySelector('.shape-overlays2');
+   const overlay = new ShapeOverlays(elmOverlay);
+   elmHamburger2.addEventListener('click', () => {
+     if (overlay.isAnimating) {
+       return false;
+     }
+     overlay.toggle();
+     if (overlay.isOpened === true) {
+       elmHamburger2.classList.add('is-opened-navi');
+     }
+     else {
+       elmHamburger2.classList.remove('is-opened-navi');
+     }
+   });
+ }());
+
+ (function () {
+   const elmHamburger2 = document.querySelector('.hamburger7');
+   const elmOverlay = document.querySelector('.shape-overlays2');
+   const overlay = new ShapeOverlays(elmOverlay);
+   elmHamburger2.addEventListener('click', () => {
+     if (overlay.isAnimating) {
+       return false;
+     }
+     overlay.toggle();
+     if (overlay.isOpened === true) {
+       elmHamburger2.classList.add('is-opened-navi');
+     }
+     else {
+       elmHamburger2.classList.remove('is-opened-navi');
+     }
+   });
+ }());
