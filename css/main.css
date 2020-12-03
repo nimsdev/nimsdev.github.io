@@ -150,6 +150,7 @@ body {
   cursor: pointer;
   right: 3em;
   margin-right: 10px;
+  display:none;
 }
 
 .customBackButton:active {
@@ -174,6 +175,7 @@ body {
   border-radius: 4px;
   color: transparent !important;
   font-weight: bold;
+  display: none;
 }
 
 .amii-grid-section {
