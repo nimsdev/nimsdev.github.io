@@ -1,0 +1,23 @@
+.profile_uzi  {
+    height: 60vh;
+    width: 50%;
+    color: white;
+    font: bold 6.5em/2em monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(to top, #7151ef6e, #7151ef8f), url(assets/images/oooooz.jpeg) no-repeat center center;
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .profile_uzi  {
+      height: auto;
+      width: 100%;
+      position: relative;
+      top: 20px;;
+  }
+}
+
