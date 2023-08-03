@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background: linear-gradient(to top, #7151ef6e, #7151ef8f), url(assets/images/oooooz.jpeg) no-repeat center center;
+    background:  url(assets/images/uzi.jpg) no-repeat center center;
     background-size: 100% 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
