@@ -1,64 +1,92 @@
-*, h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Josefin Sans';
+.img-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-p.big-text {
-    font-size: 14pt !important;
-}
-
-.barkly-ball  {
-    height: 20px;
-    width: 20px;
-    border-radius: 4px;
-    background-color: red;
-    display: inline-block;
-    margin-right: 2px;
-}
-
-.ballOne{
-    background-color: #03cfe3;
-}
-
-.ballTwo{
-    background-color: #aa36fc;
-}
-
-.ballThree{
-    background-color: #f55B9A;
-}
-
-.ballFour{
-    background-color: #F9B16E;
-}
-
-.ballFive{
-    background-color: #ffe500;
-}
-
-.ballSix{
-    background-color: #03FC96;
-}
-
-a.buttonOpacity {
-    background: rgba(255, 255, 255, 0.611) !important
-}
-
-a.buttonOpacity:hover{
-    background: rgba(0, 0, 0, 0.956) !important
-}
-
-.imgindex img{
-    position: relative;
+.img-mobile {
     width: 100%;
-    z-index: 999999999999 !important;
+    border:7px solid black;
+    border-radius: 25px;
 }
 
+.figure-para {
+    margin-top: 30px;
+    font-size: 10pt;
+}
 
-::-moz-selection {
-    color: #000;
-    background: rgba(255, 0, 0, 0.993) 
+video {
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    transition: 0.5s;
   }
-  ::selection {
-    color: #000;
-    background: rgba(255, 0, 0, 0.538) 
+
+.features-table {
+    border-collapse: collapse;
+    border: 2px solid #333;
   }
+  
+  .features-table td {
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .features-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .features-table td:last-child {
+    border-right: none;
+  }
+
+
+  .parent {
+  position: relative;
+}
+
+.gradient-shadow {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  /* background: linear-gradient(to right, rgb(24, 67, 168), #34b393, #d72f2f, rgb(174, 11, 171)); */
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  filter: blur(60px);
+}
+
+.expertise-slide {
+    border-radius: 40px;
+    display: inline-block;
+    background: white;
+    max-width: 401px;
+    padding-right: 29px;
+    padding-bottom: 60px;
+    margin-top: 120px;
+    /* margin-bottom: 120px; */
+    padding-left: 29px;
+    text-align: center;
+    box-shadow: rgba(229, 235, 238, 0.74) 0px 3px 8px;
+    position: relative;
+  }
+  
+  .expertise {
+    border-radius: 50px;
+    position: relative;
+    margin-top: -100px;
+    margin-bottom: 40px;
+  }
+  
+  .expertise img {
+    position: absolute; /* Set the image position to absolute */
+    top: -20px; /* Adjust this value to move the image up. Negative value moves it up. */
+    left: 50%; /* Center the image horizontally within the container */
+    transform: translateX(-50%); /* Center the image horizontally */
+  }
+  
+  .expertise-slide h3, .expertise-slide p {
+    position: relative;
+    z-index: 2;
+  }
+  

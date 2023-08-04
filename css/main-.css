@@ -1,0 +1,64 @@
+*, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Josefin Sans';
+}
+
+p.big-text {
+    font-size: 14pt !important;
+}
+
+.barkly-ball  {
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.ballOne{
+    background-color: #03cfe3;
+}
+
+.ballTwo{
+    background-color: #aa36fc;
+}
+
+.ballThree{
+    background-color: #f55B9A;
+}
+
+.ballFour{
+    background-color: #F9B16E;
+}
+
+.ballFive{
+    background-color: #ffe500;
+}
+
+.ballSix{
+    background-color: #03FC96;
+}
+
+a.buttonOpacity {
+    background: rgba(255, 255, 255, 0.611) !important
+}
+
+a.buttonOpacity:hover{
+    background: rgba(0, 0, 0, 0.956) !important
+}
+
+.imgindex img{
+    position: relative;
+    width: 100%;
+    z-index: 999999999999 !important;
+}
+
+
+::-moz-selection {
+    color: #000;
+    background: rgba(255, 0, 0, 0.993) 
+  }
+  ::selection {
+    color: #000;
+    background: rgba(255, 0, 0, 0.538) 
+  }
